@@ -1,6 +1,6 @@
 @echo off 
 
-title WINSHELL”¶”√≥Ã–Úπ‹¿Ì∆˜
+title WinShell
 color 0a
 prompt winshell$G
 
@@ -31,6 +31,9 @@ if not exist %WIN_SHELL_BIN%\init  (
   	echo cls > %WIN_SHELL_BIN%\init
 )
 
+
+
+rem ===========================hotkey===========================
 @doskey shell=%WIN_SHELL_BINS%\cygwin\bin\mintty.exe $*
 @doskey bc=%WIN_SHELL_BINS%\bc\BCompare.exe
 @doskey tc=%WIN_SHELL_BINS%\TotalCmd\TOTALCMD.EXE
@@ -43,11 +46,15 @@ if not exist %WIN_SHELL_BIN%\init  (
 @doskey idea=%java_dev_home%IntelliJIDEA\bin\idea64.exe
 @doskey visualvm=%java_dev_home%visualvm\bin\visualvm.exe
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
+@doskey xmind="D:\Program Files (x86)\XMind\XMind.exe"
+@doskey rec=%WIN_SHELL_BINS%\sdemo\S-Recorder.exe
+@doskey ramdisk=%WIN_SHELL_BINS%\ramdisk\FancyRd.exe
 
+rem ===========================hotkey===========================
 
 
 cls
-echo ================ª∂”≠ π”√winshell”¶”√≥Ã–Úπ‹¿ÌœµÕ≥==========
+echo ================Ê¨¢Ëøé‰ΩøÁî®WinShellÂ∫îÁî®ÁÆ°ÁêÜÂô®==========
 echo install     install vim
 echo register    register vim
 

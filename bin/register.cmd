@@ -9,12 +9,20 @@ echo WIN_SHELL_BINS:%WIN_SHELL_BINS%
 
 rem  ====packages====================
 if "%1"=="git" goto git
+
+if "%1"=="" goto help  
+if "%1"=="?" goto help  
+if "%1"=="help" goto help  
+if "%1"=="java_dev" goto register
 if "%1"=="gnu" goto register
 if "%1"=="cygwin" goto register
 if  "%1"=="utils" goto register
 
 if "%1"=="vim" goto register  
 if "%1"=="java_dev" goto register
+
+
+goto register
 
 
 
@@ -25,11 +33,11 @@ echo vim
 echo gnu
 echo cygwin
 echo utils
-
-==========================================
-
-
 goto end
+rem ==========================================
+
+
+
 
 :git
 
