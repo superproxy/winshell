@@ -1,0 +1,14 @@
+1. 包管理流程
+
+install vim
+register vim
+vim  
+
+
+
+a. 必须注册环境 因为windows安装不能默认目录
+
+
+b. 如果已经安装可以提供注册脚本 在bin目录提供register脚本
+
+
