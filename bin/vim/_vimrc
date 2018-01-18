@@ -1,11 +1,16 @@
-"设置内部编码，设置为utf-
-"language zh_CN.GB2312
 set encoding=utf-8
-" 设置文件编码检测类型及支持格式
-set fencs=utf-8,gbk,ucs-bom,gb18030,gb2312,cp936,big5,latin-1
-" 指定菜单语言
-"set langmenu=zh_CN.utf-8
+set fileencodings=utf-8,chinese,latin-1
+if has("win32")
+set fileencoding=chinese
+else
+set fileencoding=utf-8
+endif
+"解决菜单乱码
+source $VIMRUNTIME/delmenu.vim
+source $VIMRUNTIME/menu.vim
+"解决consle输出乱码
 language messages zh_CN.utf-8
+
 let &termencoding = &encoding
 
 set nocompatible  " Use Vim defaults (much better!)
