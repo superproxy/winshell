@@ -1,6 +1,6 @@
 @echo off
 
-set packages=%WIN_SHELL_HOME%\pkg
+set packages=%WIN_SHELL_PKG%
 echo %packages%
 if  not exist  %packages%  md %packages%
 
@@ -13,7 +13,7 @@ if "%1"=="help" goto help
 
 rem  ====packages====================
 if "%1"=="git" goto git
-if "%1"=="vim" goto vim  
+if "%1"=="vim" goto install  
 if "%1"=="vimplugin" goto vimplugin
 
 
@@ -45,8 +45,8 @@ goto end
  
 :install
 rem install   
-echo %WIN_SHELL_BIN%\%1\%install_%1
-call %WIN_SHELL_BIN%\%1\%install_%1
+echo %WIN_SHELL_BIN%\%1\install_%1
+call %WIN_SHELL_BIN%\%1\install_%1
 goto end
 
 
