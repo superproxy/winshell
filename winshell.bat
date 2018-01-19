@@ -37,13 +37,19 @@ if not exist %WIN_SHELL_BIN%\init  (
 
 rem =================back home cd ~=============
 @doskey home=cd /d %WIN_SHELL_HOME%\
+@doskey hh=%WIN_SHELL_HOME%\winshell.bat help $*
 rem ===========================hotkey===========================
 @doskey gnu=cd %WIN_SHELL_BINS%\gnu$Tdir
-@doskey cygwin=%WIN_SHELL_BINS%\cygwin\bin\mintty.exe $*
+rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
+@doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tbash.exe
 @doskey utils=cd %WIN_SHELL_BINS%\utils$Tdir
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_BINS%\utils\SnapShot.exe
 @doskey eye=%WIN_SHELL_BINS%\common\EyeFoo3\eyefoo.exe
+@doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
+@doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
+@doskey note=%windir%\system32\StikyNot.exe
+@doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
 rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
@@ -56,6 +62,9 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey xmind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
 @doskey rec=%WIN_SHELL_BINS%\common\sdemo\S-Recorder.exe
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
+@doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
+@doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+@doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 rem =========common_dev==================
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe"
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe"
@@ -72,40 +81,29 @@ rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 @doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe"
 @doskey visualvm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe
 
-rem ===========vmm
+rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
+rem ======== r_dev===============
+@doskey r="D:\Program Files\RStudio\bin\RStudio.exe"
 
 
 cls
 echo ********************************
 echo *************HotKey*************
 echo ********************************
-echo winshell win+s
-echo cygwin   for cygwin
-echo bc      bccompare
-echo tc      totalcmd     ctrl+1
-echo winhex  winhex
-echo st      sublime_test
-echo utils   utils list
-echo gnu     gnu cmd list
-echo vmm      virutalbox manager
-echo xmind                     ctrl+5
-echo mind                     ctrl+5
-echo rec      S-Recorder
-echo ramdisk  put all in memory
-echo xshell   xmanager          
-echo ngrok    publish service for internet
-echo jd-gui
-echo RawCap   capature local host network
-echo fiddler  web debugger
-echo burpsuite  web hacker
-echo eye         eyes protector
-echo mail        foxmail
-echo java_dev
-echo idea    intelliJIDEA    ctrl+2
-echo visualvm  visualvm
-
-
+echo WINSHELL常用命令 *hh       for help *q        quit shell 
+echo WINSHELL常用命令 *off  shutdown computer  *reboot   reboot computer *winshell win+s
+echo 常用系统命令 gnu     gnu cmd list  *cygwin   for cygwin *utils   utils list
+echo 常用软件 *note 便签 *feiq  *fastcopy *tc totalcmd     ctrl+1  *winhex *eye         eyes protector
+echo 抓屏 cap pp  rec S-Recorder
+echo 微信  wx  wxdev  qq
+echo 办公  word excel ppt *mail foxmail
+echo 常用开发软件 *bc beyondcompre *st      sublime_test *vim  gvim *xshell   xmanager      *RawCap   capature local host network
+echo 虚拟机vmm      virutalbox manager *ramdisk  put all in memory
+echo 知识库 xmind    mind                     ctrl+5
+echo Web开发 *fiddler  web debugger *burpsuite  web hacker *ngrok    publish service for internet
+echo Java开发 java_dev *jd-gui *idea    intelliJIDEA    ctrl+2  *visualvm
+echo R语言开发 r   Rstudio
 
 echo ================package manager==========
 echo install     install vim
@@ -122,6 +120,7 @@ echo 3. gvim启动慢 打开之后不要关闭
 echo 4. 修改winshell.bat生效，先使用q退出winshell.bat，然后win+s再次运行。 bat文件保持gbk问题，不要使用utf8
 echo 5. 使用mirror.bat 映射到固定盘符，容易在u盘和其他机器上维护
 echo 6. 如果环境变量有问题使用init.bat重新初始化,重启机器
+echo 7. os级别的镜像最好，但是维护成本很高。 这个是工具集级别的维护 
 
 if "%1"=="" cmd /k
 
