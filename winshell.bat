@@ -55,6 +55,7 @@ rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+@doskey ss=%WIN_SHELL_BINS%\common\shadowsocks\Shadowsocks.exe
 @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
@@ -64,21 +65,20 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
-@doskey wxdev="D:\Program Files (x86)\Tencent\Î¢ĞÅweb¿ª·¢Õß¹¤¾ß\Î¢ĞÅweb¿ª·¢Õß¹¤¾ß.exe"
+@doskey wxdev="D:\Program Files (x86)\Tencent\å¾®ä¿¡webå¼€å‘è€…å·¥å…·\å¾®ä¿¡webå¼€å‘è€…å·¥å…·.exe"
 rem =========common_dev==================
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe"
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe"
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
+@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
 @doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
+@doskey gvim="%WIN_SHELL_BINS%\vim\vim80\gvim.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
 rem ========java_dev==================
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
 @doskey java_dev=cd %java_dev_home%
 rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
-@doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe"
+@doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*
 @doskey visualvm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe
 
 rem ===========vmm==================
@@ -91,19 +91,19 @@ cls
 echo ********************************
 echo *************HotKey*************
 echo ********************************
-echo WINSHELL³£ÓÃÃüÁî *hh       for help *q        quit shell 
-echo WINSHELL³£ÓÃÃüÁî *off  shutdown computer  *reboot   reboot computer *winshell win+s
-echo ³£ÓÃÏµÍ³ÃüÁî gnu     gnu cmd list  *cygwin   for cygwin *utils   utils list
-echo ³£ÓÃÈí¼ş *note ±ãÇ© *feiq  *fastcopy *tc totalcmd     ctrl+1  *winhex *eye         eyes protector
-echo ×¥ÆÁ cap pp  rec S-Recorder
-echo Î¢ĞÅ  wx  wxdev  qq
-echo °ì¹«  word excel ppt *mail foxmail
-echo ³£ÓÃ¿ª·¢Èí¼ş *bc beyondcompre *st      sublime_test *vim  gvim *xshell   xmanager      *RawCap   capature local host network
-echo ĞéÄâ»úvmm      virutalbox manager *ramdisk  put all in memory
-echo ÖªÊ¶¿â xmind    mind                     ctrl+5
-echo Web¿ª·¢ *fiddler  web debugger *burpsuite  web hacker *ngrok    publish service for internet
-echo Java¿ª·¢ java_dev *jd-gui *idea    intelliJIDEA    ctrl+2  *visualvm
-echo RÓïÑÔ¿ª·¢ r   Rstudio
+echo WINSHELLå¸¸ç”¨å‘½ä»¤ *hh       for help *q        quit shell 
+echo WINSHELLå¸¸ç”¨å‘½ä»¤ *off  shutdown computer  *reboot   reboot computer *winshell win+s
+echo å¸¸ç”¨ç³»ç»Ÿå‘½ä»¤ gnu     gnu cmd list  *cygwin   for cygwin *utils   utils list
+echo å¸¸ç”¨è½¯ä»¶ *note ä¾¿ç­¾ *feiq  *fastcopy *tc totalcmd     ctrl+1  *winhex *eye         eyes protector
+echo æŠ“å± cap pp  rec S-Recorder
+echo å¾®ä¿¡  wx  wxdev  qq
+echo åŠå…¬  word excel ppt *mail foxmail
+echo å¸¸ç”¨å¼€å‘è½¯ä»¶ *bc beyondcompre *st      sublime_test *vim  gvim *xshell   xmanager      *RawCap   capature local host network
+echo è™šæ‹Ÿæœºvmm      virutalbox manager *ramdisk  put all in memory
+echo çŸ¥è¯†åº“ xmind    mind                     ctrl+5
+echo Webå¼€å‘ *fiddler  web debugger *burpsuite  web hacker *ngrok    publish service for internet
+echo Javaå¼€å‘ java_dev *jd-gui *idea    intelliJIDEA    ctrl+2  *visualvm
+echo Rè¯­è¨€å¼€å‘ r   Rstudio
 
 echo ================package manager==========
 echo install     install vim
@@ -114,13 +114,13 @@ echo register help   for more softwares
 echo ==========^GOOD LUCK^====================
 
 echo tips:
-echo 1. ĞèÒªµÄÊ±ºòÔÙÌí¼ÓÃüÁî£¬Ä¥µ¶²»Îó¿³²ñ¡£Ìí¼Óinstall.bat »òÕß¿½±´binsÏÂÈ»ºóÊ¹ÓÃhotkey¡£ ÓĞ½Å±¾¾ÍÌá½»µ½github.com/superproxy/winshell
-echo 2. windows¿ì½İ¼ü alt+tab   win+e 
-echo 3. gvimÆô¶¯Âı ´ò¿ªÖ®ºó²»Òª¹Ø±Õ
-echo 4. ĞŞ¸Äwinshell.batÉúĞ§£¬ÏÈÊ¹ÓÃqÍË³öwinshell.bat£¬È»ºówin+sÔÙ´ÎÔËĞĞ¡£ batÎÄ¼ş±£³ÖgbkÎÊÌâ£¬²»ÒªÊ¹ÓÃutf8
-echo 5. Ê¹ÓÃmirror.bat Ó³Éäµ½¹Ì¶¨ÅÌ·û£¬ÈİÒ×ÔÚuÅÌºÍÆäËû»úÆ÷ÉÏÎ¬»¤
-echo 6. Èç¹û»·¾³±äÁ¿ÓĞÎÊÌâÊ¹ÓÃinit.batÖØĞÂ³õÊ¼»¯,ÖØÆô»úÆ÷
-echo 7. os¼¶±ğµÄ¾µÏñ×îºÃ£¬µ«ÊÇÎ¬»¤³É±¾ºÜ¸ß¡£ Õâ¸öÊÇ¹¤¾ß¼¯¼¶±ğµÄÎ¬»¤ 
+echo 1. éœ€è¦çš„æ—¶å€™å†æ·»åŠ å‘½ä»¤ï¼Œç£¨åˆ€ä¸è¯¯ç æŸ´ã€‚æ·»åŠ install.bat æˆ–è€…æ‹·è´binsä¸‹ç„¶åä½¿ç”¨hotkeyã€‚ æœ‰è„šæœ¬å°±æäº¤åˆ°github.com/superproxy/winshell
+echo 2. windowså¿«æ·é”® alt+tab   win+e 
+echo 3. gvimå¯åŠ¨æ…¢ æ‰“å¼€ä¹‹åä¸è¦å…³é—­
+echo 4. ä¿®æ”¹winshell.batç”Ÿæ•ˆï¼Œå…ˆä½¿ç”¨qé€€å‡ºwinshell.batï¼Œç„¶åwin+så†æ¬¡è¿è¡Œã€‚ batæ–‡ä»¶ä¿æŒgbké—®é¢˜ï¼Œä¸è¦ä½¿ç”¨utf8
+echo 5. ä½¿ç”¨mirror.bat æ˜ å°„åˆ°å›ºå®šç›˜ç¬¦ï¼Œå®¹æ˜“åœ¨uç›˜å’Œå…¶ä»–æœºå™¨ä¸Šç»´æŠ¤
+echo 6. å¦‚æœç¯å¢ƒå˜é‡æœ‰é—®é¢˜ä½¿ç”¨init.baté‡æ–°åˆå§‹åŒ–,é‡å¯æœºå™¨
+echo 7. osçº§åˆ«çš„é•œåƒæœ€å¥½ï¼Œä½†æ˜¯ç»´æŠ¤æˆæœ¬å¾ˆé«˜ã€‚ è¿™ä¸ªæ˜¯å·¥å…·é›†çº§åˆ«çš„ç»´æŠ¤ 
 
 if "%1"=="" cmd /k
 
