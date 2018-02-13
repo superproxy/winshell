@@ -1,6 +1,5 @@
 @echo off 
 
-
 chcp 936
 title WinShell
 color 0a
@@ -66,13 +65,25 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 rem =========common_dev==================
-@doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe"
-@doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe"
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
+@doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
+@doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
+@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe $*
+@doskey gvim=%WIN_SHELL_BINS%\vim\vim80\gvim.exe $*
+rem =========design_dev===============
+@doskey model=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
+@doskey arch=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
+@doskey uml="D:\Program Files\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey webhacker=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey burp=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey webstorm="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
+@doskey webdev="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
+rem =========middle_dev===============
+@doskey nginx=cd /d %WIN_SHELL_BINS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
 rem ========java_dev==================
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
 @doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
