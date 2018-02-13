@@ -54,8 +54,9 @@ rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+@doskey ss=%WIN_SHELL_BINS%\common\shadowsocks\Shadowsocks.exe
 @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
-@doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE
+@doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
 @doskey xmind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
@@ -65,6 +66,8 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 rem =========common_dev==================
+@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe $*
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
@@ -89,13 +92,18 @@ rem ========java_dev==================
 @doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
 @doskey java_dev=cd %java_dev_home%
 rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
-@doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe"
+@doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*
 @doskey visualvm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe
 
 rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
 rem ======== r_dev===============
 @doskey r="D:\Program Files\RStudio\bin\RStudio.exe"
+rem ======== android_dev===============
+rem ======== arduino_dev===============
+@doskey arduino=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
+@doskey adu=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
+
 
 
 cls
