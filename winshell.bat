@@ -1,7 +1,7 @@
 @echo off 
 
 
-chcp 936
+@chcp 936
 title WinShell
 color 0a
 prompt winshell$G
@@ -46,9 +46,11 @@ rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_BINS%\utils\SnapShot.exe
 @doskey eye=%WIN_SHELL_BINS%\common\EyeFoo3\eyefoo.exe
+@doskey kugou=%WIN_SHELL_BINS%\common\KuGou\KGMusic\KuGou.exe $*
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
 @doskey note=%windir%\system32\StikyNot.exe
+@doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
 rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
@@ -69,15 +71,23 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 rem =========common_dev==================
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\xshell5\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager5\Xftp.exe" $*
+@doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe  $*
+@doskey sb="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey bc="%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe"  $*
 @doskey gvim="%WIN_SHELL_BINS%\vim\vim80\gvim.exe" $*
+
+@doskey node="%WIN_SHELL_BINS%\nodejs\node.exe" $*
+@doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey sqlmap=start http://sqlmap.org/
+rem ==============safe_check=================
+@doskey metasploit=start https://www.metasploit.com/
+@doskey metasploit=start https://www.metasploit.com/
+@doskey nmap=start https://nmap.org/
 rem ========java_dev==================
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
 @doskey java_dev=cd %java_dev_home%
 rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 @doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*

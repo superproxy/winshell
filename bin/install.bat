@@ -38,10 +38,13 @@ goto end
 
 :git
 echo https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe
-if not exist  %packages%\gvim80-586.exe   wget --no-check-certificate -O packages\Git-2.15.1.2-64-bit.exe https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe
+if not exist  %packages%\gvim80-586.exe   wget --no-check-certificate -O %packages%\Git-2.15.1.2-64-bit.exe https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe
 %packages%\Git-2.15.1.2-64-bit.exe
 goto end
  
+
+
+
  
 :install
 rem install   
@@ -54,6 +57,7 @@ goto end
 echo %WIN_SHELL_BIN%\%1\%plugin_install_vim
 call %WIN_SHELL_BIN%\%1\%plugin_install_vim
 goto end
+
 
 
 
