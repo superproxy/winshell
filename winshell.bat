@@ -99,6 +99,8 @@ rem =========design_dev===============
 @doskey arch=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
 @doskey uml="D:\Program Files\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe" $*
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
+rem ===== go dev =================
+@doskey goland="%WIN_SHELL_BINS%\go_dev\GoLand 2018.2\bin\goland64.exe" $*
 rem ===== node_dev=================
 @doskey node="%WIN_SHELL_BINS%\nodejs\node.exe" $*
 rem ======python_dev=================
