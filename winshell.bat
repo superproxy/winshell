@@ -48,16 +48,23 @@ rem ============common utils=========================
 @doskey kugou=%WIN_SHELL_BINS%\common\KuGou\KGMusic\KuGou.exe $*
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
-@doskey note=%windir%\system32\StikyNot.exe
+@doskey note=%windir%\system32\StikyNote.exe
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
-@doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
+@doskey pp="%WIN_SHELL_BINS%\common\PicPick\picpick.exe"
+@doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
+@doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
+@doskey m="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
+@doskey maxthon=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
+@doskey mx=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
-rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
-@doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
-@doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+@doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
+@doskey ff=%WIN_SHELL_BINS%\firefox\firefox.exe 
+rem @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
+rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_BINS%\common\shadowsocks\Shadowsocks.exe
-@doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
+rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
+@doskey mail=WIN_SHELL_BINS%\Foxmail 7.2\Foxmail.exe
 @doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
@@ -66,7 +73,19 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+@doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
+rem === search ==========
+@doskey s=start https://www.baidu.com/baidu?word=$*
+@doskey so=start https://www.so.com/s?q=$*
+@doskey baidu=start https://www.baidu.com/baidu?word=$*
+rem =========it info==================
+@doskey csdn=start https://www.csdn.net/
+@doskey news=start https://www.toutiao.com/
+@doskey open=start https://www.oschina.net/
+@doskey github=start https://github.org/
+@doskey info=start http://www.infoq.com/cn/
+@doskey me=start https://superproxy.github.io/
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
@@ -91,9 +110,13 @@ rem ======python_dev=================
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
-
+@doskey webhacker=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey burp=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
 @doskey webstorm="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
 @doskey webdev="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
+@doskey track=%WIN_SHELL_BINS%\web_dev\httrack\WinHTTrack.exe $*
+@doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey soapui=%WIN_SHELL_BINS%\\web_dev\SmartBear\SoapUI-5.0.0\bin
 rem =========middle_dev===============
 @doskey nginx=cd /d %WIN_SHELL_BINS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
 
@@ -114,7 +137,7 @@ rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
 rem ======== r_dev===============
-@doskey r="D:\Program Files\RStudio\bin\RStudio.exe"
+@doskey r="%WIN_SHELL_BINS%\RStudio\bin\RStudio.exe" $*
 rem ======== android_dev===============
 rem ======== arduino_dev===============
 @doskey arduino=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
@@ -136,7 +159,7 @@ echo 办公  word excel ppt *mail foxmail
 echo 常用开发软件 *bc beyondcompre *st      sublime_test *vim  gvim *xshell   xmanager      *RawCap   capature local host network
 echo 虚拟机vmm      virutalbox manager *ramdisk  put all in memory
 echo 知识库 xmind    mind                     ctrl+5
-echo Web开发 *fiddler  web debugger *burpsuite  web hacker *ngrok    publish service for internet
+echo Web开发 *fiddler  web debugger *burpsuite  web hacker *ngrok    publish service for internet  *soapui
 echo Java开发 java_dev *jd-gui *idea    intelliJIDEA    ctrl+2  *visualvm
 echo R语言开发 r   Rstudio
 
