@@ -1,4 +1,4 @@
-@echo off 
+@echo off
 
 chcp 936
 title WinShell
@@ -28,7 +28,7 @@ set WIN_SHELL_BINS=%WIN_SHELL_HOME%\bins
 path=%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%path%
 
 
-if not exist %WIN_SHELL_BIN%\init  (   
+if not exist %WIN_SHELL_BIN%\init  (
 	if exist %WIN_SHELL_HOME%\init.bat   %WIN_SHELL_HOME%\init.bat
   	echo for the first > %WIN_SHELL_BIN%\init
 )
@@ -45,9 +45,15 @@ rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_BINS%\utils\SnapShot.exe
 @doskey eye=%WIN_SHELL_BINS%\common\EyeFoo3\eyefoo.exe
+@doskey kugou=%WIN_SHELL_BINS%\common\KuGou\KGMusic\KuGou.exe $*
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
+<<<<<<< HEAD
 @doskey note=%windir%\system32\StikyNote.exe
+=======
+@doskey note=%windir%\system32\StikyNot.exe
+@doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
+>>>>>>> be0b32836c4a9c79e9f94a6a845cc9a173491e40
 @doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
@@ -75,8 +81,8 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 rem =========common_dev==================
+@doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe $*
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
@@ -87,6 +93,10 @@ rem =========design_dev===============
 @doskey arch=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
 @doskey uml="D:\Program Files\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe" $*
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
+rem ===== node_dev=================
+@doskey node="%WIN_SHELL_BINS%\nodejs\node.exe" $*
+rem ======python_dev=================
+@doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
@@ -99,9 +109,16 @@ rem =========web_dev===============
 @doskey soapui=%WIN_SHELL_BINS%\\web_dev\SmartBear\SoapUI-5.0.0\bin
 rem =========middle_dev===============
 @doskey nginx=cd /d %WIN_SHELL_BINS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
+
+rem ==============safe_check=================
+@doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
+@doskey webhacker=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey burp=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
+@doskey sqlmap=start http://sqlmap.org/
+@doskey metasploit=start https://www.metasploit.com/
+@doskey metasploit=start https://www.metasploit.com/
+@doskey nmap=start https://nmap.org/
 rem ========java_dev==================
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe"
-@doskey bc=%WIN_SHELL_BINS%\common_dev\bc\BCompare.exe
 @doskey java_dev=cd %java_dev_home%
 rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 @doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*
@@ -122,7 +139,7 @@ cls
 echo ********************************
 echo *************HotKey*************
 echo ********************************
-echo WINSHELL常用命令 *hh       for help *q        quit shell 
+echo WINSHELL常用命令 *hh       for help *q        quit shell
 echo WINSHELL常用命令 *off  shutdown computer  *reboot   reboot computer *winshell win+s
 echo 常用系统命令 gnu     gnu cmd list  *cygwin   for cygwin *utils   utils list
 echo 常用软件 *note 便签 *feiq  *fastcopy *tc totalcmd     ctrl+1  *winhex *eye         eyes protector
@@ -141,17 +158,17 @@ echo install     install vim
 echo register    register vim
 
 echo install help    for more softwares
-echo register help   for more softwares   
+echo register help   for more softwares
 echo ==========^GOOD LUCK^====================
 
 echo tips:
 echo 1. 需要的时候再添加命令，磨刀不误砍柴。添加install.bat 或者拷贝bins下然后使用hotkey。 有脚本就提交到github.com/superproxy/winshell
-echo 2. windows快捷键 alt+tab   win+e 
+echo 2. windows快捷键 alt+tab   win+e
 echo 3. gvim启动慢 打开之后不要关闭
 echo 4. 修改winshell.bat生效，先使用q退出winshell.bat，然后win+s再次运行。 bat文件保持gbk问题，不要使用utf8
 echo 5. 使用mirror.bat 映射到固定盘符，容易在u盘和其他机器上维护
 echo 6. 如果环境变量有问题使用init.bat重新初始化,重启机器
-echo 7. os级别的镜像最好，但是维护成本很高。 这个是工具集级别的维护 
+echo 7. os级别的镜像最好，但是维护成本很高。 这个是工具集级别的维护
 
 if "%1"=="" cmd /k
 
