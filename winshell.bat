@@ -53,7 +53,7 @@ rem ============common utils=========================
 @doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
-@doskey m=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
+@doskey m="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
 @doskey maxthon=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey mx=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
@@ -123,7 +123,7 @@ rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
 rem ======== r_dev===============
-@doskey r="D:\Program Files\RStudio\bin\RStudio.exe"
+@doskey r="%WIN_SHELL_BINS%\RStudio\bin\RStudio.exe" $*
 rem ======== android_dev===============
 rem ======== arduino_dev===============
 @doskey arduino=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
