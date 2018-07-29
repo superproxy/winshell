@@ -48,12 +48,8 @@ rem ============common utils=========================
 @doskey kugou=%WIN_SHELL_BINS%\common\KuGou\KGMusic\KuGou.exe $*
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
-<<<<<<< HEAD
 @doskey note=%windir%\system32\StikyNote.exe
-=======
-@doskey note=%windir%\system32\StikyNot.exe
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
->>>>>>> be0b32836c4a9c79e9f94a6a845cc9a173491e40
 @doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
