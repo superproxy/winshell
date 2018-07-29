@@ -7,4 +7,4 @@ rem ===========GO end==========
 
 
 rem register
-wmic ENVIRONMENT where "name='PATH' and username='<system>'" set VariableValue="%%GO_HOME%%;%PATH%"
+wmic ENVIRONMENT where "name='PATH' and username='<system>'" set VariableValue="%%GO_HOME%%\bin;%PATH%"

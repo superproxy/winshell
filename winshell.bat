@@ -70,6 +70,8 @@ rem @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey putty="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
+@doskey ssh="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
@@ -82,6 +84,8 @@ rem =========design_dev===============
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
 rem ===== node_dev=================
 @doskey node="%WIN_SHELL_BINS%\nodejs\node.exe" $*
+rem ===== go_dev=================
+@doskey go="%WIN_SHELL_BINS%\go\bin\go.exe" $*
 rem ======python_dev=================
 @doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
 rem =========web_dev===============
