@@ -1,0 +1,2 @@
+if not exist %WIN_SHELL_PKG%\Firefox-ESR-full-latest.exe   wget --no-check-certificate -O  %WIN_SHELL_PKG%\Firefox-ESR-full-latest.exe  https://download-ssl.firefox.com.cn/releases-sha2/full/52.6esr/zh-CN/Firefox-ESR-full-latest.exe
+%WIN_SHELL_PKG%\Firefox-ESR-full-latest.exe

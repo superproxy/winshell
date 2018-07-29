@@ -1,0 +1,2 @@
+if not exist  %WIN_SHELL_PKG%\68.0.3440.75_chrome_installer.exe  wget --no-check-certificate -O %WIN_SHELL_PKG%\68.0.3440.75_chrome_installer.exe  https://sm.myapp.com/original/Browser/68.0.3440.75_chrome_installer.exe 
+%WIN_SHELL_PKG%\68.0.3440.75_chrome_installer.exe 

@@ -1,3 +1,15 @@
+###流程
+1. package  远程地址
+2. 下载 远程文件到本地 package
+3. 安装 package 到bins目录 需要有个类别
+4. 注册package的bin  或者  注册快键方式shortname
+5. 执行bin 或者shortName 
+
+
+
+6. toolbox是所有的快键入口 ui模式
+
+
 1. 包管理流程
 
 install vim
@@ -15,3 +27,6 @@ winshell.exe   然后快捷键windows+s
 会执行winshell.bat开启 shell
 
 然后就可以开始了
+
+
+
