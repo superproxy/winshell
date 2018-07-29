@@ -50,7 +50,7 @@ rem ============common utils=========================
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
 @doskey note=%windir%\system32\StikyNote.exe
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
-@doskey pp="C:\Program Files (x86)\PicPick\picpick.exe"
+@doskey pp="%WIN_SHELL_BINS%\common\PicPick\picpick.exe"
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey m="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
@@ -65,7 +65,6 @@ rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_BINS%\common\shadowsocks\Shadowsocks.exe
 rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey mail=WIN_SHELL_BINS%\Foxmail 7.2\Foxmail.exe
-
 @doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
@@ -76,6 +75,17 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
+rem === search ==========
+@doskey s=start https://www.baidu.com/baidu?word=$*
+@doskey so=start https://www.so.com/s?q=$*
+@doskey baidu=start https://www.baidu.com/baidu?word=$*
+rem =========it info==================
+@doskey csdn=start https://www.csdn.net/
+@doskey news=start https://www.toutiao.com/
+@doskey open=start https://www.oschina.net/
+@doskey github=start https://github.org/
+@doskey info=start http://www.infoq.com/cn/
+@doskey me=start https://superproxy.github.io/
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
