@@ -29,7 +29,7 @@ path=%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
-	if exist %WIN_SHELL_HOME%\init.bat   %WIN_SHELL_HOME%\init.bat
+	if exist %WIN_SHELL_HOME%\myenv.bat   %WIN_SHELL_HOME%\myenv.bat
   	echo for the first > %WIN_SHELL_BIN%\init
 )
 
@@ -169,6 +169,7 @@ echo R语言开发 r   Rstudio
 
 echo ================package manager==========
 echo install     install vim
+echo init        init  vim
 echo register    register vim
 
 echo install help    for more softwares
@@ -184,10 +185,7 @@ echo 5. 使用mirror.bat 映射到固定盘符，容易在u盘和其他机器上维护
 echo 6. 如果环境变量有问题使用init.bat重新初始化,重启机器
 echo 7. os级别的镜像最好，但是维护成本很高。 这个是工具集级别的维护
 
-if "%1"=="" cmd /k
-
-
-if "%1"== "init" goto end
+if "%1"=="" cmd /k 
 
 
 :end
