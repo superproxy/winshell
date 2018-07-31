@@ -25,7 +25,7 @@ set WIN_SHELL_BINS=%WIN_SHELL_HOME%\bins
 
 
 
-path=%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%path%
+path=%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
@@ -64,7 +64,7 @@ rem @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_BINS%\common\shadowsocks\Shadowsocks.exe
 rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
-@doskey mail=WIN_SHELL_BINS%\Foxmail 7.2\Foxmail.exe
+@doskey mail="%WIN_SHELL_BINS%\Foxmail 7.2\Foxmail.exe"
 @doskey tc=%WIN_SHELL_BINS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
@@ -89,8 +89,10 @@ rem =========it info==================
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey ssh="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
+@doskey scrt="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey putty="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
-@doskey ssh="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
+@doskey scrt="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
