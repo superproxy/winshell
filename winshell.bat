@@ -24,8 +24,9 @@ set WIN_SHELL_PKG=%WIN_SHELL_HOME%\pkg
 set WIN_SHELL_BINS=%WIN_SHELL_HOME%\bins
 
 
+set JAVA_HOME=%WIN_SHELL_BINS%\java_dev\jdk
 
-path=%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
+path=%JAVA_HOME%\bin;%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
@@ -134,9 +135,25 @@ rem ==============safe_check=================
 @doskey nmap=start https://nmap.org/
 rem ========java_dev==================
 @doskey java_dev=cd %java_dev_home%
+@doskey jdgui=%WIN_SHELL_BINS%\java_dev\jd-gui\jd-gui.exe
 rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 @doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*
+@doskey ideakey="%WIN_SHELL_BINS%\java_dev\JBLocalServer\ideakey.exe" 
+
+@doskey jprofiler=%WIN_SHELL_BINS%\java_dev\jprofiler\bin\jprofiler.exe
 @doskey visualvm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe
+@doskey visualvm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe --console new --jdkhome %JAVA_HOME%
+@doskey vm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe --console new --jdkhome %JAVA_HOME%
+rem @doskey gc=java -jar gcviewer-1.35-SNAPSHOT.jar -d %WIN_SHELL_BINS%\java_dev
+@doskey gcviewer=cd  %WIN_SHELL_BINS%\java_dev $T java -jar gcviewer-1.35-SNAPSHOT.jar
+@doskey gc=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startga.bat
+@doskey thread=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startjca.bat
+@doskey heap=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startha.bat
+@doskey mat=%WIN_SHELL_BINS%\java_dev\mat\MemoryAnalyzer.exe
+
+@doskey btrace=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe
+@doskey dcevm="https://github.com/dcevm/dcevm/releases"
+@doskey onlineJavaIde=start https://gitee.com/puhaiyang/onlineJavaIde
 
 rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
@@ -146,7 +163,6 @@ rem ======== android_dev===============
 rem ======== arduino_dev===============
 @doskey arduino=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
 @doskey adu=%WIN_SHELL_BINS%\soc_dev\arduino\arduino.exe $*
-
 
 
 cls
