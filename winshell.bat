@@ -88,6 +88,11 @@ rem === ”È¿÷==========
 @doskey abc=start https://jingyan.baidu.com/article/7908e85c6eea55af491ad24e.html
 @doskey douyin=start https://www.huya.com/
 @doskey tv=start https://www.huya.com/
+@doskey lv=start http://www.tuniu.com/
+@doskey tuniu=start http://www.tuniu.com/
+@doskey sn=start http://www.suning.com/
+@doskey p=start https://search.suning.com/$*
+@doskey pp=start https://product.suning.com/0000000000/$*.html
 
 rem === search ==========
 @doskey s=start https://www.baidu.com/baidu?word=$*
