@@ -1,6 +1,6 @@
 @echo off
 
-chcp 936
+rem chcp 936
 title WinShell
 color 0a
 prompt winshell$G
@@ -74,10 +74,15 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey winhex=%WIN_SHELL_BINS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
 @doskey xmind=%WIN_SHELL_BINS%\common\XMind\XMind.exe
+
 @doskey rec=%WIN_SHELL_BINS%\common\sdemo\S-Recorder.exe
+@doskey gif=%WIN_SHELL_BINS%\gif\GifCam.exe
+@doskey ss=start https://www.appinn.com/category/tools/
+
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+@doskey wx=start https://wx.qq.com
 @doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 
