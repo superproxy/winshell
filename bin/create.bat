@@ -32,14 +32,16 @@ rem  create  exe   create  zip
 :createexe
 echo %WIN_SHELL_DATA%\%2\install_%2
 mkdir %WIN_SHELL_DATA%\%2
-echo  if not exist  %packages%\%3   wget --no-check-certificate -O %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
+rem echo  if not exist  %packages%\%3   wget --no-check-certificate -O %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
+echo  if not exist  %packages%\%3   curl  -o %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
 echo   %packages%\%3 >> %WIN_SHELL_DATA%\%2\install_%2.bat
 goto end
 
 :createzip
 echo %WIN_SHELL_DATA%\%2\install_%2
 mkdir %WIN_SHELL_DATA%\%2
-echo  if not exist  %packages%\%3   wget --no-check-certificate -O %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
+rem echo  if not exist  %packages%\%3   wget --no-check-certificate -O %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
+echo  if not exist  %packages%\%3   curl  -o %packages%\%3 %4 > %WIN_SHELL_DATA%\%2\install_%2.bat
 echo unzip %packages%\%3  -d  %WIN_SHELL_BINS%\%2  >> %WIN_SHELL_DATA%\%2\install_%2.bat
 goto end
 

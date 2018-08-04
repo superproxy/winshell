@@ -107,7 +107,8 @@ rem =========it info==================
 @doskey me=start https://superproxy.github.io/
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
-@doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
+@doskey st="%WIN_SHELL_BINS%\sublime_text\sublime_text.exe" $*
+@doskey editor="%WIN_SHELL_BINS%\sublime_text\sublime_text.exe" $*
 @doskey ssh="%WIN_SHELL_BINS%\scrt\securcrT\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey scrt="%WIN_SHELL_BINS%\scrt\securcrT\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey putty="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
