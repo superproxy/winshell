@@ -21,7 +21,7 @@ rem echo %WIN_SHELL_HOME%
 
 set WIN_SHELL_BIN=%WIN_SHELL_HOME%\bin
 rem 脚本
-set WIN_SHELL_DATA=%WIN_SHELL_HOME%\custom
+set WIN_SHELL_DATA=%WIN_SHELL_HOME%\data
 rem 自定义脚本
 set WIN_SHELL_CUSTOM=%WIN_SHELL_HOME%\custom
 set WIN_SHELL_PKG=%WIN_SHELL_HOME%\pkg
@@ -94,10 +94,9 @@ rem =========it info==================
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
-@doskey ssh="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
-@doskey scrt="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
+@doskey ssh="%WIN_SHELL_BINS%\scrt\securcrT\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
+@doskey scrt="%WIN_SHELL_BINS%\scrt\securcrT\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey putty="%WIN_SHELL_BINS%\common_dev\putty\putty.exe" $*
-@doskey scrt="%WIN_SHELL_BINS%\common_dev\SecureCRSecureFXPortable64\SecureCRTPortable.exe"
 @doskey xshell="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_BINS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
 @doskey st="%WIN_SHELL_BINS%\common_dev\Sublime3\sublime_text.exe" $*
