@@ -80,6 +80,15 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
+
+rem === 娱乐==========
+@doskey yinyue=start https://y.qq.com/portal/player.html
+@doskey music=start https://y.qq.com/portal/player.html
+@doskey v=start https://v.qq.com
+@doskey abc=start https://jingyan.baidu.com/article/7908e85c6eea55af491ad24e.html
+@doskey douyin=start https://www.huya.com/
+@doskey tv=start https://www.huya.com/
+
 rem === search ==========
 @doskey s=start https://www.baidu.com/baidu?word=$*
 @doskey so=start https://www.so.com/s?q=$*
