@@ -48,14 +48,14 @@ goto end
  
 :install
 rem install   
-echo %WIN_SHELL_BIN%\%1\install_%1
-call %WIN_SHELL_BIN%\%1\install_%1
+echo %WIN_SHELL_DATA%\%1\install_%1
+call %WIN_SHELL_DATA%\%1\install_%1
 goto end
 
 
 :vimplugin
-echo %WIN_SHELL_BIN%\%1\%plugin_install_vim
-call %WIN_SHELL_BIN%\%1\%plugin_install_vim
+echo %WIN_SHELL_DATA%\%1\%plugin_install_vim
+call %WIN_SHELL_DATA%\%1\%plugin_install_vim
 goto end
 
 

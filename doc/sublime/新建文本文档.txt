@@ -1,0 +1,6 @@
+http://www.jb51.net/softjc/153746.html
+
+
+c:\windows\system32\regedt32.exe
+
+HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Session Manager\Environment

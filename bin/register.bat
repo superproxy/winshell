@@ -70,8 +70,8 @@ rem ===========vim end==========
 
 
 :register
-echo call %WIN_SHELL_BIN%\%1\register_%1
-call %WIN_SHELL_BIN%\%1\register_%1
+echo call %WIN_SHELL_DATA%\%1\register_%1
+call %WIN_SHELL_DATA%\%1\register_%1
 goto end
 
 

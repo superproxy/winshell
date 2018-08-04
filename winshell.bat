@@ -20,13 +20,17 @@ rem echo %WIN_SHELL_HOME%
 
 
 set WIN_SHELL_BIN=%WIN_SHELL_HOME%\bin
+rem 脚本
+set WIN_SHELL_DATA=%WIN_SHELL_HOME%\custom
+rem 自定义脚本
+set WIN_SHELL_CUSTOM=%WIN_SHELL_HOME%\custom
 set WIN_SHELL_PKG=%WIN_SHELL_HOME%\pkg
 set WIN_SHELL_BINS=%WIN_SHELL_HOME%\bins
 
 
 set JAVA_HOME=%WIN_SHELL_BINS%\java_dev\jdk
 
-path=%JAVA_HOME%\bin;%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
+path=%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
