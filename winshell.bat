@@ -47,10 +47,9 @@ rem ===========================hotkey===========================
 rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
 @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tbash.exe
 @doskey utils=cd %WIN_SHELL_BINS%\utils$Tdir
+@doskey shell=%WIN_SHELL_BINS%\vim\vim80\gvim.exe winshell.bat
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_BINS%\utils\SnapShot.exe
-@doskey eye=%WIN_SHELL_BINS%\common\EyeFoo3\eyefoo.exe
-@doskey kugou=%WIN_SHELL_BINS%\common\KuGou\KGMusic\KuGou.exe $*
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
 @doskey note=%windir%\system32\StikyNote.exe
@@ -62,7 +61,8 @@ rem ============common utils=========================
 @doskey maxthon=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey mx=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
-@doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
+@doskey chrome=C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+rem @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey ff=%WIN_SHELL_BINS%\firefox\firefox.exe 
 rem @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
@@ -77,7 +77,7 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 
 @doskey rec=%WIN_SHELL_BINS%\common\sdemo\S-Recorder.exe
 @doskey gif=%WIN_SHELL_BINS%\gif\GifCam.exe
-@doskey ssoft=start https://www.appinn.com/category/tools/
+@doskey tools=start https://www.appinn.com/category/tools/
 
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
@@ -87,6 +87,8 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 
 rem === 娱乐==========
+@doskey eye=%WIN_SHELL_BINS%\EyeFoo3\eyefoo.exe
+@doskey kugou=%WIN_SHELL_BINS%\common\KGMusic\KuGou.exe $*
 @doskey yinyue=start https://y.qq.com/portal/player.html
 @doskey music=start https://y.qq.com/portal/player.html
 @doskey v=start https://v.qq.com
@@ -95,14 +97,32 @@ rem === 娱乐==========
 @doskey tv=start https://www.huya.com/
 @doskey lv=start http://www.tuniu.com/
 @doskey tuniu=start http://www.tuniu.com/
-@doskey sn=start http://www.suning.com/
+rem @doskey sn=start http://www.suning.com/
+@doskey sn=start https://search.suning.com/$*/
 @doskey p=start https://search.suning.com/$*
-@doskey pp=start https://product.suning.com/0000000000/$*.html
+@doskey prd=start https://product.suning.com/0000000000/$*.html
+@doskey jd=start https://www.jd.com/
+@doskey tmall=start https://www.tmall.com/
+@doskey taobao=start https://www.taobao.com/
+@doskey ditu=start https://www.amap.com/
+@doskey map=start https://www.amap.com/
+@doskey gaode=start https://www.amap.com/
 
 rem === search ==========
 @doskey s=start https://www.baidu.com/baidu?word=$*
 @doskey so=start https://www.so.com/s?q=$*
 @doskey baidu=start https://www.baidu.com/baidu?word=$*
+@doskey wiki=start http://wikipedia.org/
+@doskey mba=start http://mbalib.com/
+@doskey open=start https://open.163.com/ted/
+@doskey class=start https://open.163.com/ted/
+@doskey ke=start https://open.163.com/ted/
+
+
+rem === programe==========
+@doskey turtle=start https://steakovercooked.com/ch/Software.Logo#logo
+@doskey scrach1=start http://open.163.com/movie/2009/8/M/D/M88JJ461P_M88JKFLMD.html 
+
 rem =========it info==================
 @doskey csdn=start https://www.csdn.net/
 @doskey news=start https://www.toutiao.com/
@@ -110,6 +130,9 @@ rem =========it info==================
 @doskey github=start https://github.org/
 @doskey info=start http://www.infoq.com/cn/
 @doskey me=start https://superproxy.github.io/
+@doskey exception=start https://stackoverflow.com/
+@doskey whois=start https://www.whois.com/whois/$*
+@doskey alarm=start http://www.cnnvd.org.cn/
 rem =========common_dev==================
 @doskey ftp="%WIN_SHELL_BINS%\common_dev\WinSCP\WinSCP.exe" $*
 @doskey st="%WIN_SHELL_BINS%\sublime_text\sublime_text.exe" $*
@@ -169,6 +192,7 @@ rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
 @doskey vm=%WIN_SHELL_BINS%\java_dev\visualvm\bin\visualvm.exe --console new --jdkhome %JAVA_HOME%
 rem @doskey gc=java -jar gcviewer-1.35-SNAPSHOT.jar -d %WIN_SHELL_BINS%\java_dev
 @doskey gcviewer=cd  %WIN_SHELL_BINS%\java_dev $T java -jar gcviewer-1.35-SNAPSHOT.jar
+@doskey gconline=start http://gceasy.io/
 @doskey gc=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startga.bat
 @doskey thread=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startjca.bat
 @doskey heap=cd  %WIN_SHELL_BINS%\java_dev\ibmjdk $T %WIN_SHELL_BINS%\java_dev\ibmjdk\startha.bat
@@ -181,6 +205,7 @@ rem @doskey gc=java -jar gcviewer-1.35-SNAPSHOT.jar -d %WIN_SHELL_BINS%\java_dev
 rem ===========vmm==================
 @doskey vmm=%WIN_SHELL_BINS%\vmm\vmm
 rem ======== r_dev===============
+@doskey rstudio="%WIN_SHELL_BINS%\RStudio\bin\RStudio.exe" $*
 @doskey r="%WIN_SHELL_BINS%\RStudio\bin\RStudio.exe" $*
 rem ======== android_dev===============
 rem ======== arduino_dev===============
@@ -207,6 +232,7 @@ echo Java开发 java_dev *jd-gui *idea    intelliJIDEA    ctrl+2  *visualvm
 echo R语言开发 r   Rstudio
 
 echo ================package manager==========
+echo create      create help
 echo install     install vim
 echo init        init  vim
 echo register    register vim
