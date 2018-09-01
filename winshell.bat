@@ -77,7 +77,7 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 
 @doskey rec=%WIN_SHELL_BINS%\common\sdemo\S-Recorder.exe
 @doskey gif=%WIN_SHELL_BINS%\gif\GifCam.exe
-@doskey ss=start https://www.appinn.com/category/tools/
+@doskey ssoft=start https://www.appinn.com/category/tools/
 
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
