@@ -59,7 +59,7 @@ echo unzip %%WIN_SHELL_PKG%%\%3  -d  %WIN_SHELL_BINS%\%2  >> %WIN_SHELL_DATA%\%2
 goto success 
 
 :success
-echo  %2 %4 > %WIN_SHELL_DATA%\db.txt
+echo  %2 %4 >> %WIN_SHELL_DATA%\db.txt
 
 goto end
 

@@ -30,6 +30,8 @@ set WIN_SHELL_BINS=%WIN_SHELL_HOME%\bins
 
 set JAVA_HOME=%WIN_SHELL_BINS%\java_dev\jdk
 
+path=%path%;D:\winshell\bins\VirtualBox
+
 path=%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_BINS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
@@ -48,19 +50,21 @@ rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
 @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tbash.exe
 @doskey utils=cd %WIN_SHELL_BINS%\utils$Tdir
 @doskey shell=%WIN_SHELL_BINS%\vim\vim80\gvim.exe winshell.bat
+@doskey localhost=%WIN_SHELL_BINS%\vim\vim80\gvim.exe c:\windows\system32\drivers\etc\hosts
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_BINS%\utils\SnapShot.exe
 @doskey feiq=%WIN_SHELL_BINS%\common\feiq\feiq.exe
 @doskey fastcopy=%WIN_SHELL_BINS%\common\fastcopy\fastcopy.exe
-@doskey note=%windir%\system32\StikyNote.exe
+@doskey note=%windir%\system32\StikyNot.exe
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
-@doskey pp="%WIN_SHELL_BINS%\common\PicPick\picpick.exe"
+@doskey pp="%WIN_SHELL_BINS%\picpick\picpick.exe"
+@doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe"
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey m="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
 @doskey maxthon=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey mx=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
-rem @doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
+@doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
 @doskey chrome=C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
 rem @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
@@ -107,6 +111,8 @@ rem @doskey sn=start http://www.suning.com/
 @doskey ditu=start https://www.amap.com/
 @doskey map=start https://www.amap.com/
 @doskey gaode=start https://www.amap.com/
+@doskey sw=start http://www.xdowns.com/
+@doskey os=start http://www.xitongzhijia.net/
 
 rem === search ==========
 @doskey s=start https://www.baidu.com/baidu?word=$*
@@ -147,9 +153,11 @@ rem =========common_dev==================
 @doskey gvim=%WIN_SHELL_BINS%\vim\vim80\gvim.exe $*
 rem =========design_dev===============
 @doskey model=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
-@doskey arch=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
+rem @doskey arch=%WIN_SHELL_BINS%\design_dev\yWorks\yEd\yEd.exe
 @doskey uml="D:\Program Files\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey arch="archi mate3"
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
+@doskey ps=""
 rem ===== go dev =================
 @doskey goland="%WIN_SHELL_BINS%\go_dev\GoLand 2018.2\bin\goland64.exe" $*
 rem ===== node_dev=================
@@ -157,7 +165,8 @@ rem ===== node_dev=================
 rem ===== go_dev=================
 @doskey go="%WIN_SHELL_BINS%\go\bin\go.exe" $*
 rem ======python_dev=================
-@doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
+rem @doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
+@doskey python="%WIN_SHELL_BINS%\python3all\python.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar

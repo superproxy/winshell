@@ -1,2 +1,10 @@
- edraw http://www.edrawsoft.cn/2download/edrawmax-cn-9.2.exe 
- powershell https://download.microsoft.com/download/3/D/6/3D61D262-8549-4769-A660-230B67E15B25/Windows6.1-KB2819745-x64-MultiPkg.msu 
+ qqdesktop http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe 
+ clonecd http://yesky.down.123ch.cn/download/CloneCD_21@327486.exe 
+ clonecd http://yesky.xzstatic.com/2018/03/13/CloneCD_v5.3.4.0.rar 
+ pickpick https://www.picpick.org/releases/latest/picpick_portable.zip 
+ wireshark https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe 
+ weixin https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe 
+ idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
+ idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
+ ie11 http://download.microsoft.com/download/5/6/F/56FD6253-CB53-4E38-94C6-74367DA2AB34/IE11-Windows6.1-x64-zh-cn.exe 
+ ie9 http://219.76.13.178/download.skycn.com/hao123-soft-online-bcs/soft/I/IE9Windows7_x64_9.0.8112.16421_1.exe 
