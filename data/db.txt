@@ -8,3 +8,5 @@
  idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
  ie11 http://download.microsoft.com/download/5/6/F/56FD6253-CB53-4E38-94C6-74367DA2AB34/IE11-Windows6.1-x64-zh-cn.exe 
  ie9 http://219.76.13.178/download.skycn.com/hao123-soft-online-bcs/soft/I/IE9Windows7_x64_9.0.8112.16421_1.exe 
+ dotnet http://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 
+ texted http://www.rj-texted.com/files/rj-install.exe 

@@ -1,10 +1,10 @@
-git config --global https.proxy http://127.0.0.1:8888
+git config --global http.proxy %http_proxy%
 
-git  config --global https.proxy https://127.0.0.1:8888
+git config --global https.proxy %http_proxy%
 
-git config --global http.proxy 'socks5://127.0.0.1:8888' 
+rem git config --global http.proxy 'socks5://127.0.0.1:8888' 
 
-git  config --global https.proxy 'socks5://127.0.0.1:8888'
+rem git config --global https.proxy 'socks5://127.0.0.1:8888'
 
 
 

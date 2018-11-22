@@ -44,6 +44,15 @@ if not exist %WIN_SHELL_BIN%\init  (
 rem =================back home cd ~=============
 @doskey home=cd /d %WIN_SHELL_HOME%\
 @doskey hh=%WIN_SHELL_HOME%\winshell.bat help $*
+@doskey open=start $*
+@doskey shownet=netstat -anto -p TCP
+@doskey showip=netstat -anto -p TCP
+@doskey showhost=hostname
+@doskey ipdns=ipconfig /displaydns
+@doskey dns=nslookup  - 114.114.114.114
+@doskey dns114=nslookup  - 114.114.114.114
+@doskey port==netstat -anto -p TCP | findstr "$1"
+
 rem ===========================hotkey===========================
 @doskey gnu=cd %WIN_SHELL_BINS%\gnu$Tdir
 rem @doskey cygwin=cd /d %WIN_SHELL_BINS%\cygwin\bin$Tmintty.exe
@@ -58,14 +67,14 @@ rem ============common utils=========================
 @doskey note=%windir%\system32\StikyNot.exe
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey pp="%WIN_SHELL_BINS%\picpick\picpick.exe"
-@doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe"
+@doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe" $*
 @doskey b=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
 @doskey m="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
-@doskey maxthon=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
-@doskey mx=%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe
-@doskey chrome=%WIN_SHELL_BINS%\chrome\chrome.exe
-@doskey chrome=C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe
+@doskey maxthon="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
+@doskey mx="%WIN_SHELL_BINS%\Maxthon5\Bin\Maxthon.exe" $*
+@doskey chrome="%WIN_SHELL_BINS%\chrome\chrome.exe" $*
+@doskey chrome="C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe" $*
 rem @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 @doskey firefox=%WIN_SHELL_BINS%\firefox\firefox.exe
 @doskey ff=%WIN_SHELL_BINS%\firefox\firefox.exe 
@@ -85,7 +94,7 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 
 @doskey ramdisk=%WIN_SHELL_BINS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
-@doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
+rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey wx=start https://wx.qq.com
 @doskey douya=%WIN_SHELL_BINS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
@@ -120,7 +129,6 @@ rem === search ==========
 @doskey baidu=start https://www.baidu.com/baidu?word=$*
 @doskey wiki=start http://wikipedia.org/
 @doskey mba=start http://mbalib.com/
-@doskey open=start https://open.163.com/ted/
 @doskey class=start https://open.163.com/ted/
 @doskey ke=start https://open.163.com/ted/
 
@@ -132,7 +140,7 @@ rem === programe==========
 rem =========it info==================
 @doskey csdn=start https://www.csdn.net/
 @doskey news=start https://www.toutiao.com/
-@doskey open=start https://www.oschina.net/
+@doskey opensource=start https://www.oschina.net/
 @doskey github=start https://github.org/
 @doskey info=start http://www.infoq.com/cn/
 @doskey me=start https://superproxy.github.io/
@@ -166,7 +174,9 @@ rem ===== go_dev=================
 @doskey go="%WIN_SHELL_BINS%\go\bin\go.exe" $*
 rem ======python_dev=================
 rem @doskey python="%WIN_SHELL_BINS%\python3\python.exe" $*
-@doskey python="%WIN_SHELL_BINS%\python3all\python.exe" $*
+@doskey python3="%WIN_SHELL_BINS%\python3\python.exe" $*
+@doskey python2="%WIN_SHELL_BINS%\python2\python.exe" $*
+@doskey python="%WIN_SHELL_BINS%\python2\python.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_BINS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
@@ -176,7 +186,7 @@ rem =========web_dev===============
 @doskey webdev="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
 @doskey track=%WIN_SHELL_BINS%\web_dev\httrack\WinHTTrack.exe $*
 @doskey burpsuite=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
-@doskey soapui=%WIN_SHELL_BINS%\\web_dev\SmartBear\SoapUI-5.0.0\bin
+@doskey soapui=%WIN_SHELL_BINS%\\web_dev\SmartBear\SoapUI-5.0.0\bin\soapui.exe
 rem =========middle_dev===============
 @doskey nginx=cd /d %WIN_SHELL_BINS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
 
@@ -185,14 +195,14 @@ rem ==============safe_check=================
 @doskey webhacker=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
 @doskey burp=java -jar %WIN_SHELL_BINS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
 @doskey sqlmap=start http://sqlmap.org/
-@doskey metasploit=start https://www.metasploit.com/
+rem @doskey metasploit=start https://www.metasploit.com/
 @doskey metasploit=start https://www.metasploit.com/
 @doskey nmap=start https://nmap.org/
 rem ========java_dev==================
 @doskey java_dev=cd %java_dev_home%
 @doskey jdgui=%WIN_SHELL_BINS%\java_dev\jd-gui\jd-gui.exe
-rem @doskey idea=%java_dev_home%\IntelliJIDEA\bin\idea64.exe
-@doskey idea="%WIN_SHELL_BINS%\java_dev\IntelliJIDEA\bin\idea64.exe" $*
+rem @doskey idea=%java_dev_home%\idea\bin\idea64.exe
+@doskey idea="%WIN_SHELL_BINS%\idea\bin\idea64.exe" $*
 @doskey ideakey="%WIN_SHELL_BINS%\java_dev\JBLocalServer\ideakey.exe" 
 
 @doskey jprofiler=%WIN_SHELL_BINS%\java_dev\jprofiler\bin\jprofiler.exe
