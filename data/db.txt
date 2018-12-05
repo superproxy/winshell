@@ -10,3 +10,7 @@
  ie9 http://219.76.13.178/download.skycn.com/hao123-soft-online-bcs/soft/I/IE9Windows7_x64_9.0.8112.16421_1.exe 
  dotnet http://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 
  texted http://www.rj-texted.com/files/rj-install.exe 
+ h2 http://www.h2database.com/h2-2018-03-18.zip 
+ itools http://pcdl.itools.cn/itools4/itoolssetup_4.4.2.1.exe 
+ itunes https://secure-appldnld.apple.com/itunes12/041-13378-20181024-3F5B4748-D7EB-11E8-AD60-F196F34A5CAA/iTunes64Setup.exe 
+ hello  
