@@ -1,9 +1,10 @@
 @echo off
 
 rem chcp 936
-title WinShell
+title 控制台WinShell
 color 0a
 prompt winshell$G
+prompt 控制台$G
 
 rem set t=t:
 rem if exist %t%  subst %t% /d
@@ -33,7 +34,7 @@ set JAVA_HOME=%WIN_SHELL_APPS%\java_dev\jdk
 
 path=%path%;D:\winshell\app\VirtualBox
 
-path=%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
+path=%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
@@ -44,8 +45,11 @@ if not exist %WIN_SHELL_BIN%\init  (
 
 rem =================back home cd ~=============
 @doskey home=cd /d %WIN_SHELL_HOME%\
+@doskey 主目录=cd /d %WIN_SHELL_HOME%\
 @doskey hh=%WIN_SHELL_HOME%\winshell.bat help $*
+@doskey 帮助=%WIN_SHELL_HOME%\winshell.bat help $*
 @doskey open=start $*
+@doskey 目录=start $*
 @doskey shownet=netstat -anto -p TCP
 @doskey showip=netstat -anto -p TCP
 @doskey showhost=hostname
@@ -64,11 +68,16 @@ rem =================back home cd ~=============
 @doskey reboot=shutdown  /r /t 0
 @doskey 重启=shutdown  /r /t 0
 @doskey kill=taskkill /F  /PID $*
+@doskey 杀进程=taskkill /F  /PID $*
 @doskey 文件句柄=
 @doskey 监控=
 @doskey 网络=
 @doskey 启动服务=net start $* 
 @doskey 启动安装服务=  net start  msiserver
+@doskey firewall=start %WIN_SHELL_APPS%\smc\recover_smc.bat
+@doskey 关闭防火墙=start %WIN_SHELL_APPS%\smc\useeasy.bat
+@doskey stopsmc=start %WIN_SHELL_APPS%\smc\useeasy.bat
+@doskey killsmc=start %WIN_SHELL_APPS%\smc\stopall.bat
 
 
 rem ===========================hotkey===========================
@@ -94,11 +103,13 @@ rem ============common utils=========================
 @doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe" $*
 @doskey b=%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe
 @doskey browser=%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe
+@doskey 浏览器=%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe
 @doskey m="%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe" $*
 @doskey maxthon="%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe" $*
 @doskey mx="%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe" $*
 @doskey chrome="%WIN_SHELL_APPS%\chrome\chrome.exe" $*
-@doskey chrome="C:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe" $*
+@doskey chrome="%SystemDrive%:\Users\%USERNAME%\AppData\Local\Google\Chrome\Application\chrome.exe" $*
+@doskey chrome="c:\Users\Administrator\AppData\Local\Google\Chrome\Application\chrome.exe" $*
 rem @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 @doskey firefox=%WIN_SHELL_APPS%\firefox\firefox.exe
 @doskey ff=%WIN_SHELL_APPS%\firefox\firefox.exe 
@@ -107,7 +118,9 @@ rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_APPS%\common\shadowsocks\Shadowsocks.exe
 rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey mail="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
+@doskey 邮件="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
 @doskey tc=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
+@doskey 文件管理器=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_APPS%\common\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_APPS%\common\XMind\XMind.exe
 @doskey xmind=%WIN_SHELL_APPS%\common\XMind\XMind.exe
@@ -126,28 +139,38 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey zhihu=start https://www.baidu.com/s?wd=$1$2site:zhihu.com
 @doskey 知乎=start https://www.baidu.com/s?wd=$*%20%20%20site%3Azhihu.com
 @doskey 知道=start https://www.baidu.com/s?wd=$1site:zhihu.com
-
+@doskey 单词=start http://www.iciba.com/$*
+rem @doskey 图片=start http://image.baidu.com/search/index\?tn=baiduimage\&fm=result\&ie=utf-8\&word=$*
 rem === 娱乐==========
+@doskey 眼睛=%WIN_SHELL_APPS%\EyeFoo3\eyefoo.exe
 @doskey eye=%WIN_SHELL_APPS%\EyeFoo3\eyefoo.exe
 @doskey kugou=%WIN_SHELL_APPS%\common\KGMusic\KuGou.exe $*
-@doskey yinyue=start https://y.qq.com/portal/player.html
+@doskey 音乐=start https://y.qq.com/portal/player.html
 @doskey music=start https://y.qq.com/portal/player.html
 @doskey v=start https://v.qq.com
+@doskey 视频=start https://v.qq.com
 @doskey abc=start https://jingyan.baidu.com/article/7908e85c6eea55af491ad24e.html
+@doskey 抖音=start https://www.huya.com/
 @doskey douyin=start https://www.huya.com/
 @doskey tv=start https://www.huya.com/
-@doskey lv=start http://www.tuniu.com/
+@doskey 旅游=start http://www.tuniu.com/
 @doskey tuniu=start http://www.tuniu.com/
 rem @doskey sn=start http://www.suning.com/
+@doskey 苏宁=start https://search.suning.com/$*/
 @doskey sn=start https://search.suning.com/$*/
 @doskey p=start https://search.suning.com/$*
 @doskey prd=start https://product.suning.com/0000000000/$*.html
+@doskey 京东=start https://www.jd.com/
 @doskey jd=start https://www.jd.com/
+@doskey 天猫=start https://www.tmall.com/
 @doskey tmall=start https://www.tmall.com/
+@doskey 淘宝=start https://www.taobao.com/
 @doskey taobao=start https://www.taobao.com/
+@doskey 地图=start https://www.amap.com/
 @doskey ditu=start https://www.amap.com/
 @doskey map=start https://www.amap.com/
 @doskey gaode=start https://www.amap.com/
+@doskey 下载=start http://www.xdowns.com/
 @doskey sw=start http://www.xdowns.com/
 @doskey os=start http://www.xitongzhijia.net/
 @doskey weather=start http://www.weather.com.cn/weather40d/101190101.shtml
@@ -191,6 +214,8 @@ rem =========common_dev==================
 @doskey st="%WIN_SHELL_APPS%\common_dev\Sublime3\sublime_text.exe" $*
 @doskey bc=%WIN_SHELL_APPS%\common_dev\bc\BCompare.exe $*
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
+rem =========os monitor===============
+@doskey procmon=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 rem =========design_dev===============
 @doskey model=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
@@ -207,8 +232,11 @@ rem ===== go_dev=================
 rem ======python_dev=================
 rem @doskey python="%WIN_SHELL_APPS%\python3\python.exe" $*
 @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*
+@doskey pip3="%WIN_SHELL_APPS%\python3\Scripts\pip.exe" $*
 @doskey python2="%WIN_SHELL_APPS%\python2\python.exe" $*
-@doskey python="%WIN_SHELL_APPS%\python2\python.exe" $*
+@doskey pip2="%WIN_SHELL_APPS%\python2\Scripts\pip.exe" $*
+@doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
+@doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_APPS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_APPS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
@@ -233,6 +261,8 @@ rem @doskey metasploit=start https://www.metasploit.com/
 rem ========java_dev==================
 @doskey java_dev=cd %java_dev_home%
 @doskey jdgui=%WIN_SHELL_APPS%\java_dev\jd-gui\jd-gui.exe
+@doskey jdgui=%WIN_SHELL_APPS%\jd-gui\jd-gui-windows-1.4.0\jd-gui.exe
+@doskey jd-gui=%WIN_SHELL_APPS%\jd-gui\jd-gui-windows-1.4.0\jd-gui.exe
 rem @doskey idea=%java_dev_home%\idea\bin\idea64.exe
 @doskey idea="%WIN_SHELL_APPS%\idea\bin\idea64.exe" $*
 @doskey ideakey="%WIN_SHELL_APPS%\java_dev\JBLocalServer\ideakey.exe" 
