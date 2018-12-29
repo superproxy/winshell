@@ -90,6 +90,8 @@ rem @doskey cygwin=cd /d %WIN_SHELL_APPS%\cygwin\bin$Tmintty.exe
 @doskey ±à¼­=shell
 @doskey ±à¼­=%WIN_SHELL_APPS%\vim\vim80\gvim.exe %WIN_SHELL_HOME%\winshell.bat
 @doskey localhost=%WIN_SHELL_APPS%\vim\vim80\gvim.exe c:\windows\system32\drivers\etc\hosts
+@doskey hosts=%WIN_SHELL_APPS%\vim\vim80\gvim.exe c:\windows\system32\drivers\etc\hosts
+rem @doskey hosts=echo $* >>c:\windows\system32\drivers\etc\hosts
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_APPS%\utils\SnapShot.exe
 @doskey feiq=%WIN_SHELL_APPS%\common\feiq\feiq.exe

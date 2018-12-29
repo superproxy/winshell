@@ -17,3 +17,8 @@
  jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
  jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
+ putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe 
+ wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
+ wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
+ wildfly8_1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
+ wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
