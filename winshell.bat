@@ -60,6 +60,7 @@ rem =================back home cd ~=============
 @doskey 设备管理器=devmgmt.msc
 @doskey 设备=devmgmt.msc
 @doskey 计算机=compmgmt.msc
+@doskey 控制面板=contorl
 @doskey 服务=services.msc
 @doskey 启动=msconfig
 @doskey 关机=shutdown /s /t 0
@@ -68,6 +69,7 @@ rem =================back home cd ~=============
 @doskey reboot=shutdown  /r /t 0
 @doskey 重启=shutdown  /r /t 0
 @doskey kill=taskkill /F  /PID $*
+@doskey killpid=taskkill /F  /PID $*
 @doskey 杀进程=taskkill /F  /PID $*
 @doskey 文件句柄=
 @doskey 监控=
@@ -78,6 +80,8 @@ rem =================back home cd ~=============
 @doskey 关闭防火墙=start %WIN_SHELL_APPS%\smc\useeasy.bat
 @doskey stopsmc=start %WIN_SHELL_APPS%\smc\useeasy.bat
 @doskey killsmc=start %WIN_SHELL_APPS%\smc\stopall.bat
+@doskey cpuz=%WIN_SHELL_APPS%/cpuz/cpuz_x64.exe
+@doskey 资源监控=start resmon
 
 
 rem ===========================hotkey===========================

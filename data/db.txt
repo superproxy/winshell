@@ -22,3 +22,8 @@
  wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
  wildfly8_1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
  wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
+ cpuinfo http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
+ cpuz http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
+ sourceinsight http://soft.xue511.cn/sou4.0_18590.zip 
+ sourceinsight3 http://js.downcc.com/down2/sourceInsight_downcc.zip 
+ openvpn http://itdownload.cnsuning.com/SNsoft/openvpnclient.rar 
