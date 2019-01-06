@@ -27,3 +27,14 @@
  sourceinsight http://soft.xue511.cn/sou4.0_18590.zip 
  sourceinsight3 http://js.downcc.com/down2/sourceInsight_downcc.zip 
  openvpn http://itdownload.cnsuning.com/SNsoft/openvpnclient.rar 
+ diskgenius http://download.eassos.cn/DG501609_x64.zip 
+ driver http://download.skycn.com/hao123-soft-online-bcs/soft/2017_02_22_DGSetup_1288B.exe 
+ driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
+ driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
+ hardware http://xzc.197746.com/AIDA64Extreme5.97.zip 
+ xp http://xp1.xitongxz.net:808/201901/DEEP_GHOST_XP_SP3_V2019_01.iso 
+ xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe 
+ onekey http://xzc.197746.com/OneKey18.0.zip 
+ dabaicai http://down.winbaicai.com:88/DaBaiCai_v6.0_1812.zip 
+ diskgenius http://download.eassos.cn/DG496564_x86.zip 
+ laomaotiao http://down.lmtxz1.com/20181224/LaoMaoTao_UEFI_gw.exe 

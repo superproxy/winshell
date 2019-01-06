@@ -82,6 +82,10 @@ rem =================back home cd ~=============
 @doskey killsmc=start %WIN_SHELL_APPS%\smc\stopall.bat
 @doskey cpuz=%WIN_SHELL_APPS%/cpuz/cpuz_x64.exe
 @doskey 资源监控=start resmon
+@doskey 分区=%WIN_SHELL_APPS%\diskgenius\DiskGenius\DiskGenius.exe
+@doskey dg=%WIN_SHELL_APPS%\diskgenius\DiskGenius\DiskGenius.exe
+@doskey hardware="%WIN_SHELL_APPS%\hardware\AIDA64 Extreme\aida64.exe"
+@doskey 硬件="%WIN_SHELL_APPS%\hardware\AIDA64 Extreme\aida64.exe"
 
 
 rem ===========================hotkey===========================
@@ -233,6 +237,7 @@ rem ===== go dev =================
 @doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand 2018.2\bin\goland64.exe" $*
 rem ===== node_dev=================
 @doskey node="%WIN_SHELL_APPS%\nodejs\node.exe" $*
+@doskey npm="%WIN_SHELL_APPS%\nodejs\npm.cmd" $*
 rem ===== go_dev=================
 @doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
 rem ======python_dev=================
