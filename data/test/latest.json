@@ -1,0 +1,1 @@
+{"group":null,"package":"test","url":"http://www.test.com/test.exe","version":"latest","action":{"download":"http://www.test.com/test.exe","fileName":"test.exe","fileType":"exe","steps":[{"download":"http://www.test.com/test.exe","fileName":"http://www.test.com/test.exe"}]}}
