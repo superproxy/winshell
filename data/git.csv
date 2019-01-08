@@ -1,0 +1,2 @@
+group,package,url,action
+,git,http://www.baidu.com/git.exe,{"download":"http://www.baidu.com/git.exe","fileName":"http://www.baidu.com/git.exe","type":"none","steps":[{"download":"http://www.baidu.com/git.exe","fileName":"http://www.baidu.com/git.exe"}]}

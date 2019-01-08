@@ -21,6 +21,8 @@ rem echo %WIN_SHELL_HOME%
 
 
 set WIN_SHELL_BIN=%WIN_SHELL_HOME%\bin
+rem 使用bat还是node来提供包管理服务
+set WIN_SHELL_ENGINE=%WIN_SHELL_HOME%\bin\node
 rem 脚本
 set WIN_SHELL_DATA=%WIN_SHELL_HOME%\data
 rem 自定义脚本
@@ -31,10 +33,11 @@ set WIN_SHELL_APPS=%WIN_SHELL_HOME%\apps
 
 
 set JAVA_HOME=%WIN_SHELL_APPS%\java_dev\jdk
+set NODE_HOME=%WIN_SHELL_APPS%\nodejs
 
-path=%path%;D:\winshell\app\VirtualBox
+path=%path%;%WIN_SHELL_APPS%\VirtualBox
 
-path=%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
+path=%WIN_SHELL_ENGINE%;%NODE_HOME%;%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (

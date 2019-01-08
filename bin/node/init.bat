@@ -1,7 +1,7 @@
 npm init
 
 npm install json2csv  --save
+npm install wget  --save
 
-
-rem ÖÇÄÜ½âÎö
+rem ï¿½ï¿½ï¿½Ü½ï¿½ï¿½ï¿½
 node app.js create git  http://url.exe

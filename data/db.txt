@@ -19,9 +19,6 @@
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
  putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe 
  wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
- wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
- wildfly8_1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
- wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
  cpuinfo http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
  cpuz http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
  sourceinsight http://soft.xue511.cn/sou4.0_18590.zip 
@@ -38,3 +35,4 @@
  dabaicai http://down.winbaicai.com:88/DaBaiCai_v6.0_1812.zip 
  diskgenius http://download.eassos.cn/DG496564_x86.zip 
  laomaotiao http://down.lmtxz1.com/20181224/LaoMaoTao_UEFI_gw.exe 
+ everything http://www.voidtools.com/Everything-1.4.1.924.x64.zip 
