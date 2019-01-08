@@ -11,13 +11,15 @@
 //         console.error(`unzip error: ${error}`);
 //     }
 // }
-
-function unpackage(src, out) {
+/**
+ * zip里面的格式差别很大，需要区分对待。 一层， 里面两层的。 版本信息保留不保留的问题
+ */
+function unpackage(src, out, fileType) {
     // unzip的层次 
     const execSync = require('child_process').execSync;
     execSync(`unzip -o ${src} -d ${out}`);
-    }
-    
+}
+
 
 // function unrar() {
 //     var Unrar = require('node-unrar');
@@ -27,4 +29,4 @@ function unpackage(src, out) {
 //         //file extracted successfully.
 //     });
 // }
-exports.unpackage=unpackage;
+exports.unpackage = unpackage;

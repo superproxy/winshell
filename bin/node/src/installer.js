@@ -10,12 +10,10 @@ function installSync(packageInfo) {
         const execSync = require('child_process').execSync;
         execSync("start " + src);
     }
-    else if (fileType == "zip") {
+    else if (fileType == "zip" || fileType=="rar") {
         console.log("unzip...");
         // unzip    zip里面的格式差别很大，需要区分对待。 一层， 里面两层的。 版本信息保留不保留的问题
-        unpackager.unpackage(src, out);
-    }
-    else if (fileType == "rar") {
+        unpackager.unpackage(src, out, fileType);
     }
 }
 
