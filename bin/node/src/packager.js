@@ -104,11 +104,15 @@ function parseFileType(packageUrl) {
     else if (utils.endsWith(packageUrl, "rar")) {
         fileType = "rar";
     }
-    else if (utils.endsWith(packageUrl, "mis")) {
-        fileType = "mis";
+    else if (utils.endsWith(packageUrl, "msi")) {
+        fileType = "msi";
     }
     else if (utils.endsWith(packageUrl, "git")) {
         fileType = "git";
+    }
+
+    else {
+        fileType = utils.lastStr(packageUrl, ".");
     }
     return fileType;
 }

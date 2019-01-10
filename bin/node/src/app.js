@@ -15,6 +15,8 @@ function main(argv) {
         "-g": null,
         "-s": null,
         "-f": null,  // force  重新安装，重新下载
+        "-exe":null,  // 执行程序文件相对路径,提供action方式,最好是规范目录
+        "-uninstall":null, // 反安装, zip自动生成删除目录， exe安装的自己解析
     };
 
     /**
@@ -63,6 +65,14 @@ function main(argv) {
     if (action == "update") {
        pm.update();
     }
+    /**
+     * create
+     * TODO:
+     * 1.   需要支持pakage version目录格式
+     * 2.  action动作支持，配置 exe文件位置，相对目录
+     * 3. 删除 注册表获取，zip删除文件夹
+     * 4. install安装的时候  xxx.bat文件，运行程序
+     */
     else if (action == "create") {
         var group = options["-g"];
         var package = cmd[3];

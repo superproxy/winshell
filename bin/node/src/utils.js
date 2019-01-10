@@ -39,6 +39,10 @@ function endsWith(str, suffix) {
     return str.indexOf(suffix, str.length - suffix.length) !== -1;
 }
 
+function contains(str, suffix) {
+    return str.indexOf(suffix) !== -1;
+}
+
 function lastStr(str, suffix) {
     return str.substr(str.lastIndexOf(suffix) + 1);
 }
@@ -95,7 +99,7 @@ function move(src, dest) {
 
     // 移动目录
     var file = fs.readdirSync(src);
-    file.every(function (e) {
+    file.forEach(function (e) {
         var path = src + "/" + e;
         var fileInfo = fs.statSync(path)
         if (fileInfo.isDirectory()) {
@@ -115,3 +119,4 @@ exports.endsWith = endsWith;
 exports.lastStr = lastStr;
 exports.move = move;
 exports.findFile = findFile;
+exports.contains = contains;
