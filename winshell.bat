@@ -153,6 +153,8 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey 知乎=start https://www.baidu.com/s?wd=$*%20%20%20site%3Azhihu.com
 @doskey 知道=start https://www.baidu.com/s?wd=$1site:zhihu.com
 @doskey 单词=start http://www.iciba.com/$*
+@doskey dict=start http://www.iciba.com/$*
+@doskey 词典=start http://www.iciba.com/$*
 rem @doskey 图片=start http://image.baidu.com/search/index\?tn=baiduimage\&fm=result\&ie=utf-8\&word=$*
 rem === 娱乐==========
 @doskey 眼睛=%WIN_SHELL_APPS%\EyeFoo3\eyefoo.exe
@@ -200,7 +202,8 @@ rem === search ==========
 @doskey class=start https://open.163.com/ted/
 @doskey 课程=start https://open.163.com/ted/
 
-
+rem ======pe=========================
+@doskey peid=%WIN_SHELL_APPS%\peid\peid.exe $*
 rem === programe==========
 @doskey turtle=start https://steakovercooked.com/ch/Software.Logo#logo
 @doskey scrach1=start http://open.163.com/movie/2009/8/M/D/M88JJ461P_M88JKFLMD.html 
@@ -229,6 +232,8 @@ rem =========common_dev==================
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
 rem =========os monitor===============
 @doskey procmon=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
+@doskey processmonitor=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
+@doskey 文件引用=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 rem =========design_dev===============
 @doskey model=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe

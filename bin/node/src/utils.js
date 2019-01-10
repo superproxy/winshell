@@ -43,8 +43,75 @@ function lastStr(str, suffix) {
     return str.substr(str.lastIndexOf(suffix) + 1);
 }
 
+
+function getDeep(path) {
+    var file = readDirSync(path);
+}
+
+var fs = require("fs");
+
+
+
+/**
+ * 第一个非空的目录
+ * @param {}} path 
+ */
+function findFile(path) {
+    var thisDirecotrys = new Array();
+    thisDirecotrys.push(path);
+
+    while (thisDirecotrys.length > 0) {
+        var currentDir = thisDirecotrys.shift();
+        console.log(" currentDir: " + currentDir +" is processing");
+        var file = fs.readdirSync(currentDir);
+        var dirWithFiles = null;
+        console.log("the file numbers of current dir: %s", file.length);
+        if (file.length > 1) {
+            // return currentDir; // 多个目录不处理
+        }
+        file.forEach(function (e) {
+            var fileInfo = fs.statSync(currentDir + "/" + e)
+            if (fileInfo.isDirectory()) {
+                thisDirecotrys.push(currentDir + "/" + e);
+            } else {
+                console.log("file: " + currentDir + "/" + e)
+                dirWithFiles = currentDir;
+                // return;
+            }
+        });
+        if (dirWithFiles != null) {
+            return dirWithFiles;
+        }
+    }
+    return null;
+}
+
+function move(src, dest) {
+    const execSync = require('child_process').execSync;
+    // 移动文件
+    var cmd = `move /Y  ${src}\\*  ${dest}`
+    console.log("cmd:%s", cmd);
+    execSync(cmd);
+
+    // 移动目录
+    var file = fs.readdirSync(src);
+    file.every(function (e) {
+        var path = src + "/" + e;
+        var fileInfo = fs.statSync(path)
+        if (fileInfo.isDirectory()) {
+            var cmd = `move /Y  ${path}  ${dest}`
+            console.log("cmd:%s", cmd);
+            execSync(cmd);
+        }
+    });
+
+    // fs.unlinkSync(src);
+}
+
 exports.mkdirsSync = mkdirsSync;
 exports.isNotEmpty = isNotEmpty;
 exports.isEmpty = isEmpty;
 exports.endsWith = endsWith;
 exports.lastStr = lastStr;
+exports.move = move;
+exports.findFile = findFile;

@@ -39,3 +39,7 @@
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
+ ofview https://www.nirsoft.net/utils/ofview.zip 
+ ofview https://www.nirsoft.net/utils/ofview.zip 
+ dict http://cidian.youdao.com/download/YoudaoDict.exe 
+ peid http://yesky2.xzstatic.com/2018/10/12/PEiD_0.95.zip 
