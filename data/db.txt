@@ -101,3 +101,6 @@
  myuninst http://www.nirsoft.net/utils/myuninst.zip 
  eye http://eyefoo.b0.upaiyun.com/eyefoo_3.0.18.exe 
  eyefoo http://eyefoo.b0.upaiyun.com/eyefoo_3.0.18.exe 
+ python2 https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
+ python https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
+ visualvm https://github.com/visualvm/visualvm.src/releases/download/1.4.1/visualvm_141.zip 
