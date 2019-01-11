@@ -1,0 +1,1 @@
+{"group":null,"package":"install","url":"wireshark","version":"latest","action":{"download":"wireshark","fileName":"wireshark","fileType":"wireshark","steps":[{"download":"wireshark","fileName":"wireshark"}]}}

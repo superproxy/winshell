@@ -8,21 +8,24 @@ function installSync(packageInfo) {
     var out = process.env["WIN_SHELL_APPS"] + "\\" + packageInfo['package'];
     if (fileType == "exe") {
         // 执行 exe,支持不同exe判断
-        var pe = require("./pe");
-        var peType = pe.parseType(src);
-        if (peType == "inno") {
-            var innoInstaller = require("./innoInstaller");
-            innoInstaller.install(src,out);
-        }
-        else if (peType == "nsis") {
-            var nsisInstaller = require("./nsisInstaller");
-            nsisInstaller.install(src,out);
-        }
-        else {
-            console.log("install action file %s", src);
-            const execSync = require('child_process').execSync;
-            execSync("start " + src);
-        }
+        var peDetector = require("./peDetector");
+         peDetector.parseType(src, function (peType) {
+             console.log("peType:%s",peType);
+            if (peType == "inno") {
+                var innoInstaller = require("./innoInstaller");
+                innoInstaller.install(src, out);
+            }
+            else if (peType == "nsis") {
+                var nsisInstaller = require("./nsisInstaller");
+                nsisInstaller.install(src, out);
+            }
+            else {
+                console.log("install action file %s", src);
+                const execSync = require('child_process').execSync;
+                execSync("start " + src);
+            }
+        });
+
 
     }
 

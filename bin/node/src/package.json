@@ -12,6 +12,7 @@
   "author": "yxz",
   "license": "ISC",
   "dependencies": {
+    "node-coff-pe": "^0.1.2"
   },
   "bin": "app.js"
 }

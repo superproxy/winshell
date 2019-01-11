@@ -104,3 +104,13 @@
  python2 https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
  python https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
  visualvm https://github.com/visualvm/visualvm.src/releases/download/1.4.1/visualvm_141.zip 
+ kugou http://downmini.kugou.com/web/kugou8224.exe 
+ peviewer http://jvniu.jb51.net:81/201704/tools/PeViewer_jb51.rar 
+ win32dasm http://7.fjyd1.crsky.com/200909/W32DasmV10.0.rar 
+ ollydbg http://cycy.198424.com/ollydbg52pojie.zip 
+ studype http://xz.198424.com/soft1/stud_pe_chs.rar 
+ install wireshark 
+ install wireshark 
+ install wireshark 
+ install wireshark 
+ wireshark https://1.as.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe 

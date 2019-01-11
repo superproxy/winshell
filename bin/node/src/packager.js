@@ -63,16 +63,8 @@ function save(packageInfo, fileType = "json") {
     utils.mkdirsSync(fileDirectory);
 
     var fs = require('fs');
-    try {
-        fs.writeFile(filePath, content, function (err) {
-            if (err) {
-                throw err;
-            }
-            console.debug(filePath + " has been saved.");
-        });
-    } catch (err) {
-        console.error(err);
-    }
+    // 强制写入
+    fs.writeFileSync(filePath, content);
 }
 
 
