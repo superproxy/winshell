@@ -13,7 +13,6 @@
  h2 http://www.h2database.com/h2-2018-03-18.zip 
  itools http://pcdl.itools.cn/itools4/itoolssetup_4.4.2.1.exe 
  itunes https://secure-appldnld.apple.com/itunes12/041-13378-20181024-3F5B4748-D7EB-11E8-AD60-F196F34A5CAA/iTunes64Setup.exe 
- hello  
  jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
  jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
  processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
@@ -109,8 +108,6 @@
  win32dasm http://7.fjyd1.crsky.com/200909/W32DasmV10.0.rar 
  ollydbg http://cycy.198424.com/ollydbg52pojie.zip 
  studype http://xz.198424.com/soft1/stud_pe_chs.rar 
- install wireshark 
- install wireshark 
- install wireshark 
- install wireshark 
  wireshark https://1.as.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe 
+ tor http://www.xiazaizhijia.com/download.php?a_k 
+ python https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe 
