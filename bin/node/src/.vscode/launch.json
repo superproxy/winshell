@@ -9,13 +9,13 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/test_peDetector.js"
+            "program": "${workspaceFolder}/test_install.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\test_peDetector.js"
+            "program": "${workspaceFolder}\\test_install.js"
         }
     ]
 }

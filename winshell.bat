@@ -150,6 +150,7 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey 豆芽=%WIN_SHELL_APPS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 @doskey zhihu=start https://www.baidu.com/s?wd=$1$2site:zhihu.com
+@doskey google=start https://www.google.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey 知乎=start https://www.baidu.com/s?wd=$*%20%20%20site%3Azhihu.com
 @doskey 知道=start https://www.baidu.com/s?wd=$1site:zhihu.com
 @doskey 单词=start http://www.iciba.com/$*
@@ -216,6 +217,8 @@ rem =========it info==================
 @doskey info=start http://www.infoq.com/cn/
 @doskey me=start https://superproxy.github.io/
 @doskey exception=start https://stackoverflow.com/
+@doskey 问题=start https://stackoverflow.com/search?q=$1++$2++$3++$4++$5++$6++$7
+@doskey q=start https://stackoverflow.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey whois=start https://www.whois.com/whois/$*
 @doskey alarm=start http://www.cnnvd.org.cn/
 rem =========common_dev==================
@@ -306,7 +309,7 @@ rem ===========db==================
 @doskey h2=cd %WIN_SHELL_APPS%\h2\h2\bin$Th2.bat
 rem @doskey h2=%WIN_SHELL_APPS%\h2\h2\bin\h2w.bat
 rem ===========vmm==================
-@doskey vmm=%WIN_SHELL_APPS%\vmm\vmm
+@doskey vmm="%WIN_SHELL_APPS%\vmm\vmm.cmd" $*
 rem ======== r_dev===============
 @doskey rstudio="%WIN_SHELL_APPS%\RStudio\bin\RStudio.exe" $*
 @doskey r="%WIN_SHELL_APPS%\RStudio\bin\RStudio.exe" $*

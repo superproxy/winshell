@@ -33,7 +33,17 @@ function installSync(packageInfo) {
         var msiInstaller = require("./msiInstaller");
         msiInstaller.install(src, out);
     }
-    else if (fileType == "zip" || fileType == "rar") {
+    else if (fileType == "tgz") {
+        var tgzInstaller = require("./tgzInstaller");
+        tgzInstaller.install(src, out);
+
+       
+        var dirWithFile = utils.findFile(out);
+        console.log(dirWithFile);
+        if (dirWithFile != null && dirWithFile != out) {
+            utils.move(dirWithFile, out);
+        }
+    }else if (fileType == "zip" || fileType == "rar") {
         console.log("unpackager...");
         unpackager.unpackage(src, out, fileType);
         // 测试目录out，找到有file的folder，然后替换。exe可以替换成package.exe，规范化路径!!!
@@ -42,8 +52,6 @@ function installSync(packageInfo) {
         if (dirWithFile != null && dirWithFile != out) {
             utils.move(dirWithFile, out);
         }
-
-
     }
 }
 

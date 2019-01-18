@@ -111,3 +111,7 @@
  wireshark https://1.as.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe 
  tor http://www.xiazaizhijia.com/download.php?a_k 
  python https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe 
+ ofview http://www.nirsoft.net/utils/ofview-x64.zip 
+ OpenedFilesView http://www.nirsoft.net/utils/ofview-x64.zip 
+ virtualbox http://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe 
+ flink https://archive.apache.org/dist/flink/flink-1.7.1/flink-1.7.1-bin-scala_2.11.tgz 
