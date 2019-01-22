@@ -115,3 +115,22 @@
  OpenedFilesView http://www.nirsoft.net/utils/ofview-x64.zip 
  virtualbox http://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe 
  flink https://archive.apache.org/dist/flink/flink-1.7.1/flink-1.7.1-bin-scala_2.11.tgz 
+ netcat https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip 
+ nc https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip 
+ ncsafe https://joncraton.org/files/nc111nt_safe.zip 
+ youdaodict http://cidian.youdao.com/download/YoudaoDict.exe 
+ maven https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip 
+ go https://dl.google.com/go/go1.11.4.windows-amd64.msi 
+ goland https://download-cf.jetbrains.com/go/goland-2018.2.exe 
+ vscode https://az764295.vo.msecnd.net/stable/61122f88f0bf01e2ac16bdb9e1bc4571755f5bd8/VSCodeUserSetup-x64-1.30.2.exe 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ go_dev goland 
+ db_dev navicat 

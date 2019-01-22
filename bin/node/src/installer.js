@@ -4,8 +4,9 @@ var utils = require("./utils");
 function installSync(packageInfo) {
     console.log("start to install...");
     var fileType = packageInfo['action']['fileType'];
-    var src = packageInfo["target"];
-    var out = process.env["WIN_SHELL_APPS"] + "\\" + packageInfo['package'];
+    var src = packageInfo["target"];  //  download path
+    var out = packageInfo["installDir"];  // apps path
+ 
     if (fileType == "exe") {
         // 执行 exe,支持不同exe判断
         var peDetector = require("./peDetector");
@@ -25,8 +26,6 @@ function installSync(packageInfo) {
                 execSync("start " + src);
             }
         });
-
-
     }
 
     else if (fileType == "msi") {

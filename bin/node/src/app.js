@@ -12,7 +12,7 @@ function main(argv) {
 
     var options = {
         "-v": null,
-        "-g": null,
+        "-g": null,    // group 
         "-s": null,
         "-f": null,  // force  重新安装，重新下载
         "-exe":null,  // 执行程序文件相对路径,提供action方式,最好是规范目录
@@ -22,7 +22,7 @@ function main(argv) {
     /**
      * 非可選的參數 pakcage  url  
      */
-    var cmd = {};
+    var cmd = [];
     var i = 0;
     if (process.argv.length > 0) {
         var skip = false;
@@ -74,11 +74,21 @@ function main(argv) {
      * 4. install安装的时候  xxx.bat文件，运行程序
      */
     else if (action == "create") {
-        var group = options["-g"];
-        var package = cmd[3];
-        var url = cmd[4]
-        var version = options["-v"];
-        pm.create(group, package, version, url);
+        console.log(`cmd: ${ cmd.length}`);
+        if(cmd.length==5) {
+            var group = options["-g"];
+            var package = cmd[3];
+            var url = cmd[4]
+            var version = options["-v"];
+            pm.create(group, package, version, url);
+        }
+        else if(cmd.length==6) {
+            var group = cmd[3];
+            var package = cmd[4];
+            var url = cmd[5]
+            var version = options["-v"];
+            pm.create(group, package, version, url);
+        }
     }
     else if (action == "install") {
         var server = options["-s"];
@@ -99,6 +109,10 @@ function main(argv) {
     else if (action == "search") {
         var package = cmd[3];
         pm.uninstall(package);
+    }
+    else if (action == "info") {
+        var package = cmd[3];
+        pm.info(package);
     }
 
 }

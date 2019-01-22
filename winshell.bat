@@ -41,6 +41,7 @@ path=%WIN_SHELL_ENGINE%;%NODE_HOME%;%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HO
 
 
 if not exist %WIN_SHELL_BIN%\init  (
+        mkdir %WIN_SHELL_APPS%
 	if exist %WIN_SHELL_HOME%\myenv.bat   %WIN_SHELL_HOME%\myenv.bat
   	echo for the first > %WIN_SHELL_BIN%\init
 )
@@ -112,6 +113,7 @@ rem ============common utils=========================
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey 休眠=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey pp="%WIN_SHELL_APPS%\picpick\picpick.exe"
+@doskey pickpick="%WIN_SHELL_APPS%\picpick\picpick.exe"
 @doskey 截图="%WIN_SHELL_APPS%\picpick\picpick.exe"
 @doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe" $*
 @doskey b=%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe
@@ -151,6 +153,8 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 @doskey zhihu=start https://www.baidu.com/s?wd=$1$2site:zhihu.com
 @doskey google=start https://www.google.com/search?q=$1++$2++$3++$4++$5++$6++$7
+@doskey github=start https://github.com/search?q=$1++$2++$3++$4++$5++$6++$7
+@doskey code=start https://github.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey 知乎=start https://www.baidu.com/s?wd=$*%20%20%20site%3Azhihu.com
 @doskey 知道=start https://www.baidu.com/s?wd=$1site:zhihu.com
 @doskey 单词=start http://www.iciba.com/$*
@@ -213,8 +217,8 @@ rem =========it info==================
 @doskey csdn=start https://www.csdn.net/
 @doskey news=start https://www.toutiao.com/
 @doskey opensource=start https://www.oschina.net/
-@doskey github=start https://github.org/
-@doskey info=start http://www.infoq.com/cn/
+rem @doskey github=start https://github.com/
+@doskey infoq=start http://www.infoq.com/cn/
 @doskey me=start https://superproxy.github.io/
 @doskey exception=start https://stackoverflow.com/
 @doskey 问题=start https://stackoverflow.com/search?q=$1++$2++$3++$4++$5++$6++$7
@@ -233,6 +237,7 @@ rem =========common_dev==================
 @doskey st="%WIN_SHELL_APPS%\common_dev\Sublime3\sublime_text.exe" $*
 @doskey bc=%WIN_SHELL_APPS%\common_dev\bc\BCompare.exe $*
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
+@doskey vscode="%WIN_SHELL_APPS%\vscode\Code.exe" $*
 rem =========os monitor===============
 @doskey procmon=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 @doskey processmonitor=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
@@ -246,6 +251,11 @@ rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 @doskey ps=""
 rem ===== go dev =================
 @doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand 2018.2\bin\goland64.exe" $*
+
+
+rem ===== source git =================
+@doskey project=cd /d e:\projects  
+@doskey source=cd /d e:\projects$Tgit clone https://github.com/$1/$2.git
 rem ===== node_dev=================
 @doskey node="%WIN_SHELL_APPS%\nodejs\node.exe" $*
 @doskey npm="%WIN_SHELL_APPS%\nodejs\npm.cmd" $*
@@ -268,7 +278,7 @@ rem =========web_dev===============
 @doskey webdev="D:\WebStorm 2017.3.3\bin\webstorm64.exe" $*
 @doskey track=%WIN_SHELL_APPS%\web_dev\httrack\WinHTTrack.exe $*
 @doskey burpsuite=java -jar %WIN_SHELL_APPS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
-@doskey soapui=%WIN_SHELL_APPS%\\web_dev\SmartBear\SoapUI-5.0.0\bin\soapui.exe
+@doskey soapui=%WIN_SHELL_APPS%\web_dev\SmartBear\SoapUI-5.0.0\bin\soapui.exe
 rem =========middle_dev===============
 @doskey nginx=cd /d %WIN_SHELL_APPS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
 
@@ -309,7 +319,7 @@ rem ===========db==================
 @doskey h2=cd %WIN_SHELL_APPS%\h2\h2\bin$Th2.bat
 rem @doskey h2=%WIN_SHELL_APPS%\h2\h2\bin\h2w.bat
 rem ===========vmm==================
-@doskey vmm="%WIN_SHELL_APPS%\vmm\vmm.cmd" $*
+rem @doskey vmm="%WIN_SHELL_APPS%\vmm\vmm.cmd" $*
 rem ======== r_dev===============
 @doskey rstudio="%WIN_SHELL_APPS%\RStudio\bin\RStudio.exe" $*
 @doskey r="%WIN_SHELL_APPS%\RStudio\bin\RStudio.exe" $*

@@ -1,5 +1,18 @@
 var utils = require("./utils");
 
+
+function getPkgDir() {
+    return process.env["WIN_SHELL_PKG"];
+}
+
+function getAppDir() {
+    return process.env["WIN_SHELL_APPS"];
+}
+
+function getDataDir() {
+    return process.env["WIN_SHELL_DATA"];
+}
+
 function read(server, group, package, version) {
     var packageInfo = null;
     // 本地缓存的或者官方站点
@@ -7,6 +20,16 @@ function read(server, group, package, version) {
         packageInfo = readLocal(package, version);
         if (packageInfo == null) {
             console.error("no found, package:%s, version:%s,server,%s", package, version, server);
+        }
+        else {
+            packageInfo["target"] = getPkgDir() + "\\" + packageInfo['action']['fileName'];
+            if (utils.isNotEmpty(packageInfo["group"])) {
+                packageInfo["target"] = getPkgDir() + "\\" + packageInfo['group'] + "\\" + packageInfo['action']['fileName'];
+            }
+            packageInfo["installDir"] = getAppDir() + "\\" + packageInfo['package'];
+            if (utils.isNotEmpty(packageInfo["group"])) {
+                packageInfo["installDir"] = getAppDir() + "\\" + packageInfo['group'] + "\\" + packageInfo['package'];
+            }
         }
     }
     else if (server == "github.com") {
@@ -16,9 +39,9 @@ function read(server, group, package, version) {
 
 
 function readLocal(package, v) {
-    var env = process.env["WIN_SHELL_DATA"];
+    var dataDir = getDataDir();
     var fileName = package;
-    var fileDirectory = env + "\\" + fileName;
+    var fileDirectory = dataDir + "\\" + fileName;
     var version = parseVersion(v)
     var filePath = fileDirectory + "\\" + version + ".json";
     console.debug("filepath:%s", filePath);
@@ -29,7 +52,28 @@ function readLocal(package, v) {
     return JSON.parse(content);
 }
 
+function parseAction(package, packageUrl) {
+    var action = {
+        "download": packageUrl,
+        "fileName": packageUrl,
+        "fileType": "none",
+        "steps": [
+            {
+                "download": packageUrl,
+                "fileName": packageUrl,
+            }
+        ]
+    };
 
+    var fileType = parseFileType(packageUrl);
+    action["fileType"] = fileType;
+    var fileName = parseFileName(packageUrl);
+    action["fileName"] = fileName;
+
+    console.log("action:%s", JSON.stringify(action));
+    return action;
+
+}
 
 function parseVersion(version) {
     var v;
@@ -41,11 +85,26 @@ function parseVersion(version) {
     return v;
 }
 
+function buildPackageInfo(group, package, version, packageUrl) {
+    var result = {};
+    if (group == null || typeof (group) == undefined) {
+        result['group'] = null;
+    } else {
+        result['group'] = group;
+    }
+    result['package'] = package;
+    result['url'] = packageUrl;
+    result['version'] = parseVersion(version)
+    result['action'] = parseAction(package, packageUrl);
+    return result;
+}
+
+
 function save(packageInfo, fileType = "json") {
     var fileName = packageInfo['package'];
-    if (packageInfo['group'] != null) {
-        fileName = packageInfo['group'];
-    }
+    // if (packageInfo['group'] != null) {
+    //     fileName = packageInfo['group'];
+    // }
     var content;
     if (fileType == "json") {
         content = convert2Json(packageInfo);
@@ -54,7 +113,7 @@ function save(packageInfo, fileType = "json") {
         content = convert2Csv(packageInfo);
     }
     console.debug(`content:${content}`);
-    var env = process.env["WIN_SHELL_DATA"];
+    var env = getDataDir();
     var version = packageInfo["version"];
     var fileDirectory = env + "\\" + fileName;
     var filePath = fileDirectory + "\\" + version + "." + fileType;
@@ -114,9 +173,18 @@ function parseFileName(packageUrl) {
     return fileName;
 }
 
+function parseFileName(packageUrl) {
+    var fileName = utils.lastStr(packageUrl, "/");
+    return fileName;
+}
+
+
 exports.parseFileName = parseFileName;
 exports.convert2Json = convert2Json;
 exports.save = save;
 exports.read = read;
 exports.parseVersion = parseVersion;
 exports.parseFileType = parseFileType;
+exports.parseAction = parseAction;
+exports.buildPackageInfo = buildPackageInfo;
+
