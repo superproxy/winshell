@@ -15,6 +15,8 @@
  * zip里面的格式差别很大，需要区分对待。 一层， 里面两层的。 版本信息保留不保留的问题
  */
 function unpackage(src, out, fileType) {
+    var utils = require("./utils");
+    utils.mkdirsSync(out);
     // unzip的层次
     if (fileType == "zip") {
         const execSync = require('child_process').execSync;
@@ -22,10 +24,6 @@ function unpackage(src, out, fileType) {
     }
     else if (fileType == "rar") {
         const execSync = require('child_process').execSync;
-        var fs = require('fs');
-        if (fs.exists(out)) {
-            fs.mkdirSync(out);
-        }
         execSync(`unrar x -o+ ${src} ${out}`);
     }
 }

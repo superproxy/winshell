@@ -32,11 +32,9 @@ function installSync(packageInfo) {
         var msiInstaller = require("./msiInstaller");
         msiInstaller.install(src, out);
     }
-    else if (fileType == "tgz") {
+    else if (fileType == "tgz" || fileType == "gz") {
         var tgzInstaller = require("./tgzInstaller");
         tgzInstaller.install(src, out);
-
-       
         var dirWithFile = utils.findFile(out);
         console.log(dirWithFile);
         if (dirWithFile != null && dirWithFile != out) {
@@ -53,9 +51,6 @@ function installSync(packageInfo) {
         }
     }
 }
-
-
-
 
 
 exports.installSync = installSync;

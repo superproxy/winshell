@@ -22,8 +22,6 @@ function PackageManger() {
 
     // install key
     // read key, get url , download url  lang
-    //  
-
     /**
      * 支持从本地，或者远程获取安装JSON
      * 支持第三方Json  choco  scoop
@@ -36,10 +34,9 @@ function PackageManger() {
         console.log("packageInfo:%s", JSON.stringify(packageInfo));
         var src = packageInfo['url'];
         var out = packageInfo["target"];
-        // packager.buildOutPath(packageInfo);
 
         // 异步问题，嵌套回调函数
-        if (utils.contains("http") || utils.contains("ftp")) {
+        if (utils.contains(src, "http") || utils.contains(src, "ftp")) {
             var exists = fs.existsSync(out);
             if (!exists) {
                 downloader.downloadSync(src, out);
@@ -62,6 +59,41 @@ function PackageManger() {
         console.log("cmd: create %s %s %s", packageInfo["group"], packageInfo["package"], packageInfo["url"]);
     }
 
+    /**
+     * 查找 执行程序路径
+     * @param {*} package 
+     */
+    this.run = function (package) {
+        var packageInfo = packager.read(null, null, package, null);
+        var cmd = this.findExe(packageInfo);
+        if (utils.isNotEmpty(cmd)) {
+            var exeUtils = require("./exeutils");
+            exeUtils.exec(cmd);
+        } else {
+            console.log("no found!");
+        }
+    }
+
+    this.findExe = function (packageInfo) {
+        var path = packageInfo["installDir"];  // 包含group
+        // var group = packageInfo["group"];
+        var package = packageInfo["package"];
+        var exe = path + "\\" + package + ".exe";
+        var bat = path + "\\" + package + ".bat";
+        var binExe = path + "\\bin\\" + package + ".exe";
+        var cmd;
+        if (fs.existsSync(exe)) {
+            cmd = exe;
+        }
+        else if (fs.existsSync(binExe)) {
+            cmd = binExe;
+        }
+        else if (fs.existsSync(bat)) {
+            cmd = bat;
+        }
+        return cmd;
+    }
+
     this.uninstall = function (package) {
         console.debug("uninstall:" + `${package}`)
     }
@@ -71,7 +103,8 @@ function PackageManger() {
         var usage = {
             "help": "node app.js help",
             "create": "node app.js create git  http://www.baidu.com/git.exe",
-            "create": "node app.js create -g java_dev  git  http://www.baidu.com/git.exe -v 1.0.1",
+            "create": "node app.js create common_dev git  http://www.baidu.com/git.exe",
+            "create": "node app.js create -g common_dev  git  http://www.baidu.com/git.exe -v 1.0.1",
             "install": "node app.js  install git",
             "remove": "node app.js remove git",
             "info": "node app.js info git",

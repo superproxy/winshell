@@ -114,6 +114,10 @@ function main(argv) {
         var package = cmd[3];
         pm.info(package);
     }
+    else if (action == "run") {
+        var package = cmd[3];
+        pm.run(package);
+    }
 
 }
 

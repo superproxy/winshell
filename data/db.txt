@@ -134,3 +134,7 @@
  go_dev goland 
  go_dev goland 
  db_dev navicat 
+ c_dev sourceinsight 
+ data_dev flink 
+ c_dev sourceinsight 
+ docker_dev dockertoolbox 
