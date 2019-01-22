@@ -138,3 +138,13 @@
  data_dev flink 
  c_dev sourceinsight 
  docker_dev dockertoolbox 
+ python_dev python https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe 
+ python_dev pywin32 D:\winshell\pkg\python_dev\pywin32-224.win-amd64-py2.7.exe 
+ osinstall easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
+ osinstall easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
+ os_install easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
+ os_install easybcd "D:\winshell\pkg\os_install\EasyBCD 2.2.exe" 
+ os_install easybcd "D:\winshell\pkg\os_install\EasyBCD 2.2.exe" 
+ os_install onekeyghost D:\winshell\pkg\os_install\1KG_20120712_HD.zip 
+ os_install diskgenius http://download.eassos.cn/DG496564_x86.zip 
+ os_install diskgenius http://download.eassos.cn/DG496564_x86.zip 

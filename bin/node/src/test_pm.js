@@ -8,5 +8,5 @@ var pm = new PackageManger();
 // pm.install(null,"flink", null, null,false);
 
 
- pm.install(null,"sourceinsight", null, null,false);
- pm.run("sourceinsight");
+ pm.install(null,"EasyBCD", null, null,false);
+//  pm.run("sourceinsight");
