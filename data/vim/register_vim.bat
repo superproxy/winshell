@@ -1,6 +1,6 @@
 echo register vim
 rem ===========vim==========
-set VIM_HOME=%WIN_SHELL_BINS%\vim\vim80
+set VIM_HOME=%WIN_SHELL_APPS%\vim
 wmic ENVIRONMENT where "name='VIM_HOME'" delete
 wmic ENVIRONMENT create name='VIM_HOME',username="<system>",VariableValue="%VIM_HOME%"
 rem ===========vim end==========

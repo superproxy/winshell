@@ -8,5 +8,4 @@ rem node %~dp0\app.js create  %1 %2 %3 %4 %5 %6 %7 %8 %9
 %~dp0\winpm create  %1 %2 %3 %4 %5 %6 %7 %8 %9   
 
 
-
-echo  %1   %2  %3  %4 %5 %6  %7 %8 >> %WIN_SHELL_DATA%\db.txt
+echo  %1 %2  %3  %4 %5 %6  %7 %8 %9 >> %WIN_SHELL_DATA%\db.txt

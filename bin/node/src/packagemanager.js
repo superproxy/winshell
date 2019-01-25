@@ -64,10 +64,16 @@ function PackageManger() {
      */
     this.run = function (package) {
         var packageInfo = packager.read(null, null, package, null);
+        var workDir = packageInfo["installDir"];
         var cmd = this.findExe(packageInfo);
         if (utils.isNotEmpty(cmd)) {
             var exeUtils = require("./exeutils");
-            exeUtils.exec(cmd);
+            if (utils.endsWith(cmd, "jar")) {
+                exeUtils.run(cmd, workDir);
+            } else {
+                exeUtils.exec(cmd);
+            }
+
         } else {
             console.log("no found!");
         }
@@ -79,7 +85,13 @@ function PackageManger() {
         var package = packageInfo["package"];
         var execFileName = packageInfo["execFileName"];
 
+
         if (utils.isNotEmpty(execFileName)) {
+            if (utils.endsWith(execFileName, "jar")) {
+                var cmd = "java -jar " + execFileName;
+                return cmd;
+            }
+
             var exe = path + "\\" + execFileName
             var binExe = path + "\\bin\\" + execFileName;
             var cmd;

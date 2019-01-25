@@ -1,1 +1,1 @@
-{"group":null,"package":"test","url":"http://www.test.com/test.exe","version":"latest","action":{"download":"http://www.test.com/test.exe","fileName":"test.exe","fileType":"exe","steps":[{"download":"http://www.test.com/test.exe","fileName":"http://www.test.com/test.exe"}]}}
+{"group":null,"package":"test","url":"http://www.baidu.com","version":"latest","downloadFileName":"test.exe","execFileName":"test.exe","action":{"download":"http://www.baidu.com","fileName":"test.exe","fileType":"exe"}}

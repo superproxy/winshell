@@ -34,27 +34,18 @@
  java_dev   jprofiler  D:\winshell\pkg\java_dev\jprofiler_windows-x64_10_0_1.zip 
  r_dev   r  D:\winshell\pkg\r_dev\R-3.4.3-win.exe 
  r_dev   rtools  D:\winshell\pkg\r_dev\Rtools34.exe 
- r_dev   rsutido  D:\winshell\pkg\r_dev\RStudio-1.1.383.exe 
- maxthon   http://www.maxthon.cn/mx5/dl?p  1 
- maxthon   http://www.maxthon.cn/mx5/dl?p  1 
- maxthon   http://www.maxthon.cn/mx5/dl?p  1 
- maxthon   http://www.maxthon.cn/mx5/dl?p  1 
- maxthon   http://www.maxthon.cn/mx5/dl?p  1 
- maxthon   http://www.maxthon.cn/mx5/dl?p\  1 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
- myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -e 
- myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -e 
- myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -d 
+ r_dev   rsutido  D:\winshell\pkg\r_dev\RStudio-1.1.383.exe  
+ myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -e myuninst
+ 
+ vim   https://ftp.nluug.nl/pub/vim/pc/gvim80-586.exe          
+ test http://www.baidu.com  -e  test.exe -d test.exe     
+ r_dev rstuido  D:\winshell\pkg\r_dev\RStudio-1.1.383.exe         
+ r_dev rstudio  D:\winshell\pkg\r_dev\RStudio-1.1.383.exe         
+ middleware_dev wildfly  https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip         
+ web_dev xampp  D:\winshell\pkg\web_dev\xampp.7.exe         
+ web_dev soapui  D:\winshell\pkg\web_dev\SoapUI-x64-5.0.0.exe         
+ middleware_dev zooinspecotr  D:\winshell\pkg\middleware_dev\ZooInspector.zip  build/zookeeper-dev-ZooInspector.jar       
+ middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  build/zookeeper-dev-ZooInspector.jar       
+ middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  build/zookeeper-dev-ZooInspector.jar       
+ middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  "build/zookeeper-dev-ZooInspector.jar"       
+ middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  -e "build/zookeeper-dev-ZooInspector.jar"      
