@@ -198,3 +198,4 @@
  common_dev bc  http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe  -e bcompare.exe      
  common_dev bc  http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe  -e BCompare.exe      
  common_dev bc  http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe  -e BCompare.exe      
+ vscode https://aka.ms/win32-x64-user-stable  -e  code.exe -d vscode.exe     
