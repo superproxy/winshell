@@ -49,3 +49,18 @@
  middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  build/zookeeper-dev-ZooInspector.jar       
  middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  "build/zookeeper-dev-ZooInspector.jar"       
  middleware_dev zooinspector  D:\winshell\pkg\middleware_dev\ZooInspector.zip  -e "build/zookeeper-dev-ZooInspector.jar"      
+ java_dev idea  https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe  -e idea64.exe      
+ middleware pub  D:\winshell\pkg\middleware_dev\ngrok-stable-windows-amd64.zip         
+ middleware pub  D:\winshell\pkg\middleware_dev\ngrok-stable-windows-amd64.zip  -e ngrok.exe      
+ middleware ngrok  D:\winshell\pkg\middleware_dev\ngrok-stable-windows-amd64.zip         
+ pe_dev win32dasm  http://6.fzydown.crsky.com/200909/W32DasmV10.0.rar         
+ pe_dev win32dasm  http://6.fzydown.crsky.com/200909/W32DasmV10.0.rar  -e w32dasm      
+ pe_dev win32dasm  http://6.fzydown.crsky.com/200909/W32DasmV10.0.rar  -e w32dasm.exe      
+ pe_dev olldbg  http://dl-t1.wmzhe.com/39/39787/OllyDbg%20v2.01.zip         
+ pe_dev olldbg  "http://dl-t1.wmzhe.com/39/39787/OllyDbg v2.01.zip"         
+ pe_dev olldbg  "http://dl-t1.wmzhe.com/39/39787/OllyDbg v2.01.zip"  -d OllyDbgv2.01.zip      
+ xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe  -e  programe\Thunder.exe       
+ xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe  -e  programe/Thunder.exe       
+ xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe  -e  programe\\Thunder.exe       
+ xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe  -e  \programe\Thunder.exe       
+ pe_dev ida  http://download.fixdown.com/soft/idapro.zip         
