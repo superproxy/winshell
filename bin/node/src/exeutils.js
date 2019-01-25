@@ -3,3 +3,6 @@ function exec(cmd) {
     console.log(cmd);
     execSync(cmd);
 }
+
+
+exports.exec = exec;

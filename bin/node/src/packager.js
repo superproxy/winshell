@@ -52,23 +52,32 @@ function readLocal(package, v) {
     return JSON.parse(content);
 }
 
-function parseAction(package, packageUrl) {
+function parseAction(package, packageUrl, downloadFileName) {
     var action = {
         "download": packageUrl,
-        "fileName": packageUrl,
+        "fileName": null,
         "fileType": "none",
-        "steps": [
-            {
-                "download": packageUrl,
-                "fileName": packageUrl,
-            }
-        ]
+        // "steps": [
+        //     {
+        //         "download": "",
+        //         "fileName": null,
+        //     }
+        // ]
     };
 
-    var fileType = parseFileType(packageUrl);
-    action["fileType"] = fileType;
-    var fileName = parseFileName(packageUrl);
-    action["fileName"] = fileName;
+    if (utils.isNotEmpty(downloadFileName)) {
+        var fileType = parseFileType(downloadFileName);
+        action["fileType"] = fileType;
+        action["fileName"] = downloadFileName;
+        // action["steps"]["fileName"] = downloadFileName;
+    }
+    else {
+        var fileType = parseFileType(packageUrl);
+        action["fileType"] = fileType;
+        var fileName = parseFileName(packageUrl);
+        action["fileName"] = fileName;
+        // action["steps"]["fileName"] = fileName;
+    }
 
     console.log("action:%s", JSON.stringify(action));
     return action;
@@ -85,17 +94,16 @@ function parseVersion(version) {
     return v;
 }
 
-function buildPackageInfo(group, package, version, packageUrl) {
+function buildPackageInfo(group, package, version, packageUrl, downloadFileName, execFileName) {
     var result = {};
-    if (group == null || typeof (group) == undefined) {
-        result['group'] = null;
-    } else {
-        result['group'] = group;
-    }
+
+    result['group'] = utils.formatString(group);
     result['package'] = package;
     result['url'] = packageUrl;
     result['version'] = parseVersion(version)
-    result['action'] = parseAction(package, packageUrl);
+    result['downloadFileName'] = utils.formatString(downloadFileName);
+    result['execFileName'] = utils.formatString(execFileName);
+    result['action'] = parseAction(package, packageUrl,downloadFileName);
     return result;
 }
 

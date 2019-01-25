@@ -1,150 +1,57 @@
- qqdesktop http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe 
- clonecd http://yesky.down.123ch.cn/download/CloneCD_21@327486.exe 
- clonecd http://yesky.xzstatic.com/2018/03/13/CloneCD_v5.3.4.0.rar 
- pickpick https://www.picpick.org/releases/latest/picpick_portable.zip 
- wireshark https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe 
- weixin https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe 
- idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
- idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
- ie11 http://download.microsoft.com/download/5/6/F/56FD6253-CB53-4E38-94C6-74367DA2AB34/IE11-Windows6.1-x64-zh-cn.exe 
- ie9 http://219.76.13.178/download.skycn.com/hao123-soft-online-bcs/soft/I/IE9Windows7_x64_9.0.8112.16421_1.exe 
- dotnet http://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 
- texted http://www.rj-texted.com/files/rj-install.exe 
- h2 http://www.h2database.com/h2-2018-03-18.zip 
- itools http://pcdl.itools.cn/itools4/itoolssetup_4.4.2.1.exe 
- itunes https://secure-appldnld.apple.com/itunes12/041-13378-20181024-3F5B4748-D7EB-11E8-AD60-F196F34A5CAA/iTunes64Setup.exe 
- jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
- jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe 
- wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
- cpuinfo http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
- cpuz http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
- sourceinsight http://soft.xue511.cn/sou4.0_18590.zip 
- sourceinsight3 http://js.downcc.com/down2/sourceInsight_downcc.zip 
- openvpn http://itdownload.cnsuning.com/SNsoft/openvpnclient.rar 
- diskgenius http://download.eassos.cn/DG501609_x64.zip 
- driver http://download.skycn.com/hao123-soft-online-bcs/soft/2017_02_22_DGSetup_1288B.exe 
- driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
- driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
- hardware http://xzc.197746.com/AIDA64Extreme5.97.zip 
- xp http://xp1.xitongxz.net:808/201901/DEEP_GHOST_XP_SP3_V2019_01.iso 
- xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe 
- onekey http://xzc.197746.com/OneKey18.0.zip 
- dabaicai http://down.winbaicai.com:88/DaBaiCai_v6.0_1812.zip 
- diskgenius http://download.eassos.cn/DG496564_x86.zip 
- laomaotiao http://down.lmtxz1.com/20181224/LaoMaoTao_UEFI_gw.exe 
- everything http://www.voidtools.com/Everything-1.4.1.924.x64.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- ofview https://www.nirsoft.net/utils/ofview.zip 
- ofview https://www.nirsoft.net/utils/ofview.zip 
- dict http://cidian.youdao.com/download/YoudaoDict.exe 
- peid http://yesky2.xzstatic.com/2018/10/12/PEiD_0.95.zip 
- qqdesktop http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe 
- qqdesktop http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe 
- qqdesktop http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe 
- clonecd http://yesky.down.123ch.cn/download/CloneCD_21@327486.exe 
- clonecd http://yesky.xzstatic.com/2018/03/13/CloneCD_v5.3.4.0.rar 
- pickpick https://www.picpick.org/releases/latest/picpick_portable.zip 
- wireshark https://1.na.dl.wireshark.org/win64/Wireshark-win64-2.6.4.exe 
- weixin https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe 
- idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
- idea https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
- ie11 http://download.microsoft.com/download/5/6/F/56FD6253-CB53-4E38-94C6-74367DA2AB34/IE11-Windows6.1-x64-zh-cn.exe 
- ie9 http://219.76.13.178/download.skycn.com/hao123-soft-online-bcs/soft/I/IE9Windows7_x64_9.0.8112.16421_1.exe 
- dotnet http://download.microsoft.com/download/E/2/1/E21644B5-2DF2-47C2-91BD-63C560427900/NDP452-KB2901907-x86-x64-AllOS-ENU.exe 
- texted http://www.rj-texted.com/files/rj-install.exe 
- h2 http://www.h2database.com/h2-2018-03-18.zip 
- itools http://pcdl.itools.cn/itools4/itoolssetup_4.4.2.1.exe 
- itunes https://secure-appldnld.apple.com/itunes12/041-13378-20181024-3F5B4748-D7EB-11E8-AD60-F196F34A5CAA/iTunes64Setup.exe 
- jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
- jd-gui https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- putty https://the.earth.li/~sgtatham/putty/latest/w64/putty.exe 
- wildfly8.1 https://download.jboss.org/wildfly/8.1.0.Final/wildfly-8.1.0.Final.zip 
- cpuinfo http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
- cpuz http://download.cpuid.com/cpu-z/cpu-z_1.87-cn.zip 
- sourceinsight http://soft.xue511.cn/sou4.0_18590.zip 
- sourceinsight3 http://js.downcc.com/down2/sourceInsight_downcc.zip 
- openvpn http://itdownload.cnsuning.com/SNsoft/openvpnclient.rar 
- diskgenius http://download.eassos.cn/DG501609_x64.zip 
- driver http://download.skycn.com/hao123-soft-online-bcs/soft/2017_02_22_DGSetup_1288B.exe 
- driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
- driver http://file.drivergenius.com/DGSetup_3002BZ4.exe 
- hardware http://xzc.197746.com/AIDA64Extreme5.97.zip 
- xp http://xp1.xitongxz.net:808/201901/DEEP_GHOST_XP_SP3_V2019_01.iso 
- xunlei http://down.sandai.net/thunderx/XunLeiWebSetup10.1.8.284gw.exe 
- onekey http://xzc.197746.com/OneKey18.0.zip 
- dabaicai http://down.winbaicai.com:88/DaBaiCai_v6.0_1812.zip 
- diskgenius http://download.eassos.cn/DG496564_x86.zip 
- laomaotiao http://down.lmtxz1.com/20181224/LaoMaoTao_UEFI_gw.exe 
- everything http://www.voidtools.com/Everything-1.4.1.924.x64.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- processmonitor https://download.sysinternals.com/files/ProcessMonitor.zip 
- ofview https://www.nirsoft.net/utils/ofview.zip 
- ofview https://www.nirsoft.net/utils/ofview.zip 
- dict http://cidian.youdao.com/download/YoudaoDict.exe 
- procmon https://download.sysinternals.com/files/ProcessMonitor.zip 
- openedfilesview https://www.nirsoft.net/utils/ofview.zip 
- tsvn http://aarnet.dl.osdn.jphttp://aarnet.dl.osdn.jp/storage/g/t/to/tortoisesvn/1.11.0/Application/TortoiseSVN-1.11.0.28416-x64-svn-1.11.0.msi 
- tsvn http://aarnet.dl.osdn.jphttp://aarnet.dl.osdn.jp/storage/g/t/to/tortoisesvn/1.11.0/Application/TortoiseSVN-1.11.0.28416-x64-svn-1.11.0.msi 
- tsvn http://aarnet.dl.osdn.jphttp://aarnet.dl.osdn.jp/storage/g/t/to/tortoisesvn/1.11.0/Application/TortoiseSVN-1.11.0.28416-x64-svn-1.11.0.msi 
- tsvn http://aarnet.dl.osdn.jp/storage/g/t/to/tortoisesvn/1.11.0/Application/TortoiseSVN-1.11.0.28416-x64-svn-1.11.0.msi 
- tgit https://sm.myapp.com/original/Development/TortoiseGit-2.6.0.0-64bit.msi 
- git https://github.com/git-for-windows/git/releases/download/v2.15.1.windows.2/Git-2.15.1.2-64-bit.exe 
- myuninstall http://www.nirsoft.net/utils/myuninst.zip 
- myuninst http://www.nirsoft.net/utils/myuninst.zip 
- myuninst http://www.nirsoft.net/utils/myuninst.zip 
- eye http://eyefoo.b0.upaiyun.com/eyefoo_3.0.18.exe 
- eyefoo http://eyefoo.b0.upaiyun.com/eyefoo_3.0.18.exe 
- python2 https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
- python https://www.python.org/ftp/python/2.7.13/python-2.7.13.amd64-pdb.zip 
- visualvm https://github.com/visualvm/visualvm.src/releases/download/1.4.1/visualvm_141.zip 
- kugou http://downmini.kugou.com/web/kugou8224.exe 
- peviewer http://jvniu.jb51.net:81/201704/tools/PeViewer_jb51.rar 
- win32dasm http://7.fjyd1.crsky.com/200909/W32DasmV10.0.rar 
- ollydbg http://cycy.198424.com/ollydbg52pojie.zip 
- studype http://xz.198424.com/soft1/stud_pe_chs.rar 
- wireshark https://1.as.dl.wireshark.org/win64/Wireshark-win64-2.6.6.exe 
- tor http://www.xiazaizhijia.com/download.php?a_k 
- python https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe 
- ofview http://www.nirsoft.net/utils/ofview-x64.zip 
- OpenedFilesView http://www.nirsoft.net/utils/ofview-x64.zip 
- virtualbox http://download.virtualbox.org/virtualbox/6.0.0/VirtualBox-6.0.0-127566-Win.exe 
- flink https://archive.apache.org/dist/flink/flink-1.7.1/flink-1.7.1-bin-scala_2.11.tgz 
- netcat https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip 
- nc https://eternallybored.org/misc/netcat/netcat-win32-1.11.zip 
- ncsafe https://joncraton.org/files/nc111nt_safe.zip 
- youdaodict http://cidian.youdao.com/download/YoudaoDict.exe 
- maven https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip 
- go https://dl.google.com/go/go1.11.4.windows-amd64.msi 
- goland https://download-cf.jetbrains.com/go/goland-2018.2.exe 
- vscode https://az764295.vo.msecnd.net/stable/61122f88f0bf01e2ac16bdb9e1bc4571755f5bd8/VSCodeUserSetup-x64-1.30.2.exe 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- go_dev goland 
- db_dev navicat 
- c_dev sourceinsight 
- data_dev flink 
- c_dev sourceinsight 
- docker_dev dockertoolbox 
- python_dev python https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe 
- python_dev pywin32 D:\winshell\pkg\python_dev\pywin32-224.win-amd64-py2.7.exe 
- osinstall easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
- osinstall easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
- os_install easybcd "D:\winshell\pkg\install_dev\EasyBCD 2.2.exe" 
- os_install easybcd "D:\winshell\pkg\os_install\EasyBCD 2.2.exe" 
- os_install easybcd "D:\winshell\pkg\os_install\EasyBCD 2.2.exe" 
- os_install onekeyghost D:\winshell\pkg\os_install\1KG_20120712_HD.zip 
- os_install diskgenius http://download.eassos.cn/DG496564_x86.zip 
- os_install diskgenius http://download.eassos.cn/DG496564_x86.zip 
+	g'"	maven	https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip	
+	go	https://dl.google.com/go/go1.11.4.windows-amd64.msi	
+	goland	https://download-cf.jetbrains.com/go/goland-2018.2.exe	
+	vscode	https://az764295.vo.msecnd.net/stable/61122f88f0bf01e2ac16bdb9e1bc4571755f5bd8/VSCodeUserSetup-x64-1.30.2.exe	
+	python_dev	python	https://www.python.org/ftp/python/3.7.2/python-3.7.2-amd64.exe
+	python_dev	pywin32	D:\winshell\pkg\python_dev\pywin32-224.win-amd64-py2.7.exe
+	osinstall	easybcd	D:\winshell\pkg\install_dev\EasyBCD 2.2.exe
+	osinstall	easybcd	D:\winshell\pkg\install_dev\EasyBCD 2.2.exe
+	os_install	easybcd	D:\winshell\pkg\install_dev\EasyBCD 2.2.exe
+	os_install	easybcd	D:\winshell\pkg\os_install\EasyBCD 2.2.exe
+	os_install	easybcd	D:\winshell\pkg\os_install\EasyBCD 2.2.exe
+	os_install	onekeyghost	D:\winshell\pkg\os_install\1KG_20120712_HD.zip
+	os_install	diskgenius	http://download.eassos.cn/DG496564_x86.zip
+	os_install	diskgenius	http://download.eassos.cn/DG496564_x86.zip
+ java_dev visualvm https://github.com/visualvm/visualvm.src/releases/download/1.4.1/visualvm_141.zip   
+ java_dev   jdk7  D:\winshell\pkg\java_dev\jdk-7u10-windows-x64.exe 
+ java_dev jetty   D:\winshell\pkg\java_dev\jetty-distribution-9.1.4.v20140401.zip   
+ java_dev   maven https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip   
+ java_dev   maven  https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip 
+ java_dev   maven  https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip 
+ java_dev   maven  https://www-us.apache.org/dist/maven/maven-3/3.6.0/binaries/apache-maven-3.1.1-bin.zip 
+ java_dev   jdk8  D:\winshell\pkg\java_dev\jdk-8u25-windows-x64.exe 
+ java_dev   jdk  D:\winshell\pkg\java_dev\jdk-8u25-windows-x64.exe 
+ java_dev   idea  https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe 
+ java_dev   jd-gui  https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
+ java_dev   jd-gui  https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
+ java_dev   jd-gui  https://github.com/java-decompiler/jd-gui/releases/download/v1.4.0/jd-gui-windows-1.4.0.zip 
+ java_dev   ibmjvm  D:\winshell\pkg\java_dev\ibmjvm.zip 
+ java_dev   gcviewer  D:\winshell\pkg\java_dev\chewiebug-GCViewer-1.34.1-171-g7123764.zip 
+ middleware_dev   activemq  D:\winshell\pkg\middleware_dev\apache-activemq-5.9.0-bin.zip 
+ java_dev   mat  D:\winshell\pkg\java_dev\MemoryAnalyzer-1.6.0.20160531-win32.win32.x86_64.zip 
+ java_dev   MemoryAnalyzer  D:\winshell\pkg\java_dev\MemoryAnalyzer-1.6.0.20160531-win32.win32.x86_64.zip 
+ java_dev   jprofile  D:\winshell\pkg\java_dev\jprofiler_windows-x64_10_0_1.zip 
+ java_dev   jprofiler  D:\winshell\pkg\java_dev\jprofiler_windows-x64_10_0_1.zip 
+ r_dev   r  D:\winshell\pkg\r_dev\R-3.4.3-win.exe 
+ r_dev   rtools  D:\winshell\pkg\r_dev\Rtools34.exe 
+ r_dev   rsutido  D:\winshell\pkg\r_dev\RStudio-1.1.383.exe 
+ maxthon   http://www.maxthon.cn/mx5/dl?p  1 
+ maxthon   http://www.maxthon.cn/mx5/dl?p  1 
+ maxthon   http://www.maxthon.cn/mx5/dl?p  1 
+ maxthon   http://www.maxthon.cn/mx5/dl?p  1 
+ maxthon   http://www.maxthon.cn/mx5/dl?p  1 
+ maxthon   http://www.maxthon.cn/mx5/dl?p\  1 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 

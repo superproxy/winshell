@@ -296,7 +296,7 @@ rem ========java_dev==================
 @doskey jdgui=%WIN_SHELL_APPS%\jd-gui\jd-gui-windows-1.4.0\jd-gui.exe
 @doskey jd-gui=%WIN_SHELL_APPS%\jd-gui\jd-gui-windows-1.4.0\jd-gui.exe
 rem @doskey idea=%java_dev_home%\idea\bin\idea64.exe
-@doskey idea="%WIN_SHELL_APPS%\idea\bin\idea64.exe" $*
+@doskey idea="%WIN_SHELL_APPS%\java_dev\idea\bin\idea64.exe" $*
 @doskey ideakey="%WIN_SHELL_APPS%\java_dev\JBLocalServer\ideakey.exe" 
 
 @doskey jprofiler=%WIN_SHELL_APPS%\java_dev\jprofiler\bin\jprofiler.exe

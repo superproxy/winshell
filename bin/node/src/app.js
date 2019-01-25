@@ -4,19 +4,21 @@ var utils = require("./utils");
 
 function main(argv) {
 
-   // console.log(process.argv);
-    // process.argv.forEach((val, index) => {
-    //     console.debug(`${index}: ${val}`);
-    // });
-
+    // 不支持?p=1这种格式 create maxthon  http://www.maxthon.cn/mx5/dl?p=1  -d maxthon.exe
+    //  特殊字符使用""" create maxthon  "http://www.maxthon.cn/mx5/dl?p=1"  -d maxthon.exe
+    //    console.log(process.argv);
+    //     process.argv.forEach((val, index) => {
+    //         console.debug(`${index}: ${val}`);
+    //     });
 
     var options = {
         "-v": null,
         "-g": null,    // group 
-        "-s": null,
+        "-s": null,     //  server  提供管理器的服务器，不指定是本地
         "-f": null,  // force  重新安装，重新下载
-        "-exe":null,  // 执行程序文件相对路径,提供action方式,最好是规范目录
-        "-uninstall":null, // 反安装, zip自动生成删除目录， exe安装的自己解析
+        "-e": null,  // execFileName 执行程序文件相对路径,提供action方式,最好是规范目录
+        "-d": null,  // downloadFileName 下载文件名称
+        "-u": null, // uninstall 反安装, zip自动生成删除目录， exe安装的自己解析
     };
 
     /**
@@ -27,13 +29,13 @@ function main(argv) {
     if (process.argv.length > 0) {
         var skip = false;
         process.argv.forEach(function (arg, index) {
-            if (arg == '-v' || arg == '-g' || arg == '-s' ) {
+            if (arg == '-v' || arg == '-g' || arg == '-s' || arg=="-e" || arg=="-d") {
                 console.log(process.argv[index + 1]);;
                 options[arg] = process.argv[index + 1];
                 skip = true; // 跳過後面的參數
 
             }
-            else if ( arg=="-f") {
+            else if (arg == "-f") {
                 options[arg] = "true";
             }
             else {
@@ -63,7 +65,7 @@ function main(argv) {
 
 
     if (action == "update") {
-       pm.update();
+        pm.update();
     }
     /**
      * create
@@ -74,29 +76,33 @@ function main(argv) {
      * 4. install安装的时候  xxx.bat文件，运行程序
      */
     else if (action == "create") {
-        console.log(`cmd: ${ cmd.length}`);
-        if(cmd.length==5) {
+        console.log(`cmd: ${cmd.length}`);
+        if (cmd.length == 5) {
             var group = options["-g"];
             var package = cmd[3];
             var url = cmd[4]
             var version = options["-v"];
-            pm.create(group, package, version, url);
+            var downloadFileName = options["-d"];
+            var execFileName = options["-e"];
+            pm.create(group, package, version, url, downloadFileName, execFileName);
         }
-        else if(cmd.length==6) {
+        else if (cmd.length == 6) {
             var group = cmd[3];
             var package = cmd[4];
             var url = cmd[5]
             var version = options["-v"];
-            pm.create(group, package, version, url);
+            var downloadFileName = options["-d"];
+            var execFileName = options["-e"];
+            pm.create(group, package, version, url, downloadFileName, execFileName);
         }
     }
     else if (action == "install") {
         var server = options["-s"];
         var group = options["-g"];
         var version = options["-v"];
-        var force = utils.isNotEmpty(options["-f"]) && options["-f"]=="true";
+        var force = utils.isNotEmpty(options["-f"]) && options["-f"] == "true";
         var package = cmd[3];
-        pm.install(group,package, version, server,force);
+        pm.install(group, package, version, server, force);
     }
     else if (action == "uninstall") {
         var package = cmd[3];

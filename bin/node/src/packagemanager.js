@@ -5,9 +5,9 @@ function PackageManger() {
     var downloader = require("./downloader");
     var installer = require("./installer");
 
-    this.create = function (group, package, version, packageUrl) {
+    this.create = function (group, package, version, packageUrl, downloadFileName, execFileName) {
         console.log("creating... " + "group:" + group + ",package:" + package + ",version:" + version + ",packageUrl:" + packageUrl);
-        var packageInfo = packager.buildPackageInfo(group, package, version, packageUrl);
+        var packageInfo = packager.buildPackageInfo(group, package, version, packageUrl, downloadFileName, execFileName);
         console.debug(JSON.stringify(packageInfo));
 
         // var x = JSON.parse(s);
@@ -33,9 +33,8 @@ function PackageManger() {
         var packageInfo = packager.read(server, group, package, version);
         console.log("packageInfo:%s", JSON.stringify(packageInfo));
         var src = packageInfo['url'];
-        var out = packageInfo["target"];
+        var out = packageInfo["target"]; // 解压目录
 
-        // 异步问题，嵌套回调函数
         if (utils.contains(src, "http") || utils.contains(src, "ftp")) {
             var exists = fs.existsSync(out);
             if (!exists) {
@@ -78,20 +77,40 @@ function PackageManger() {
         var path = packageInfo["installDir"];  // 包含group
         // var group = packageInfo["group"];
         var package = packageInfo["package"];
-        var exe = path + "\\" + package + ".exe";
-        var bat = path + "\\" + package + ".bat";
-        var binExe = path + "\\bin\\" + package + ".exe";
-        var cmd;
-        if (fs.existsSync(exe)) {
-            cmd = exe;
+        var execFileName = packageInfo["execFileName"];
+
+        if (utils.isNotEmpty(execFileName)) {
+            var exe = path + "\\" + execFileName
+            var binExe = path + "\\bin\\" + execFileName;
+            var cmd;
+            if (fs.existsSync(exe)) {
+                cmd = exe;
+            }
+            else if (fs.existsSync(binExe)) {
+                cmd = binExe;
+            }
+            return cmd;
         }
-        else if (fs.existsSync(binExe)) {
-            cmd = binExe;
+        else {
+            var exe = path + "\\" + package + ".exe";
+            var bat = path + "\\" + package + ".bat";
+            var binExe = path + "\\bin\\" + package + ".exe";
+            var binBat = path + "\\bin\\" + package + ".bat";
+            var cmd;
+            if (fs.existsSync(exe)) {
+                cmd = exe;
+            }
+            else if (fs.existsSync(binExe)) {
+                cmd = binExe;
+            }
+            else if (fs.existsSync(bat)) {
+                cmd = bat;
+            }
+            else if (fs.existsSync(binBat)) {
+                cmd = binBat;
+            }
+            return cmd;
         }
-        else if (fs.existsSync(bat)) {
-            cmd = bat;
-        }
-        return cmd;
     }
 
     this.uninstall = function (package) {
@@ -104,6 +123,7 @@ function PackageManger() {
             "help": "node app.js help",
             "create": "node app.js create git  http://www.baidu.com/git.exe",
             "create": "node app.js create common_dev git  http://www.baidu.com/git.exe",
+            "create": "node app.js create common_dev  git  http://www.baidu.com/git.exe -d downloadFileName -e execFileName",
             "create": "node app.js create -g common_dev  git  http://www.baidu.com/git.exe -v 1.0.1",
             "install": "node app.js  install git",
             "remove": "node app.js remove git",

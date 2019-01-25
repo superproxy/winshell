@@ -10,3 +10,7 @@ var pm = new PackageManger();
 
  pm.install(null,"EasyBCD", null, null,false);
 //  pm.run("sourceinsight");
+
+
+
+// create maxthon  http://www.maxthon.cn/mx5/dl?p=1  -d maxthon.exe

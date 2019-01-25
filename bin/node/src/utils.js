@@ -46,6 +46,13 @@ function contains(str, suffix) {
 function lastStr(str, suffix) {
     return str.substr(str.lastIndexOf(suffix) + 1);
 }
+function formatString(str) {
+    if (str == null || typeof (str) == undefined) {
+        return null;
+    } else {
+        return str;
+    }
+}
 
 
 function getDeep(path) {
@@ -66,7 +73,7 @@ function findFile(path) {
 
     while (thisDirecotrys.length > 0) {
         var currentDir = thisDirecotrys.shift();
-        console.log(" currentDir: " + currentDir +" is processing");
+        console.log(" currentDir: " + currentDir + " is processing");
         var file = fs.readdirSync(currentDir);
         var dirWithFiles = null;
         console.log("the file numbers of current dir: %s", file.length);
@@ -120,3 +127,4 @@ exports.lastStr = lastStr;
 exports.move = move;
 exports.findFile = findFile;
 exports.contains = contains;
+exports.formatString = formatString;
