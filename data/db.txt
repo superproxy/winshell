@@ -55,3 +55,6 @@
  maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
  maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
  maxthon   "http://www.maxthon.cn/mx5/dl?p=1"  -d 
+ myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -e 
+ myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -e 
+ myuninstall   http://www.nirsoft.net/utils/myuninst.zip  -d 

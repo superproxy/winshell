@@ -127,6 +127,7 @@ function PackageManger() {
             "create": "node app.js create -g common_dev  git  http://www.baidu.com/git.exe -v 1.0.1",
             "install": "node app.js  install git",
             "remove": "node app.js remove git",
+            "run": "node app.js run git",
             "info": "node app.js info git",
             "update": "visit https://github.com/superproxy/winshell"
         }
