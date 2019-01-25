@@ -1,0 +1,1 @@
+{"group":null,"package":"npcap","url":"https://nmap.org/npcap/dist/npcap-0.99-r7.exe","version":"latest","action":{"download":"https://nmap.org/npcap/dist/npcap-0.99-r7.exe","fileName":"npcap-0.99-r7.exe","fileType":"exe","steps":[{"download":"https://nmap.org/npcap/dist/npcap-0.99-r7.exe","fileName":"https://nmap.org/npcap/dist/npcap-0.99-r7.exe"}]}}

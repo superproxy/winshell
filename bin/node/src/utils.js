@@ -100,7 +100,7 @@ function findFile(path) {
 function move(src, dest) {
     const execSync = require('child_process').execSync;
     // 移动文件
-    var cmd = `move /Y  ${src}\\*  ${dest}`
+    var cmd = `move /Y  "${src}\\*"  "${dest}"`
     console.log("cmd:%s", cmd);
     execSync(cmd);
 
@@ -110,7 +110,7 @@ function move(src, dest) {
         var path = src + "/" + e;
         var fileInfo = fs.statSync(path)
         if (fileInfo.isDirectory()) {
-            var cmd = `move /Y  ${path}  ${dest}`
+            var cmd = `move /Y  "${path}"  "${dest}"`
             console.log("cmd:%s", cmd);
             execSync(cmd);
         }

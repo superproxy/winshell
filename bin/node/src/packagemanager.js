@@ -36,6 +36,7 @@ function PackageManger() {
         var out = packageInfo["target"]; // 解压目录
 
         if (utils.contains(src, "http") || utils.contains(src, "ftp")) {
+          
             var exists = fs.existsSync(out);
             if (!exists) {
                 downloader.downloadSync(src, out);
@@ -66,6 +67,7 @@ function PackageManger() {
         var packageInfo = packager.read(null, null, package, null);
         var workDir = packageInfo["installDir"];
         var cmd = this.findExe(packageInfo);
+        var utils = require("./utils");
         if (utils.isNotEmpty(cmd)) {
             var exeUtils = require("./exeutils");
             if (utils.endsWith(cmd, "jar")) {

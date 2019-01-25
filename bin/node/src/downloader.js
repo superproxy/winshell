@@ -61,6 +61,9 @@
     // https://download.jetbrains.com/idea/ideaIU-2018.2.5.exe  
     // 常见问题  需要授权认证,文件不存在，代理
     // 解决办法：看返回结果，抓包看交互过程
+    var path = require("path");
+    var utils = require("./utils");
+    utils.mkdirsSync(path.dirname(out));
     var cmd = `curl -L  --ssl --output ${out} ${src}`;
     console.debug("cmd:%s", cmd);
     const execSync = require('child_process').execSync;
