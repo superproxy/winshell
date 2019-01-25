@@ -199,3 +199,5 @@
  common_dev bc  http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe  -e BCompare.exe      
  common_dev bc  http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe  -e BCompare.exe      
  vscode https://aka.ms/win32-x64-user-stable  -e  code.exe -d vscode.exe     
+ node_dev node  https://nodejs.org/dist/v10.15.0/node-v10.15.0-win-x64.zip         
+ node_dev node  https://nodejs.org/dist/v10.15.0/node-v10.15.0-win-x64.zip         

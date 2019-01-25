@@ -36,6 +36,8 @@ function PackageManger() {
         var out = packageInfo["target"]; // 解压目录
 
         if (utils.contains(src, "http") || utils.contains(src, "ftp")) {
+            var path = require("path");
+            utils.mkdirsSync(path.dirName(out));
             var exists = fs.existsSync(out);
             if (!exists) {
                 downloader.downloadSync(src, out);

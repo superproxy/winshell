@@ -8,9 +8,10 @@ var pm = new PackageManger();
 // pm.install(null,"flink", null, null,false);
 
 
- pm.install(null,"EasyBCD", null, null,false);
+//  pm.install(null,"EasyBCD", null, null,false);
 //  pm.run("sourceinsight");
 
 
+pm.install(null,"node", null, null,false);
 
 // create maxthon  http://www.maxthon.cn/mx5/dl?p=1  -d maxthon.exe
