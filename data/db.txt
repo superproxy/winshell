@@ -242,3 +242,16 @@
  desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe  -e  qdesk.exe       
  desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe  -e  qqdesk.exe       
  python_dev pycharm  https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.3.exe  -e pycharm64.exe      
+ haozip http://dl.2345.cc/haozip/haozip_v5.9.7.exe           
+ vp "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"           
+ vp "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e  "Visual Paradigm for UML 10.0.exe"       
+ pdf http://file.foxitreader.cn/file/Channel/reader/foxit_FoxitReader_CHS_9.2.1.37538.exe           
+ pothoshop http://softdown1.hao123.com/hao123-soft-online-bcs/soft/L/2014-08-27_jfskycomPSCS4exchsg.rar           
+ photoshop http://softdown1.hao123.com/hao123-soft-online-bcs/soft/L/2014-08-27_jfskycomPSCS4exchsg.rar           
+ sogou https://dlie.sogoucdn.com/se/sogou_explorer_8.5_1218.exe           
+ db_dev sqlliteclient  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe         
+ db_dev sqllitebrowser  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
+ db_dev sqlui  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
+ db_dev sqlui  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
+ db_dev sqlliteclient  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
+ ofview http://www.nirsoft.net/utils/ofview-x64.zip  -e  "OpenedFilesView.exe"       

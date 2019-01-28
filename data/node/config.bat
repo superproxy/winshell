@@ -1,0 +1,1 @@
+npm config set prefix %win_shell_apps%\node_dev\node

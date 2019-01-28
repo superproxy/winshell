@@ -71,9 +71,9 @@ function PackageManger() {
         if (utils.isNotEmpty(cmd)) {
             var exeUtils = require("./exeutils");
             if (utils.endsWith(cmd, "jar")) {
-                exeUtils.run(cmd, workDir);
+                exeUtils.run(`"${cmd}"`, workDir);
             } else {
-                exeUtils.exec(cmd);
+                exeUtils.exec(`"${cmd}"`);
             }
 
         } else {
@@ -86,7 +86,6 @@ function PackageManger() {
         // var group = packageInfo["group"];
         var package = packageInfo["package"];
         var execFileName = packageInfo["execFileName"];
-
 
         if (utils.isNotEmpty(execFileName)) {
             if (utils.endsWith(execFileName, "jar")) {
