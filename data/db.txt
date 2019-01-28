@@ -226,3 +226,19 @@
  pe_dev ollydbg  http://download.skycn.com/hao123-soft-online-bcs/soft/L/2014-10-30_OllyDbg.zip  -e "ollydbg2.01b(alpha2)ºº»¯°æ.exe"      
  pe_dev ollydbg  http://cycy.198424.com/ollydbg52pojie.zip         
  pe_dev ollydbg  D:\winshell\pkg\pe_dev\OllyDbgv2.01.zip         
+ node_dev node  https://nodejs.org/dist/v10.15.0/node-v10.15.0-x64.msi         
+ go_dev goland  https://download-cf.jetbrains.com/go/goland-2018.2.exe  -e goland64.exe      
+ python_dev pycharm  https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.3.exe         
+ myvim https://github.com/superproxy/vim/archive/master.zip  -s  myvim.zip -e install_vim.bat     
+ middleware_dev ngrok  D:\winshell\pkg\middleware_dev\ngrok-stable-windows-amd64.zip         
+ null myvim  https://github.com/superproxy/vim/archive/master.zip  -d myvim.zip      
+ myvim https://github.com/superproxy/vim/archive/master.zip           
+ myvim https://github.com/superproxy/vim/archive/master.zip  -d  myview.zip       
+ pinyin http://cdn.qq.ime.sogou.com/1d5b694b351d7bb690166a1a5981823b/5b61577d/QQPinyin_Setup_6.0.5005.400.exe           
+ pinyin http://cdn.qq.ime.sogou.com/1d5b694b351d7bb690166a1a5981823b/5b61577d/QQPinyin_Setup_6.0.5005.400.exe           
+ qqpinyin http://cdn.qq.ime.sogou.com/1d5b694b351d7bb690166a1a5981823b/5b61577d/QQPinyin_Setup_6.0.5005.400.exe           
+ qqdesk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe           
+ desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe           
+ desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe  -e  qdesk.exe       
+ desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe  -e  qqdesk.exe       
+ python_dev pycharm  https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.3.exe  -e pycharm64.exe      

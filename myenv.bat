@@ -1,12 +1,12 @@
-call register gnu
-call register utils
-call register cygwin
-call register git
-call register vim
+rem call register gnu
+rem call register utils
+rem call register cygwin
+rem call register git
+rem call register vim
 
-call register nodejs
-call register python
-call register java_dev
-call register docker_dev
+rem call register nodejs
+rem call register python
+rem call register java_dev
+rem call register docker_dev
 
-call install_autorun
+rem call install_autorun

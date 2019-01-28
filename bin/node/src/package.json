@@ -12,7 +12,10 @@
   "author": "yxz",
   "license": "ISC",
   "dependencies": {
-    "node-coff-pe": "^0.1.2"
+    "cnpm": "^6.0.0",
+    "json2csv": "^4.3.3",
+    "node-coff-pe": "^0.1.2",
+    "pkg": "^4.3.7"
   },
   "bin": "app.js"
 }

@@ -15,8 +15,6 @@ rem set WIN_SHELL_HOME=%t%
 set WIN_SHELL_HOME=%~dp0
 if "%WIN_SHELL_HOME:~-1%" == "\"  set  WIN_SHELL_HOME=%WIN_SHELL_HOME:~0,-1%
 
-
-
 rem echo %WIN_SHELL_HOME%
 
 
@@ -33,11 +31,14 @@ set WIN_SHELL_APPS=%WIN_SHELL_HOME%\apps
 
 
 set JAVA_HOME=%WIN_SHELL_APPS%\java_dev\jdk
-set NODE_HOME=%WIN_SHELL_APPS%\nodejs
+set NODE_HOME=%WIN_SHELL_APPS%\node_dev\node
+set GOROOT=%WIN_SHELL_APPS%\go_dev\go
+rem set GOPATH=%WIN_SHELL_APPS%\go_dev\go
+set GIT=%WIN_SHELL_APPS%\git\bin
 
-path=%path%;%WIN_SHELL_APPS%\VirtualBox
+path=%GIT%;%path%;%WIN_SHELL_APPS%\VirtualBox
 
-path=%WIN_SHELL_ENGINE%;%NODE_HOME%;%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
+path=%GOROOT%\bin;%WIN_SHELL_ENGINE%;%NODE_HOME%;%WIN_SHELL_HOME%;%WIN_SHELL_CUSTOM%;%JAVA_HOME%\bin;%WIN_SHELL_APPS%\gnu;%WIN_SHELL_BIN%;%WIN_SHELL_BIN%\base;%path%
 
 
 if not exist %WIN_SHELL_BIN%\init  (
@@ -98,6 +99,7 @@ rem @doskey cygwin=cd /d %WIN_SHELL_APPS%\cygwin\bin$Tmintty.exe
 @doskey cygwin=cd /d %WIN_SHELL_APPS%\cygwin\bin$Tbash.exe
 @doskey utils=cd %WIN_SHELL_APPS%\utils$Tdir
 @doskey shell=%WIN_SHELL_APPS%\vim\vim80\gvim.exe %WIN_SHELL_HOME%\winshell.bat
+@doskey vi=%WIN_SHELL_APPS%\vim\vim80\vim.exe $*
 @doskey es=%WIN_SHELL_APPS%\vim\vim80\gvim.exe %WIN_SHELL_HOME%\winshell.bat
 @doskey 编辑=shell
 @doskey 编辑=%WIN_SHELL_APPS%\vim\vim80\gvim.exe %WIN_SHELL_HOME%\winshell.bat
@@ -151,7 +153,7 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey douya=%WIN_SHELL_APPS%\Douya\SuningIM.exe
 @doskey 豆芽=%WIN_SHELL_APPS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
-@doskey zhihu=start https://www.baidu.com/s?wd=$1$2site:zhihu.com
+@doskey zhihu=start https://www.baidu.com/s?wd=$1++$2site:zhihu.com
 @doskey google=start https://www.google.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey github=start https://github.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey code=start https://github.com/search?q=$1++$2++$3++$4++$5++$6++$7
@@ -162,8 +164,8 @@ rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey 词典=start http://www.iciba.com/$*
 rem @doskey 图片=start http://image.baidu.com/search/index\?tn=baiduimage\&fm=result\&ie=utf-8\&word=$*
 rem === 娱乐==========
-@doskey 眼睛=%WIN_SHELL_APPS%\EyeFoo3\eyefoo.exe
-@doskey eye=%WIN_SHELL_APPS%\EyeFoo3\eyefoo.exe
+@doskey 眼睛=%WIN_SHELL_APPS%\EyeFoo\eyefoo.exe
+@doskey eye=%WIN_SHELL_APPS%\EyeFoo\eyefoo.exe
 @doskey kugou=%WIN_SHELL_APPS%\common\KGMusic\KuGou.exe $*
 @doskey 音乐=start https://y.qq.com/portal/player.html
 @doskey music=start https://y.qq.com/portal/player.html
@@ -197,11 +199,12 @@ rem @doskey sn=start http://www.suning.com/
 @doskey 天气=start http://www.weather.com.cn/weather40d/101190101.shtml
 
 rem === search ==========
-@doskey s=start https://www.baidu.com/baidu?word=$*
+@doskey s=start https://www.baidu.com/baidu?word=$1++$2++$3++$4
+@doskey baidu=start https://www.baidu.com/baidu?word=$1++$2++$3++$4
 @doskey 搜索=start https://www.baidu.com/baidu?word=$*
 @doskey 天气=start https://www.baidu.com/baidu?word=$1天气
 @doskey so=start https://www.so.com/s?q=$*
-@doskey baidu=start https://www.baidu.com/baidu?word=$*
+@doskey 搜索=start https://www.baidu.com/baidu?word=$*
 @doskey wiki=start http://wikipedia.org/
 @doskey mba=start http://mbalib.com/
 @doskey class=start https://open.163.com/ted/
@@ -237,6 +240,7 @@ rem =========common_dev==================
 @doskey st="%WIN_SHELL_APPS%\common_dev\Sublime3\sublime_text.exe" $*
 @doskey bc=%WIN_SHELL_APPS%\common_dev\bc\BCompare.exe $*
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
+@doskey vim=%WIN_SHELL_APPS%\vim\vim80\vim.exe $*
 @doskey vscode="%WIN_SHELL_APPS%\vscode\Code.exe" $*
 rem =========os monitor===============
 @doskey procmon=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
@@ -249,18 +253,22 @@ rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 @doskey arch="archi mate3"
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
 @doskey ps=""
-rem ===== go dev =================
-@doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand 2018.2\bin\goland64.exe" $*
 
 
 rem ===== source git =================
-@doskey project=cd /d e:\projects  
+@doskey projects=cd /d e:\projects 
+@doskey project=cd /d e:\projects$Tcd $1 
+@doskey apps=cd /d %WIN_SHELL_APPS%
+@doskey app=cd /d %WIN_SHELL_APPS%$Tcd $1 
+@doskey datas=cd /d %WIN_SHELL_DATA%
+@doskey data=cd /d %WIN_SHELL_DATA%$Tcd $1 
 @doskey source=cd /d e:\projects$Tgit clone https://github.com/$1/$2.git
 rem ===== node_dev=================
-@doskey node="%WIN_SHELL_APPS%\nodejs\node.exe" $*
-@doskey npm="%WIN_SHELL_APPS%\nodejs\npm.cmd" $*
+rem @doskey node="%WIN_SHELL_APPS%\node_dev\node\node.exe" $*
+rem @doskey npm="%WIN_SHELL_APPS%\node_dev\node\npm.cmd" $*
 rem ===== go_dev=================
-@doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
+rem @doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
+@doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand\bin\goland64.exe" $*
 rem ======python_dev=================
 rem @doskey python="%WIN_SHELL_APPS%\python3\python.exe" $*
 @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*

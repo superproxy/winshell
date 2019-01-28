@@ -129,6 +129,15 @@ function PackageManger() {
 
     this.uninstall = function (package) {
         console.debug("uninstall:" + `${package}`)
+        // 删除目录
+        var packageInfo = packager.read(null, null, package, null);
+        var workDir = packageInfo["installDir"];
+        console.log("remove %s", workDir);
+        const execSync = require('child_process').execSync;
+        var cmd = `del /F /S /Q "${workDir}"`;
+        console.log("cmd:%s", cmd);
+        execSync(cmd); 
+
     }
 
     //  cmd exapmle
