@@ -255,3 +255,14 @@
  db_dev sqlui  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
  db_dev sqlliteclient  https://download.sqlitebrowser.org/DB.Browser.for.SQLite-3.10.1-win64.exe  -e "DB Browser for SQLite.exe"      
  ofview http://www.nirsoft.net/utils/ofview-x64.zip  -e  "OpenedFilesView.exe"       
+ windowsucrt https://download.microsoft.com/download/C/5/D/C5D68AA1-F62E-422A-9084-4AD85CEB8D4D/WindowsUCRT.zip           
+ qdir http://sd.downxia.com/down/QDirx64.rar           
+ c_dev cide  https://nchc.dl.sourceforge.net/project/codeblocks/Binaries/17.12/Windows/codeblocks-17.12-setup.exe         
+ c_dev cide  https://nchc.dl.sourceforge.net/project/codeblocks/Binaries/17.12/Windows/codeblocks-17.12-setup.exe  -e codeblocks.exe      
+ mingw c_dev  https://nchc.dl.sourceforge.net/project/mingw/Installer/mingw-get-setup.exe         
+ c_dev mingw  https://nchc.dl.sourceforge.net/project/mingw/Installer/mingw-get-setup.exe         
+ ssvn https://sliksvn.com/pub/Slik-Subversion-1.9.7-x64.zip           
+ c_dev cdt  http://www.eclipse.org/downloads/download.php?file  /tools/cdt/releases/9.6/cdt-9.6.0/cdt-9.6.0.zip       
+ c_dev cdt  "http://www.eclipse.org/downloads/download.php?file=/tools/cdt/releases/9.6/cdt-9.6.0/cdt-9.6.0.zip"         
+ c_dev cdt  "http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/tools/cdt/releases/9.6/cdt-9.6.0/cdt-9.6.0.zip"         
+ pe_dev peid  http://yesky2.xzstatic.com/2018/10/12/PEiD_0.95.zip         

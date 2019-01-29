@@ -136,6 +136,7 @@ rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey mail="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
 @doskey 邮件="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
+@doskey qqmail=start https://mail.qq.com
 @doskey tc=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey 文件管理器=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
 @doskey winhex=%WIN_SHELL_APPS%\common\winhex\WinHex.exe
