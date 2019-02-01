@@ -266,3 +266,7 @@
  c_dev cdt  "http://www.eclipse.org/downloads/download.php?file=/tools/cdt/releases/9.6/cdt-9.6.0/cdt-9.6.0.zip"         
  c_dev cdt  "http://ftp.yz.yamagata-u.ac.jp/pub/eclipse/tools/cdt/releases/9.6/cdt-9.6.0/cdt-9.6.0.zip"         
  pe_dev peid  http://yesky2.xzstatic.com/2018/10/12/PEiD_0.95.zip         
+ java_dev scala  https://downloads.lightbend.com/scala/2.12.8/scala-2.12.8.msi         
+ middleware_dev artemis  http://apache.communilink.nethttp://apache.communilink.net/activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-bin.zip         
+ middleware_dev artemis  http://apache.communilink.net/activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-bin.zip         
+ douya http://itdownload.cnsuning.com/SNsoft/SuningIM_PC_prd_5.6.1.0.exe  -e  SuningIM.exe       

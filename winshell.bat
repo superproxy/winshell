@@ -272,12 +272,12 @@ rem @doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
 @doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand\bin\goland64.exe" $*
 rem ======python_dev=================
 rem @doskey python="%WIN_SHELL_APPS%\python3\python.exe" $*
-@doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*
-@doskey pip3="%WIN_SHELL_APPS%\python3\Scripts\pip.exe" $*
-@doskey python2="%WIN_SHELL_APPS%\python2\python.exe" $*
-@doskey pip2="%WIN_SHELL_APPS%\python2\Scripts\pip.exe" $*
-@doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
-@doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
+rem @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*
+rem @doskey pip3="%WIN_SHELL_APPS%\python3\Scripts\pip.exe" $*
+rem @doskey python2="%WIN_SHELL_APPS%\python2\python.exe" $*
+rem @doskey pip2="%WIN_SHELL_APPS%\python2\Scripts\pip.exe" $*
+rem @doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
+rem @doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_APPS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_APPS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
