@@ -270,3 +270,9 @@
  middleware_dev artemis  http://apache.communilink.nethttp://apache.communilink.net/activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-bin.zip         
  middleware_dev artemis  http://apache.communilink.net/activemq/activemq-artemis/2.6.4/apache-artemis-2.6.4-bin.zip         
  douya http://itdownload.cnsuning.com/SNsoft/SuningIM_PC_prd_5.6.1.0.exe  -e  SuningIM.exe       
+ ideakey            
+ middleware_dev spark  http://apache.01link.hk/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz         
+ python_dev active_python  https://downloads.activestate.com/ActivePython/releases/3.6.0.3600/ActivePython-3.6.0.3600-win64-x64-401834.exe         
+ c_dev lua  https://github.com/rjpcomputing/luaforwindows/releases/download/v5.1.5-52/LuaForWindows_v5.1.5-52.exe         
+ middlerware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
+ perl_dev activeperl  https://downloads.activestate.com/ActivePerl/releases/5.26.3.2603/ActivePerl-5.26.3.2603-MSWin32-x64-a95bce075.exe         

@@ -5,7 +5,7 @@
         // execSync(cmd);
         const execSync = require('child_process').execSync;
         var fs = require('fs');
-        if (fs.exists(out)) {
+        if (fs.existsSync(out)) {
             fs.mkdirSync(out);
         }
         var utils = require("./utils");
