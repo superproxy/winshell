@@ -276,3 +276,8 @@
  c_dev lua  https://github.com/rjpcomputing/luaforwindows/releases/download/v5.1.5-52/LuaForWindows_v5.1.5-52.exe         
  middlerware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
  perl_dev activeperl  https://downloads.activestate.com/ActivePerl/releases/5.26.3.2603/ActivePerl-5.26.3.2603-MSWin32-x64-a95bce075.exe         
+ data_dev spark  http://apache.01link.hk/spark/spark-2.4.0/spark-2.4.0-bin-hadoop2.7.tgz         
+ middleware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
+ middleware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
+ middleware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
+ data_dev hadoop  http://apache.website-solution.net/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz         
