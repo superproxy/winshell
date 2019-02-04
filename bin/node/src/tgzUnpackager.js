@@ -9,13 +9,14 @@
             fs.mkdirSync(out);
         }
         var utils = require("./utils");
-        var fileName=utils.lastStr(src,"\\");  // flink-1.7.1-bin-scala_2.11.tar   flink-1.7.1-bin-scala_2.11.tgz
-        fileName =fileName.replace("tgz", "tar");
 
         var cmd =`7za x ${src} -y -r -o${out}`;
         console.log("unackager cmd:%s", cmd);
         execSync(cmd);
 
+        var fileName=utils.lastStr(src,"\\");  // flink-1.7.1-bin-scala_2.11.tar   flink-1.7.1-bin-scala_2.11.tgz
+        fileName =fileName.replace("tgz", "tar"); //.tgz
+        fileName =fileName.replace(".gz", "");//.gz
         var cmd =`7za x ${out}/${fileName} -y -r -o${out}`
         console.log("unackager cmd:%s", cmd);
         execSync(cmd);
