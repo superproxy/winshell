@@ -281,3 +281,9 @@
  middleware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
  middleware_dev kafka  http://mirror-hk.koddos.net/apache/kafka/2.1.0/kafka_2.12-2.1.0.tgz         
  data_dev hadoop  http://apache.website-solution.net/hadoop/common/hadoop-3.2.0/hadoop-3.2.0.tar.gz         
+ aiqiyi http://dl.static.iqiyi.com/hz/IQIYIsetup_z22.exe           
+ android_dev dbpc  http://cnhezi.b0.upaiyun.com/down/dbpc.zip         
+ android_dev dbpc  http://cnhezi.b0.upaiyun.com/down/dbpc.zip  -e dbpc_18042701.exe      
+ android_dev tvbox  http://dbzs.znds.com/TvBox.exe         
+ android_dev shafapc  http://www.shafa.com/pc_spirit.zip         
+ android_dev shafapc  http://www.shafa.com/pc_spirit.zip  -e "沙发电视精灵v2.2.1.exe"      
