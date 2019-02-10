@@ -287,3 +287,29 @@
  android_dev tvbox  http://dbzs.znds.com/TvBox.exe         
  android_dev shafapc  http://www.shafa.com/pc_spirit.zip         
  android_dev shafapc  http://www.shafa.com/pc_spirit.zip  -e "沙发电视精灵v2.2.1.exe"      
+ weiyun https://dldir1.qq.com/weiyun/WeiyunInstall_Beta_1_3.8.0.2245_20190115_101529_r30876.exe           
+ ultraiso http://dx.198424.com/soft3/ultraiso.zip           
+ clonecd http://dx.198424.com/soft3/clonecdportable.rar           
+ clonecd http://dx.198424.com/soft3/clonecdportable.rar  -e  "CloneCDPortable.exe"       
+ clonecd http://js.downxia.com/down/CloneCDpojie.rar           
+ clonecd http://down1.downxia.com/down/CloneCDpojie.rar           
+ clonecd http://js.downxia.com/down/CloneCDpojie.rar           
+ clonecd http://yesky.51down.org.cn/2018/11/26/CloneCD_v5.3.1.4.rar           
+ asm_dev masm  http://website.assemblercode.com/masm32/masm32v11r.zip         
+ c_dev vc  http://pcr1.pc6.com/rm/VC6.0.rar         
+ c_dev tc  http://ddd2.pc6.com/xy1/TurboC3cn.rar         
+ c_dev tc  http://ddd2.pc6.com/xy1/TurboC3cn.rar  -e "TCPP30H.EXE"      
+ c_dev devc  http://js.downcc.com/down2/devcpp_downcc.zip         
+ pe_dev exescope  https://sm.myapp.com/original/Development/HA-eXeScope650-moming.exe         
+ c_dev keil  http://dx.198424.com/soft1/keilc51v9.00.zip         
+ acdsee http://zj.ddooo.com:8081/uuauth/acdsee5_10759.rar?ba5ae495fdea84dc3fc1100d2c8d0575.rar           
+ acdsee http://zj.ddooo.com:8081/uuauth/acdsee5_10759.rar?ba5ae495fdea84dc3fc1100d2c8d0575.rar  -d  "acdsee51.rar"       
+ acdsee http://zj.ddooo.com:8081/uuauth/acdsee5_10759.rar?ba5ae495fdea84dc3fc1100d2c8d0575.rar  -d  "acdsee51.rar" -e "ACDSee5.0.1简体中文精简优化版.exe"     
+ baidupan http://issuecdn.baidupcs.com/issue/netdisk/yunguanjia/BaiduNetdisk_6.7.0.8.exe           
+ crack_dev zipperello  http://cdn1.mydown.yesky.com/5c5ef269/8c157919e11f2fbda6af8691e4bb5fcf/soft/201601/ha_ziperello_cz_2.1.zip         
+ crack_dev ziperello  http://cdn1.mydown.yesky.com/5c5ef269/8c157919e11f2fbda6af8691e4bb5fcf/soft/201601/ha_ziperello_cz_2.1.zip         
+ crack_dev ziperello  http://download.skycn.com/hao123-soft-online-bcs/soft/L/2014-11-14_Ziperello.zip         
+ android_dev yeshen  https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename  nox_setup_v6.2.6.3_full.exe       
+ android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -e "yeshengv6.exe"      
+ android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshengv6.exe"      
+ android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshenv6.exe"      
