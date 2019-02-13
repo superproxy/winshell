@@ -307,6 +307,7 @@ rem ========java_dev==================
 rem @doskey idea=%java_dev_home%\idea\bin\idea64.exe
 @doskey idea="%WIN_SHELL_APPS%\java_dev\idea\bin\idea64.exe" $*
 @doskey ideakey="%WIN_SHELL_APPS%\java_dev\JBLocalServer\ideakey.exe" 
+@doskey ideap="%java_dev_home%\idea\bin\idea64.exe" e:\projects\$1
 
 @doskey jprofiler=%WIN_SHELL_APPS%\java_dev\jprofiler\bin\jprofiler.exe
 @doskey visualvm=%WIN_SHELL_APPS%\java_dev\visualvm\bin\visualvm.exe
