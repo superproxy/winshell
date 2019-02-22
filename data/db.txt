@@ -313,3 +313,7 @@
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -e "yeshengv6.exe"      
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshengv6.exe"      
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshenv6.exe"      
+ arch_dev vp  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
+ arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
+ arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
+ web_dev jmeter  http://apache.01link.hk//jmeter/binaries/apache-jmeter-5.1.zip         

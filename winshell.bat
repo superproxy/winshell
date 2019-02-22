@@ -250,7 +250,7 @@ rem =========os monitor===============
 rem =========design_dev===============
 @doskey model=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
-@doskey uml="D:\Program Files\Visual Paradigm for UML 10.0\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey uml=%WIN_SHELL_APPS%\arch_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
 @doskey arch="archi mate3"
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
 @doskey ps=""
