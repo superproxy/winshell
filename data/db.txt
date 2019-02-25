@@ -317,3 +317,10 @@
  arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
  arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
  web_dev jmeter  http://apache.01link.hk//jmeter/binaries/apache-jmeter-5.1.zip         
+ qqplayer http://dldir1.qq.com/qqyy/pc/QQPlayerSetup4.0.3.470.exe           
+ cracker_dev nessus  https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi?X-Amz-Expires  5       
+ cracker_dev nessus  "https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi?X-Amz-Expires=5&X-Amz-Date=20190225T013121Z&X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAJQP2BPXRF62MIXVA/20190225/us-east-1/s3/aws4_request&X-Amz-SignedHeaders=host&X-Amz-Signature=1425fed0e60e51678c4630e3ff05344c0b86ca2ffe26dbe82304af0cad62410a"         
+ cracker_dev nessus  "https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi"         
+ safe_dev nessus  "https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi"         
+ safe_dev nmap  https://nmap.org/dist/nmap-7.70-setup.exe         
+ design_dev ea  https://www.sparxsystems.com/bin/easetup.msi         
