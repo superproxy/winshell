@@ -317,3 +317,7 @@
  arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
  arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
  web_dev jmeter  http://apache.01link.hk//jmeter/binaries/apache-jmeter-5.1.zip         
+ android_dev android_studio  https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-windows.zip         
+ android_dev android-sdk  https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip         
+ java_dev jdk11  https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam  1551444853_56a33ae1984e13f5e02bcc6d665bda43       
+ java_dev jdk11  "https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam=1551444853_56a33ae1984e13f5e02bcc6d665bda43"  -d "jdk-11.zip"      
