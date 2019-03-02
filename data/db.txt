@@ -328,3 +328,7 @@
  safe_dev burpsuite           
  safe_dev burpsuite  "https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=windowsx64"  -d "burpsuite_community_windows-x64_v1_7_36.exe"      
  android_dev appium  https://github.com/appium/appium-desktop/releases/download/v1.10.0/appium-desktop-setup-1.10.0.exe         
+ android_dev android_studio  https://dl.google.com/dl/android/studio/ide-zips/3.2.0.26/android-studio-ide-181.5014246-windows.zip         
+ android_dev android-sdk  https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip         
+ java_dev jdk11  https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam  1551444853_56a33ae1984e13f5e02bcc6d665bda43       
+ java_dev jdk11  "https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam=1551444853_56a33ae1984e13f5e02bcc6d665bda43"  -d "jdk-11.zip"      
