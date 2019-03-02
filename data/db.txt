@@ -324,3 +324,7 @@
  safe_dev nessus  "https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi"         
  safe_dev nmap  https://nmap.org/dist/nmap-7.70-setup.exe         
  design_dev ea  https://www.sparxsystems.com/bin/easetup.msi         
+ safe_dev msf  https://windows.metasploit.com/metasploitframework-latest.msi         
+ safe_dev burpsuite           
+ safe_dev burpsuite  "https://portswigger.net/burp/releases/download?product=community&version=1.7.36&type=windowsx64"  -d "burpsuite_community_windows-x64_v1_7_36.exe"      
+ android_dev appium  https://github.com/appium/appium-desktop/releases/download/v1.10.0/appium-desktop-setup-1.10.0.exe         
