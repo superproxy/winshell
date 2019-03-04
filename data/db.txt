@@ -332,3 +332,20 @@
  android_dev android-sdk  https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip         
  java_dev jdk11  https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam  1551444853_56a33ae1984e13f5e02bcc6d665bda43       
  java_dev jdk11  "https://download.oracle.com/otn-pub/java/jdk/11.0.2+9/f51449fcd52f4d52b93a989c5c56ed3c/jdk-11.0.2_windows-x64_bin.zip?AuthParam=1551444853_56a33ae1984e13f5e02bcc6d665bda43"  -d "jdk-11.zip"      
+ test_dev geckodriver  https://github.com/mozilla/geckodriver/releases/download/v0.24.0/geckodriver-v0.24.0-win64.zip         
+ test_dev selenium-ide  https://addons.mozilla.org/firefox/downloads/file/1688431/selenium_ide-3.5.8-fx.xpi         
+ firefox http://download.firefox.com.cn/releases/full/zh-CN/Firefox-full-latest.exe           
+ test_dev phantomjs  https://bitbucket.org/ariya/phantomjs/downloads/phantomjs-2.1.1-windows.zip         
+ test_dev selenium  https://selenium-release.storage.googleapis.com/3.141/selenium-server-standalone-3.141.59.jar         
+ firefox https://download-ssl.firefox.com.cn/releases-sha2/full/65.0/zh-CN/Firefox-full-latest.exe           
+ firefox https://download-ssl.firefox.com.cn/releases-sha2/full/60.5esr/zh-CN/Firefox-ESR-full-latest.exe           
+ winscp https://winscp.net/download/WinSCP-5.13.8-Setup.exe           
+ winscp https://sm.myapp.com/original/net_app/WinSCP-5.9.6-Setup.exe           
+ vncviewer http://down-www.newasp.net/pcdown/soft/liu/vnc_viewer.zip           
+ win32diskimager http://sqdownb.onlinedown.net/down/Win32DiskImager-0.9.5-binary.zip           
+ hfs http://wt.onlinedown.net/down2/hfs_490056.zip           
+ hfs http://wt.onlinedown.net/down2/hfs_490056.zip           
+ hfs http://wt.onlinedown.net/down2/hfs_490056.zip           
+ hfs http://sqdownd.onlinedown.net/down/hfs_490056.zip           
+ hfs http://sqdownd.onlinedown.net/down/hfs_490056.zip  -e  "hfs_490056.exe"       
+ sdformatter http://js.downcc.com/down2/sdformatterv4.0_downcc.com.zip           
