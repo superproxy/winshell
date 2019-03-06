@@ -6,3 +6,4 @@
 /apps
 /bin/node/src/node_modules/.bin
 /bin/node/src/node_modules
+/app
