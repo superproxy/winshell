@@ -349,3 +349,10 @@
  hfs http://sqdownd.onlinedown.net/down/hfs_490056.zip           
  hfs http://sqdownd.onlinedown.net/down/hfs_490056.zip  -e  "hfs_490056.exe"       
  sdformatter http://js.downcc.com/down2/sdformatterv4.0_downcc.com.zip           
+ xmind http://downza.91speed.com.cn/2018/06/22/xmind-pro-8-windows-v3.7.7.0.exe           
+ foxmail https://dldir1.qq.com/foxmail/windows/FoxmailSetup_7.2.9.156.exe           
+ cpuz https://xiazai.xiazaiba.com/Soft/C/CPU-Z_1.8.7.0_XiaZaiBa.zip           
+ cpuz https://xiazai.xiazaiba.com/Soft/C/CPU-Z_1.8.7.0_XiaZaiBa.zip  -e  "cpuz_x32.exe"       
+ xmind http://down2.xp85.com/XMind8.xp85.com.zip           
+ wxwork https://dldir1.qq.com/foxmail/work_weixin/WXWork_2.7.0.1558.exe           
+ shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.1/Shadowsocks-4.1.1.zip           
