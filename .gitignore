@@ -1,7 +1,4 @@
-/bins/Douya
 /pkg
-/bins
-/proxy2.bat
 /node_modules
 /apps
 /bin/node/src/node_modules/.bin
