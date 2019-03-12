@@ -29,3 +29,11 @@ wmic ENVIRONMENT where "name='Path' and username='<system>'" set VariableValue="
 
 
 
+
+reg add "HKCU\Environment" /f /t REG_SZ /v JAVA_HOME /d "%java_dev_home%\jdk"
+reg add "HKCU\Environment" /f /t REG_SZ /v MVN_HOME /d "%java_dev_home%\maven"
+reg add "HKCU\Environment" /f /t REG_SZ /v VISUALVM_HOME /d "%java_dev_home%\visualvm"
+
+reg add "HKCU\Environment" /f /t REG_EXPAND_SZ /v PATH /d "%PATH%;%JAVA_HOME%\bin;%MVN_HOME%\bin;%VISUALVM_HOME%\bin"
+
+

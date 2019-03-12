@@ -356,3 +356,25 @@
  xmind http://down2.xp85.com/XMind8.xp85.com.zip           
  wxwork https://dldir1.qq.com/foxmail/work_weixin/WXWork_2.7.0.1558.exe           
  shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.1/Shadowsocks-4.1.1.zip           
+ diskgenius http://download.eassos.cn/DG496564_x86.zip           
+ java_dev idea  https://download.jetbrains.8686c.com/idea/ideaIU-2018.3.5.exe         
+ java_dev jdk8  http://yesky.51down.org.cn/soft/201603/jdk-8u73-windows-i586.exe         
+ switchhosts https://github.com/oldj/SwitchHosts/releases/download/v3.3.12/SwitchHosts-win32-x64_v3.3.12.5349.zip           
+ wxwork https://dldir1.qq.com/foxmail/work_weixin/WXWork_2.7.0.1558.exe           
+ design_dev yed  yed.exe         
+ design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip         
+ design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip  -e "yed.jar"      
+ java_dev maven  http://mirrors.shu.edu.cn/apache/maven/maven-3/3.6.0/binaries/apache-maven-3.6.0-bin.zip         
+ java_dev jdk  http://yesky.51down.org.cn/soft/201603/jdk-8u73-windows-i586.exe         
+ pinyin https://dlc2.pconline.com.cn/filedown_90891_12646103/7AZtVetY/QQPinyin_Setup.exe           
+ qqpinyin https://dlc2.pconline.com.cn/filedown_90891_12646103/7AZtVetY/QQPinyin_Setup.exe           
+ vmm https://github.com/superproxy/vmm/archive/v0.1.0.zip  -d  "vmm0.1.0.zip"       
+ vagrant https://releases.hashicorp.com/vagrant/2.2.4/vagrant_2.2.4_x86_64.msi           
+ docker https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe           
+ pickpick https://www.picpick.org/releases/latest/picpick_portable.zip           
+ pickpick http://xz.cncrk.com:8080/soft/keygen/picpick.zip           
+ pickpick https://www.picpick.org/releases/latest/picpick_portable.zip           
+ picpick https://www.picpick.org/releases/latest/picpick_portable.zip           
+ scrt http://soft.softxz.net/201804/SecureCRT_V7.0.0_XiTongZhiJia.zip           
+ design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip  -e "yEd.jar"      
+ design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip  -e "yed.jar"      

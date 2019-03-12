@@ -87,8 +87,8 @@ rem =================back home cd ~=============
 @doskey killsmc=start %WIN_SHELL_APPS%\smc\stopall.bat
 @doskey cpuz=%WIN_SHELL_APPS%/cpuz/cpuz_x64.exe
 @doskey 资源监控=start resmon
-@doskey 分区=%WIN_SHELL_APPS%\diskgenius\DiskGenius\DiskGenius.exe
-@doskey dg=%WIN_SHELL_APPS%\diskgenius\DiskGenius\DiskGenius.exe
+@doskey 分区=%WIN_SHELL_APPS%\diskgenius\DiskGenius.exe
+@doskey dg=%WIN_SHELL_APPS%\diskgenius\DiskGenius.exe
 @doskey hardware="%WIN_SHELL_APPS%\hardware\AIDA64 Extreme\aida64.exe"
 @doskey 硬件="%WIN_SHELL_APPS%\hardware\AIDA64 Extreme\aida64.exe"
 
@@ -115,7 +115,6 @@ rem ============common utils=========================
 @doskey save=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey 休眠=rundll32.exe powrprof.dll,SetSuspendState Sleep
 @doskey pp="%WIN_SHELL_APPS%\picpick\picpick.exe"
-@doskey pickpick="%WIN_SHELL_APPS%\picpick\picpick.exe"
 @doskey 截图="%WIN_SHELL_APPS%\picpick\picpick.exe"
 @doskey ie="%ProgramFiles%\Internet Explorer\iexplore.exe" $*
 @doskey b=%WIN_SHELL_APPS%\Maxthon5\Bin\Maxthon.exe
@@ -134,14 +133,14 @@ rem @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_APPS%\shadowsocks\Shadowsocks.exe
 rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
-@doskey mail="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
-@doskey 邮件="%WIN_SHELL_APPS%\Foxmail 7.2\Foxmail.exe"
+@doskey mail="%WIN_SHELL_APPS%\Foxmail\Foxmail.exe"
+@doskey 邮件="%WIN_SHELL_APPS%\Foxmail\Foxmail.exe"
 @doskey qqmail=start https://mail.qq.com
-@doskey tc=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
-@doskey 文件管理器=%WIN_SHELL_APPS%\common\TotalCmd\TOTALCMD.EXE $*
-@doskey winhex=%WIN_SHELL_APPS%\common\winhex\WinHex.exe
-@doskey mind=%WIN_SHELL_APPS%\common\XMind\XMind.exe
-@doskey xmind=%WIN_SHELL_APPS%\common\XMind\XMind.exe
+@doskey tc=%WIN_SHELL_APPS%\TotalCmd\TOTALCMD.EXE $*
+@doskey 文件管理器=%WIN_SHELL_APPS%\TotalCmd\TOTALCMD.EXE $*
+@doskey winhex=%WIN_SHELL_APPS%\winhex\WinHex.exe
+@doskey mind=%WIN_SHELL_APPS%\XMind\XMind.exe
+@doskey xmind=%WIN_SHELL_APPS%\XMind\XMind.exe
 
 @doskey rec=%WIN_SHELL_APPS%\common\sdemo\S-Recorder.exe
 @doskey gif=%WIN_SHELL_APPS%\gif\GifCam.exe
@@ -151,8 +150,6 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
 rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
 @doskey wx=start https://wx.qq.com
-@doskey douya=%WIN_SHELL_APPS%\Douya\SuningIM.exe
-@doskey 豆芽=%WIN_SHELL_APPS%\Douya\SuningIM.exe
 @doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
 @doskey zhihu=start https://www.baidu.com/s?wd=$1++$2site:zhihu.com
 @doskey google=start https://www.google.com/search?q=$1++$2++$3++$4++$5++$6++$7
@@ -167,7 +164,7 @@ rem @doskey 图片=start http://image.baidu.com/search/index\?tn=baiduimage\&fm=re
 rem === 娱乐==========
 @doskey 眼睛=%WIN_SHELL_APPS%\EyeFoo\eyefoo.exe
 @doskey eye=%WIN_SHELL_APPS%\EyeFoo\eyefoo.exe
-@doskey kugou=%WIN_SHELL_APPS%\common\KGMusic\KuGou.exe $*
+@doskey kugou=%WIN_SHELL_APPS%\Kugou\KuGou.exe $*
 @doskey 音乐=start https://y.qq.com/portal/player.html
 @doskey music=start https://y.qq.com/portal/player.html
 @doskey v=start https://v.qq.com
@@ -248,7 +245,9 @@ rem =========os monitor===============
 @doskey processmonitor=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 @doskey 文件引用=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 rem =========design_dev===============
-@doskey model=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
+@doskey model=cd %WIN_SHELL_APPS%\design_dev\yEd$T java -jar yed.jar
+@doskey yed=cd %WIN_SHELL_APPS%\design_dev\yEd$T java -jar yed.jar
+rem @doskey yed=%WIN_SHELL_APPS%\design_dev\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 @doskey uml=%WIN_SHELL_APPS%\arch_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
 @doskey arch="archi mate3"
