@@ -378,3 +378,6 @@
  scrt http://soft.softxz.net/201804/SecureCRT_V7.0.0_XiTongZhiJia.zip           
  design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip  -e "yEd.jar"      
  design_dev yed  https://www.yworks.com/resources/yed/demo/yEd-3.18.2.zip  -e "yed.jar"      
+ wechat https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe           
+ npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe           
+ npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe  -e  "notepad++.exe"       
