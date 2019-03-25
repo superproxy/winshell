@@ -71,6 +71,7 @@ rem =================back home cd ~=============
 @doskey 磁盘管理=diskmgmt.msc
 @doskey 性能=perfmon.msc
 @doskey 虚拟化=virtmgmt.msc
+@doskey 虚拟机=virtmgmt.msc
 @doskey hyper-v=virtmgmt.msc
 @doskey 共享文件夹=fsmgmt.msc
 @doskey 用户管理=lusrmgr.msc

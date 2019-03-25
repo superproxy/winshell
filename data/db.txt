@@ -381,3 +381,40 @@
  wechat https://dldir1.qq.com/weixin/Windows/WeChatSetup.exe           
  npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe           
  npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe  -e  "notepad++.exe"       
+ tgit https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi           
+ arch_dev visualparadigm  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe         
+ design_dev ea9  D:\winshell\pkg\arch_dev\EA\EACN_v9.3.932.66.exe         
+ qq https://dldir1.qq.com/qqfile/qq/QQ9.1.0/24712/QQ9.1.0.24712.exe           
+ arch_dev visualparadigm  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
+ displayx http://download.skycn.com/hao123-soft-online-bcs/soft/D/DisplayX_1.2.1.zip           
+ aida64 http://xzf.jc9559.com/aida64extreme.zip           
+ hardware http://xzf.jc9559.com/aida64extreme.zip           
+ hardware http://xzf.jc9559.com/aida64extreme.zip  -e  "aida64.exe"       
+ test_dev badboy  http://www.badboysoftware.biz/versions/BadboyInstaller-2.2.5.exe         
+ wireshark https://1.as.dl.wireshark.org/win64/Wireshark-win64-3.0.0.exe           
+ winhex http://xz.cncrk.com:8080/soft/keygen/winhex.PJ.zip           
+ winhex http://xz.cncrk.com:8080/soft/keygen/winhex.PJ.zip           
+ winhex http://pcdown.ttrar.com/small/winhexcn_ttrar.zip           
+ winhex http://xz.cncrk.com:8080/soft/keygen/winhex.zip           
+ winhex http://forspeed.onlinedown.net/down/winhex1510.zip           
+ winhex http://forspeed.onlinedown.net/down/winhex1510.zip           
+ winhex http://down10d.zol.com.cn/zoldownload_os/winhex198@81_31336.exe           
+ winhex http://8dx.pc6.com/wwb6/winhex198.zip           
+ winhex https://dl.softmgr.qq.com/original/Office/winhex-19.8.zip           
+ office2016 http://soft1.xt138.com/201809/06/MicrosoftOffice2016.zip           
+ kms http://yd.ouyaoxiazai.com:89/xiazaidian/MicroKMS神龙版win10激活工具.rar           
+ kms http://yd.ouyaoxiazai.com:89/xiazaidian/MicroKMS神龙版win10激活工具.rar  -e  "microkms_v17.09.15.exe"       
+ kmp http://xz.cncrk.com:8080/soft/keygen/KMSPico.rar           
+ uipath http://dx.nongpin123.com:806/1408/UiPathStudio.bkill.com.rar           
+ uipath http://downza1.51speed.top/2018/09/07/UiPathStudio.rar?ssig  306b4e5841d66d3929b0b144c136fb906eced947         
+ uipath "http://downza1.51speed.top/2018/09/07/UiPathStudio.rar?ssig=306b4e5841d66d3929b0b144c136fb906eced947&time_stamp=1553247004&fn=4fd70119935dbac2ebc5507b21e55b87"  -d  "UiPathStudio.rar"       
+ eye http://eyefoo.b0.upaiyun.com/eyefoo_3.0.18.exe  -e  "eyefoo.exe"       
+ unas http://www.u-nas.cn/download/U-NAS_3.1.0_X86-64_ZH_DVD_Build_1901081.iso           
+ nas synology-assistant  https://cndl.synology.cn/download/Tools/Assistant/6.2-23733/Windows/synology-assistant-6.2-23733.exe?model  DS918%2B       
+ nas synology-assistant  "https://cndl.synology.cn/download/Tools/Assistant/6.2-23733/Windows/synology-assistant-6.2-23733.exe?model=DS918%2B&bays=4&dsm_version=6.2.1&build_number=23824"         
+ osfmount http://yesky.51down.org.cn/2018/03/23/OSFMount_v2.0.1001.rar           
+ osfmount http://yesky.51down.org.cn/2018/03/23/OSFMount_v2.0.1001.rar  -e  "osfmount_x64.exe"       
+ nas chipgenius  http://downza.91speed.com.cn/2018/03/xpwy.zip         
+ c_dev turboc  http://ddd2.pc6.com/xy1/TurboC3cn.rar         
+ tcmd https://totalcommander.ch/win/tcmd922x32_64.exe           
+ totalcmd https://totalcommander.ch/win/tcmd922x32_64.exe           
