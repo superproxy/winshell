@@ -415,3 +415,8 @@
  powerdesigner "D:\winshell\pkg\design_dev\Sybase powerdesigner 16\PowerDesigner160_Evaluation.exe"           
  design_dev visualparadigm  D:\winshell\pkg\design_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
  design_dev vp  D:\winshell\pkg\design_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
+ docker_dev kitematic  https://download.docker.com/kitematic/Kitematic-Windows.zip         
+ docker_dev docker  https://download.docker.com/win/stable/Docker%20for%20Windows%20Installer.exe  -d "DockerDesktop.exe"      
+ nas unas  http://www.u-nas.cn/download/U-NAS_3.1.0_X86-64_ZH_DVD_Build_1901081.isohttp://www.u-nas.cn/download/U-NAS_3.1.0_X86-64_ZH_DVD_Build_1901081.iso         
+ nas chip  http://downza.91speed.com.cn/2018/03/xpwy.zip?ssig  e454e9636cd22128999b74fcf72386aab32665c5       
+ nas chip  "http://downza.91speed.com.cn/2018/03/xpwy.zip?ssig=e454e9636cd22128999b74fcf72386aab32665c5&time_stamp=1553354905&fn=b127320e432c69c57e0a03d7441097be"  -d "xpwy.zip"      
