@@ -26,7 +26,7 @@ function installSync(packageInfo) {
             else {
                 console.log("install action file %s", src);
                 const execSync = require('child_process').execSync;
-                execSync("start " + src);
+                execSync(`"${src}"`);
             }
         });
     }

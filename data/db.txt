@@ -243,8 +243,6 @@
  desk http://dl_dir2.qq.com/invc/xfspeed/qdesk/versetup/QDeskSetup_24_1246.exe  -e  qqdesk.exe       
  python_dev pycharm  https://download.jetbrains.8686c.com/python/pycharm-professional-2018.3.3.exe  -e pycharm64.exe      
  haozip http://dl.2345.cc/haozip/haozip_v5.9.7.exe           
- vp "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"           
- vp "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e  "Visual Paradigm for UML 10.0.exe"       
  pdf http://file.foxitreader.cn/file/Channel/reader/foxit_FoxitReader_CHS_9.2.1.37538.exe           
  pothoshop http://softdown1.hao123.com/hao123-soft-online-bcs/soft/L/2014-08-27_jfskycomPSCS4exchsg.rar           
  photoshop http://softdown1.hao123.com/hao123-soft-online-bcs/soft/L/2014-08-27_jfskycomPSCS4exchsg.rar           
@@ -313,9 +311,6 @@
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -e "yeshengv6.exe"      
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshengv6.exe"      
  android_dev yeshen  "https://res06.bignox.com/full/20190118/954f75dba72544d4a38d1f6619626dba.exe?filename=nox_setup_v6.2.6.3_full.exe"  -d "yeshenv6.exe"      
- arch_dev vp  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
- arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
- arch_dev vp  "D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe"  -e "Visual Paradigm for UML 10.0.exe"      
  web_dev jmeter  http://apache.01link.hk//jmeter/binaries/apache-jmeter-5.1.zip         
  qqplayer http://dldir1.qq.com/qqyy/pc/QQPlayerSetup4.0.3.470.exe           
  cracker_dev nessus  https://tenable-downloads-production.s3.amazonaws.com/uploads/download/file/8835/Nessus-8.2.3-x64.msi?X-Amz-Expires  5       
@@ -382,10 +377,8 @@
  npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe           
  npp https://notepad-plus-plus.org/repository/7.x/7.6.2/npp.7.6.2.Installer.x64.exe  -e  "notepad++.exe"       
  tgit https://download.tortoisegit.org/tgit/2.8.0.0/TortoiseGit-2.8.0.0-64bit.msi           
- arch_dev visualparadigm  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe         
- design_dev ea9  D:\winshell\pkg\arch_dev\EA\EACN_v9.3.932.66.exe         
  qq https://dldir1.qq.com/qqfile/qq/QQ9.1.0/24712/QQ9.1.0.24712.exe           
- arch_dev visualparadigm  D:\winshell\pkg\arch_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
+ design_dev visualparadigm  D:\winshell\pkg\design_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
  displayx http://download.skycn.com/hao123-soft-online-bcs/soft/D/DisplayX_1.2.1.zip           
  aida64 http://xzf.jc9559.com/aida64extreme.zip           
  hardware http://xzf.jc9559.com/aida64extreme.zip           
@@ -418,3 +411,7 @@
  c_dev turboc  http://ddd2.pc6.com/xy1/TurboC3cn.rar         
  tcmd https://totalcommander.ch/win/tcmd922x32_64.exe           
  totalcmd https://totalcommander.ch/win/tcmd922x32_64.exe           
+ powerdesigner "D:\winshell\pkg\design_dev\Sybase powerdesigner 16\PowerDesigner160_Evaluation.exe"           
+ powerdesigner "D:\winshell\pkg\design_dev\Sybase powerdesigner 16\PowerDesigner160_Evaluation.exe"           
+ design_dev visualparadigm  D:\winshell\pkg\design_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      
+ design_dev vp  D:\winshell\pkg\design_dev\Visual.Paradigm.for.UML.10.0.sp1\Visual_Paradigm_for_UML_Windows_10_0_sp1_20131006.exe  -e "Visual Paradigm for UML 10.0.exe"      

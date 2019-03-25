@@ -250,7 +250,7 @@ rem =========common_dev==================
 @doskey bc=%WIN_SHELL_APPS%\common_dev\bc\BCompare.exe $*
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
 @doskey vim=%WIN_SHELL_APPS%\vim\vim80\vim.exe $*
-@doskey vscode="%WIN_SHELL_APPS%\vscode\Code.exe" $*
+@doskey vscode=%WIN_SHELL_APPS%\vscode\Code.exe $*
 rem =========os monitor===============
 @doskey procmon=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 @doskey processmonitor=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
@@ -260,7 +260,9 @@ rem =========design_dev===============
 @doskey yed=cd %WIN_SHELL_APPS%\design_dev\yEd$T java -jar yed.jar
 rem @doskey yed=%WIN_SHELL_APPS%\design_dev\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
-@doskey uml=%WIN_SHELL_APPS%\arch_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey ea=%WIN_SHELL_APPS%\design_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey vp=%WIN_SHELL_APPS%\design_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
+@doskey uml=%WIN_SHELL_APPS%\design_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
 @doskey arch="archi mate3"
 @doskey ui="D:\Program Files (x86)\Axure\Axure RP 8\AxureRP8.exe" $*
 @doskey ps=""
