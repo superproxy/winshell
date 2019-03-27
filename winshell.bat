@@ -140,15 +140,15 @@ rem ============common utils=========================
 rem @doskey chrome="C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
 @doskey firefox=%WIN_SHELL_APPS%\firefox\firefox.exe
 @doskey ff=%WIN_SHELL_APPS%\firefox\firefox.exe 
-rem @doskey firefox="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
-rem @doskey ff="C:\Program Files (x86)\Mozilla Firefox\firefox.exe"
 @doskey ss=%WIN_SHELL_APPS%\shadowsocks\Shadowsocks.exe
-rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 @doskey mail="%WIN_SHELL_APPS%\Foxmail\Foxmail.exe"
 @doskey 邮件="%WIN_SHELL_APPS%\Foxmail\Foxmail.exe"
 @doskey qqmail=start https://mail.qq.com
 @doskey tc=%WIN_SHELL_APPS%\TotalCmd\TOTALCMD.EXE $*
+@doskey tcmd=%WIN_SHELL_APPS%\TotalCmd\TOTALCMD.EXE $*
 @doskey 文件管理器=%WIN_SHELL_APPS%\TotalCmd\TOTALCMD.EXE $*
+@doskey everything=%WIN_SHELL_APPS%\everything\everything.exe $*
+@doskey search=%WIN_SHELL_APPS%\everything\everything.exe $*
 @doskey winhex=%WIN_SHELL_APPS%\winhex\WinHex.exe
 @doskey mind=%WIN_SHELL_APPS%\XMind\XMind.exe
 @doskey xmind=%WIN_SHELL_APPS%\XMind\XMind.exe
@@ -159,9 +159,11 @@ rem @doskey mail="D:\Program Files\Foxmail 7.2\Foxmail.exe"
 
 @doskey ramdisk=%WIN_SHELL_APPS%\common\ramdisk\FancyRd.exe
 @doskey qq="D:\Program Files (x86)\Tencent\QQ\Bin\QQScLauncher.exe"
-rem @doskey wx="D:\Program Files (x86)\Tencent\WeChat\WeChat.exe"
-@doskey wx=start https://wx.qq.com
-@doskey wxdev="D:\Program Files (x86)\Tencent\微信web开发者工具\微信web开发者工具.exe"
+@doskey ramdisk=\common\ramdisk\FancyRd.exe
+@doskey wx="%WIN_SHELL_APPS%\WeChat\WeChat.exe"
+@doskey weixin="%WIN_SHELL_APPS%\WeChat\WeChat.exe"
+@doskey wxweb=start https://wx.qq.com
+@doskey wxdev="%WIN_SHELL_APPS%\微信web开发者工具\微信web开发者工具.exe"
 @doskey zhihu=start https://www.baidu.com/s?wd=$1++$2site:zhihu.com
 @doskey google=start https://www.google.com/search?q=$1++$2++$3++$4++$5++$6++$7
 @doskey github=start https://github.com/search?q=$1++$2++$3++$4++$5++$6++$7
@@ -246,8 +248,8 @@ rem =========common_dev==================
 @doskey putty="%WIN_SHELL_APPS%\common_dev\putty\putty.exe" $*
 @doskey xshell="%WIN_SHELL_APPS%\common_dev\Xmanager Enterprise4\Xshell.exe" $*
 @doskey xftp="%WIN_SHELL_APPS%\common_dev\Xmanager Enterprise4\Xftp.exe" $*
-@doskey st="%WIN_SHELL_APPS%\common_dev\Sublime3\sublime_text.exe" $*
-@doskey bc=%WIN_SHELL_APPS%\common_dev\bc\BCompare.exe $*
+@doskey st="%WIN_SHELL_APPS%\Sublime3\sublime_text.exe" $*
+@doskey bc=%WIN_SHELL_APPS%\bc\BCompare.exe $*
 @doskey gvim=%WIN_SHELL_APPS%\vim\vim80\gvim.exe $*
 @doskey vim=%WIN_SHELL_APPS%\vim\vim80\vim.exe $*
 @doskey vscode=%WIN_SHELL_APPS%\vscode\Code.exe $*
@@ -256,8 +258,8 @@ rem =========os monitor===============
 @doskey processmonitor=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 @doskey 文件引用=%WIN_SHELL_APPS%\processmonitor/Procmon.exe $*
 rem =========design_dev===============
-@doskey model=cd %WIN_SHELL_APPS%\design_dev\yEd$T java -jar yed.jar
-@doskey yed=cd %WIN_SHELL_APPS%\design_dev\yEd$T java -jar yed.jar
+@doskey model=cd %WIN_SHELL_APPS%\design_dev\yEd$Tjava -jar yed.jar
+@doskey yed=cd %WIN_SHELL_APPS%\design_dev\yEd$Tjava -jar yed.jar
 rem @doskey yed=%WIN_SHELL_APPS%\design_dev\yEd\yEd.exe
 rem @doskey arch=%WIN_SHELL_APPS%\design_dev\yWorks\yEd\yEd.exe
 @doskey ea=%WIN_SHELL_APPS%\design_dev\vp\bin\Visual Paradigm for UML 10.0.exe" $*
@@ -273,6 +275,7 @@ rem ===== source git =================
 @doskey project=cd /d e:\projects$Tcd $1 
 @doskey apps=cd /d %WIN_SHELL_APPS%
 @doskey app=cd /d %WIN_SHELL_APPS%$Tcd $1 
+@doskey pkg=cd /d %WIN_SHELL_PKG%
 @doskey datas=cd /d %WIN_SHELL_DATA%
 @doskey data=cd /d %WIN_SHELL_DATA%$Tcd $1 
 @doskey source=cd /d e:\projects$Tgit clone https://github.com/$1/$2.git
@@ -326,11 +329,11 @@ rem @doskey idea=%java_dev_home%\idea\bin\idea64.exe
 @doskey visualvm=%WIN_SHELL_APPS%\java_dev\visualvm\bin\visualvm.exe --console new --jdkhome %JAVA_HOME%
 @doskey vm=%WIN_SHELL_APPS%\java_dev\visualvm\bin\visualvm.exe --console new --jdkhome %JAVA_HOME%
 rem @doskey gc=java -jar gcviewer-1.35-SNAPSHOT.jar -d %WIN_SHELL_APPS%\java_dev
-@doskey gcviewer=cd  %WIN_SHELL_APPS%\java_dev $T java -jar gcviewer-1.35-SNAPSHOT.jar
+@doskey gcviewer=cd  %WIN_SHELL_APPS%\java_dev $Tjava -jar gcviewer-1.35-SNAPSHOT.jar
 @doskey gconline=start http://gceasy.io/
-@doskey gc=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk $T %WIN_SHELL_APPS%\java_dev\ibmjdk\startga.bat
-@doskey thread=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk $T %WIN_SHELL_APPS%\java_dev\ibmjdk\startjca.bat
-@doskey heap=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk $T %WIN_SHELL_APPS%\java_dev\ibmjdk\startha.bat
+@doskey gc=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk $T%WIN_SHELL_APPS%\java_dev\ibmjdk\startga.bat
+@doskey thread=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk$T %WIN_SHELL_APPS%\java_dev\ibmjdk\startjca.bat
+@doskey heap=cd  %WIN_SHELL_APPS%\java_dev\ibmjdk$T%WIN_SHELL_APPS%\java_dev\ibmjdk\startha.bat
 @doskey mat=%WIN_SHELL_APPS%\java_dev\mat\MemoryAnalyzer.exe
 
 @doskey btrace=%WIN_SHELL_APPS%\java_dev\visualvm\bin\visualvm.exe

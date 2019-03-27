@@ -420,3 +420,10 @@
  nas unas  http://www.u-nas.cn/download/U-NAS_3.1.0_X86-64_ZH_DVD_Build_1901081.isohttp://www.u-nas.cn/download/U-NAS_3.1.0_X86-64_ZH_DVD_Build_1901081.iso         
  nas chip  http://downza.91speed.com.cn/2018/03/xpwy.zip?ssig  e454e9636cd22128999b74fcf72386aab32665c5       
  nas chip  "http://downza.91speed.com.cn/2018/03/xpwy.zip?ssig=e454e9636cd22128999b74fcf72386aab32665c5&time_stamp=1553354905&fn=b127320e432c69c57e0a03d7441097be"  -d "xpwy.zip"      
+ bc http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe           
+ haozip http://dl.2345.cc/haozip/haozip_v5.9.8.10920.exe           
+ ultraiso http://xzc.197746.com/ultraiso971.zip           
+ middle_ware kibana  https://artifacts.elastic.co/downloads/kibana/kibana-6.6.2-windows-x86_64.zip         
+ middle_ware elasticsearch  https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.2.zip         
+ middle_ware logstash  https://artifacts.elastic.co/downloads/logstash/logstash-6.6.2.zip         
+ test_dev ab  https://files-cdn.cnblogs.com/files/gossip/ab.zip         

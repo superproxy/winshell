@@ -1,0 +1,1 @@
+{"group":"middle_ware","package":"logstash","url":"https://artifacts.elastic.co/downloads/logstash/logstash-6.6.2.zip","version":"latest","downloadFileName":null,"execFileName":null,"action":{"download":"https://artifacts.elastic.co/downloads/logstash/logstash-6.6.2.zip","fileName":"logstash-6.6.2.zip","fileType":"zip"}}
