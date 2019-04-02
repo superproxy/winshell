@@ -68,21 +68,21 @@ function PackageManger() {
         var workDir = packageInfo["installDir"];
         var cmd = this.findExe(packageInfo);
         var utils = require("./utils");
-        if (utils.isNotEmpty(cmd)) {
-            var exeUtils = require("./exeutils");
-            if (utils.endsWith(cmd, "jar")) {
-                exeUtils.run(`"${cmd}"`, workDir);
-            } else {
-                exeUtils.exec(`"${cmd}"`);
-            }
-
-        } else {
+        if (utils.isEmpty(cmd)) {
             console.log("no found!");
+            return;
+        }
+
+        var exeUtils = require("./exeutils");
+        if (utils.endsWith(cmd, "jar")) {
+                exeUtils.run(`"${cmd}"`, workDir);
+        } else {
+                exeUtils.exec(`"${cmd}"`);
         }
     }
 
     this.findExe = function (packageInfo) {
-        var path = packageInfo["installDir"];  // 包含group
+        var installPath = packageInfo["installDir"];  // 包含group
         // var group = packageInfo["group"];
         var package = packageInfo["package"];
         var execFileName = packageInfo["execFileName"];
@@ -93,8 +93,9 @@ function PackageManger() {
                 return cmd;
             }
 
-            var exe = path + "\\" + execFileName
-            var binExe = path + "\\bin\\" + execFileName;
+            var exe = installPath + "\\" + execFileName
+            var binExe = installPath + "\\bin\\" + execFileName;
+            console.log(`${binExe}  ${exe}`);
             var cmd;
             if (fs.existsSync(exe)) {
                 cmd = exe;
@@ -104,11 +105,11 @@ function PackageManger() {
             }
             return cmd;
         }
-        else {
-            var exe = path + "\\" + package + ".exe";
-            var bat = path + "\\" + package + ".bat";
-            var binExe = path + "\\bin\\" + package + ".exe";
-            var binBat = path + "\\bin\\" + package + ".bat";
+        else {  // 自动查找  exe  bat  bin
+            var exe = installPath + "\\" + package + ".exe";
+            var bat = installPath + "\\" + package + ".bat";
+            var binExe = installPath + "\\bin\\" + package + ".exe";
+            var binBat = installPath + "\\bin\\" + package + ".bat";
             var cmd;
             if (fs.existsSync(exe)) {
                 cmd = exe;

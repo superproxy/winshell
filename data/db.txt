@@ -427,3 +427,13 @@
  middle_ware elasticsearch  https://artifacts.elastic.co/downloads/elasticsearch/elasticsearch-6.6.2.zip         
  middle_ware logstash  https://artifacts.elastic.co/downloads/logstash/logstash-6.6.2.zip         
  test_dev ab  https://files-cdn.cnblogs.com/files/gossip/ab.zip         
+ nas chip  http://downza.91speed.com.cn/2018/03/xpwy.zip  -d "chip.zip"      
+ nas chip  http://downza.91speed.com.cn/2018/03/xpwy.zip  -d "chip.zip" -e  "ChipGenius.exe"   
+ test_dev postman  https://dl.pstmn.io/download/latest/win64/Postman-win64-7.0.7-Setup.exe         
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip         
+ pe_dev peid  http://yesky2.xzstatic.com/2018/10/12/PEiD_0.95.zip  -e "PEiD.0.95\\PEiD 0.95 Jxdm–¬ ÷∞Ê.exe"      
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\Unicode\winspy.exe"      
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\\Unicode\\winspy.exe"      
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\\Unicode\\winspy.exe"      
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\Unicode\WndSpy.exe"      
+ pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\Unicode\WndSpy.exe"      

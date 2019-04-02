@@ -303,6 +303,7 @@ rem =========web_dev===============
 @doskey track=%WIN_SHELL_APPS%\web_dev\httrack\WinHTTrack.exe $*
 @doskey burpsuite=java -jar %WIN_SHELL_APPS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar
 @doskey soapui=%WIN_SHELL_APPS%\web_dev\SmartBear\SoapUI-5.0.0\bin\soapui.exe
+@doskey ab=%WIN_SHELL_APPS%\test_dev\ab\ab.exe $*
 rem =========middle_dev===============
 @doskey nginx=cd /d %WIN_SHELL_APPS%\middleware_dev\nginx-1.7.9$Tnginx.exe $*
 

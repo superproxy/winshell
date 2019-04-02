@@ -9,13 +9,13 @@
             "type": "node",
             "request": "launch",
             "name": "Launch Program",
-            "program": "${workspaceFolder}/test_pm.js"
+            "program": "${workspaceFolder}/test_run.js"
         },
         {
             "type": "node",
             "request": "launch",
             "name": "启动程序",
-            "program": "${workspaceFolder}\\test_pm.js"
+            "program": "${workspaceFolder}\\test_run.js"
         }
     ]
 }
