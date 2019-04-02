@@ -437,3 +437,15 @@
  pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\\Unicode\\winspy.exe"      
  pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\Unicode\WndSpy.exe"      
  pe_dev winspy  http://xxwt.nongpin123.com:806/1408/WndSpy.bkill.com.zip  -e "Window Spy\Unicode\WndSpy.exe"      
+ pe_dev spy++  https://xiazai.xiazaiba.com/Soft/M/Microsoft_Spy++_14.0.22129.1_XiaZaiBa.zip         
+ pe_dev spy++  https://xiazai.xiazaiba.com/Soft/M/Microsoft_Spy++_14.0.22129.1_XiaZaiBa.zip         
+ pe_dev spy++  https://xiazai.xiazaiba.com/Soft/M/Microsoft_Spy++_14.0.22129.1_XiaZaiBa.zip         
+ pe_dev studype  https://tools.pediy.com/win/PE_tools/Editor/stdupe/Stud_PE.rar         
+ pe_dev studype  https://tools.pediy.com/win/PE_tools/Editor/stdupe/Stud_PE.rar  -e "stud_PE.exe"      
+ pe_dev resource_hacker  https://tools.pediy.com/win/Resource/Resource%20Hacker/reshhack3.4.zip         
+ pe_dev resource_hacker  https://tools.pediy.com/win/Resource/Resource%20Hacker/reshhack3.4.zip  -e "ResHacker.exe"      
+ pe_dev ResHacker  https://tools.pediy.com/win/Resource/Resource%20Hacker/reshhack3.4.zip  -e "ResHacker.exe"      
+ pe_dev ollyice  https://tools.pediy.com/win/Debuggers/ollydbg/ollydbg1/OllyICE_1.10.rar         
+ pe_dev gmer  https://tools.pediy.com/win/spy_tools/gmer/gmer.zip         
+ pe_dev spy  https://tools.pediy.com/win/spy_tools/Spy         
+ pe_dev spy  "https://tools.pediy.com/win/spy_tools/Spy&Capure/Spy.rar"         
