@@ -66,7 +66,7 @@ rem =================back home cd ~=============
 @doskey 设备管理=devmgmt.msc
 @doskey 设备=devmgmt.msc
 @doskey 计算机=compmgmt.msc
-@doskey 控制面板=contorl
+@doskey 控制面板=control
 @doskey 服务=services.msc
 @doskey 磁盘管理=diskmgmt.msc
 @doskey 性能=perfmon.msc
@@ -117,6 +117,12 @@ rem @doskey cygwin=cd /d %WIN_SHELL_APPS%\cygwin\bin$Tmintty.exe
 @doskey localhost=%WIN_SHELL_APPS%\vim\vim80\gvim.exe c:\windows\system32\drivers\etc\hosts
 @doskey hosts=%WIN_SHELL_APPS%\vim\vim80\gvim.exe c:\windows\system32\drivers\etc\hosts
 rem @doskey hosts=echo $* >>c:\windows\system32\drivers\etc\hosts
+
+
+rem ============my device=========================
+@doskey my_tvbox=adb connect 192.168.1.2:5555
+@doskey tvbox=adb connect 192.168.1.2:5555
+@doskey 网络盒子=adb connect 192.168.1.2:5555
 rem ============common utils=========================
 @doskey cap=%WIN_SHELL_APPS%\utils\SnapShot.exe
 @doskey feiq=%WIN_SHELL_APPS%\common\feiq\feiq.exe
@@ -286,13 +292,13 @@ rem ===== go_dev=================
 rem @doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
 @doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand\bin\goland64.exe" $*
 rem ======python_dev=================
-rem @doskey python="%WIN_SHELL_APPS%\python3\python.exe" $*
-rem @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*
+rem @doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
+rem @doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
 rem @doskey pip3="%WIN_SHELL_APPS%\python3\Scripts\pip.exe" $*
+rem @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*
 rem @doskey python2="%WIN_SHELL_APPS%\python2\python.exe" $*
 rem @doskey pip2="%WIN_SHELL_APPS%\python2\Scripts\pip.exe" $*
 rem @doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
-rem @doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
 rem =========web_dev===============
 @doskey fiddler=%WIN_SHELL_APPS%\web_dev\fiddler\fiddler.exe
 @doskey burpsuite=java -jar %WIN_SHELL_APPS%\web_dev\burpsuite\burpsuite_free_v1.6.32.jar

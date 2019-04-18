@@ -449,3 +449,59 @@
  pe_dev gmer  https://tools.pediy.com/win/spy_tools/gmer/gmer.zip         
  pe_dev spy  https://tools.pediy.com/win/spy_tools/Spy         
  pe_dev spy  "https://tools.pediy.com/win/spy_tools/Spy&Capure/Spy.rar"         
+ pe_dev filemonitor  https://tools.pediy.com/win/spy_tools/File/Filemon_fix7.03.rar         
+ pe_dev filemonitor  https://tools.pediy.com/win/spy_tools/File/Filemon_fix7.03.rar  -e "Filemon_fix.7.03.exe"      
+ pe_dev filemonitor  https://tools.pediy.com/win/spy_tools/File/Filemon_fix7.03.rar  -e "Filemon_fix.7.03.exe"      
+ pe_dev enable  https://tools.pediy.com/win/other/EnaleMenu/EnaleMenu.zip         
+ pe_dev enable  https://tools.pediy.com/win/other/EnaleMenu/EnaleMenu.zip  -e "enabler.exe"      
+ common_dev regex  https://tools.pediy.com/win/other/RegExTool/regextool.rar         
+ common_dev regex  https://tools.pediy.com/win/other/RegExTool/regextool.rar  -e "regextool.exe"      
+ common_dev RegexBuddy  http://8dx.pc6.com/xjq6/RegexBuddyPortableCN.zip         
+ common_dev RegexMatchTracer  http://www.regexlab.com/download/mtracer/MTracer.zip         
+ common_dev RegexMatchTracer2  http://enkj.jb51.net:81/201102/tools/RegexMatchTracerCr.rar         
+ common_dev Regex  http://enkj.jb51.net:81/201102/tools/RegexMatchTracerCr.rar         
+ dotnet_dev ilspy  https://github.com/icsharpcode/ILSpy/releases/download/v5.0-preview1/ILSpy_binaries_5.0.0.4688-preview1.zip         
+ dotnet_dev ilspy4  https://github.com/icsharpcode/ILSpy/releases/download/v4.0.1/ILSpy_binaries_4.0.1.4530.zip         
+ dotnet_dev ilspy4  https://github.com/icsharpcode/ILSpy/releases/download/v4.0.1/ILSpy_binaries_4.0.1.4530.zip  -e "ILSpy.exe"      
+ autoit https://www.autoitscript.com/cgi-bin/getfile.pl?autoit3/autoit-v3-setup.exe           
+ tesseract https://digi.bib.uni-mannheim.de/tesseract/tesseract-ocr-w64-setup-v4.1.0.20190314.exe           
+ test_dev iedriverserver  https://selenium-release.storage.googleapis.com/3.14/IEDriverServer_x64_3.14.0.zip         
+ test_dev iedriverserver32  https://selenium-release.storage.googleapis.com/3.14/IEDriverServer_Win32_3.14.0.zip         
+ chrome https://dl.softmgr.qq.com/original/Browser/73.0.3683.86_chrome_installer.exe           
+ chromedriver http://chromedriver.storage.googleapis.com/73.0.3683.68/chromedriver_win32.zip           
+ test_dev chromedriver  http://chromedriver.storage.googleapis.com/73.0.3683.68/chromedriver_win32.zip         
+ test_driver edgedriver  https://download.microsoft.com/download/3/2/D/32D3E464-F2EF-490F-841B-05D53C848D15/MicrosoftWebDriver.exe         
+ test_dev edgedriver  https://download.microsoft.com/download/3/2/D/32D3E464-F2EF-490F-841B-05D53C848D15/MicrosoftWebDriver.exe         
+ pe_dev dw  http://www.dependencywalker.com/depends22_x64.zip         
+ pe_dev depends  http://www.dependencywalker.com/depends22_x64.zip         
+ java_dev jdk  D:\winshell\pkg\java_dev\jdk-8u25-windows-x64.exe         
+ java_dev jdk8_32  http://yesky.51down.org.cn/soft/201603/jdk-8u73-windows-i586.exe         
+ java_dev eclipse  http://iso.mirrors.ustc.edu.cn/eclipse/oomph/epp/2019-03/R/eclipse-inst-win64.exe         
+ test_dev red  https://github.com/nokia/RED/releases/download/0.8.11/RED_0.8.11.20190131133900-win32.win32.x86_64.zip         
+ test_dev red  https://github.com/nokia/RED/releases/download/0.8.11/RED_0.8.11.20190131133900-win32.win32.x86_64.zip         
+ test_dev eclipse_test  "https://www.eclipse.org/downloads/download.php?file=/technology/epp/downloads/release/2019-03/R/eclipse-testing-2019-03-R-win32-x86_64.zip"         
+ test_dev eclipse_test  http://iso.mirrors.ustc.edu.cn/eclipse/technology/epp/downloads/release/2019-03/R/eclipse-testing-2019-03-R-win32-x86_64.zip         
+ tv_dev shafa  http://www.shafa.com/pc_spirit.zip         
+ tv_dev shafa  http://www.shafa.com/pc_spirit.zip  -e "沙发电视精灵v2.2.1.exe"      
+ tv_dev xiaobaifile  http://app.znds.com/down/20170111/xbwjgl_2.8.0_dangbei.apk         
+ tv_dev yuletv  http://223.113.13.126/app.znds.com/down/20190214/dsxsp_1.0.4_dangbei.apk         
+ tv_dev baofeitv  http://app.znds.com/down/20161125/bfyy_5.2.3_dangbei.apk         
+ tv_dev taijie  http://223.113.13.126/app.znds.com/down/20190308/tjsp_4.1.9_dangbei.apk         
+ opencv https://nchc.dl.sourceforge.net/project/opencvlibrary/4.0.1/opencv-4.0.1-vc14_vc15.exe           
+ python_dev anaconda  https://repo.anaconda.com/archive/Anaconda3-2019.03-Windows-x86_64.exe         
+ ocr_dev https://nchc.dl.sourceforge.net/project/vietocr/jTessBoxEditor/jTessBoxEditor-2.2.0.zip           
+ ocr_dev jtessboxeditor  https://nchc.dl.sourceforge.net/project/vietocr/jTessBoxEditor/jTessBoxEditor-2.2.0.zip         
+ ocr_dev https://nchc.dl.sourceforge.net/project/vietocr/jTessBoxEditor/jTessBoxEditor-2.2.0.zip  -e  "jTessBoxEditor.jar"       
+ ocr_dev jtessboxeditor  https://nchc.dl.sourceforge.net/project/vietocr/jTessBoxEditor/jTessBoxEditor-2.2.0.zip  -e "jTessBoxEditor.jar"      
+ python_dev pydev  "https://nchc.dl.sourceforge.net/project/pydev/pydev/PyDev%207.2.0/PyDev%207.2.0.zip"         
+ python_dev pydev  "https://nchc.dl.sourceforge.net/project/pydev/pydev/PyDev%207.2.0/PyDev%207.2.0.zip"  -d "PyDev 7.2.0.zip"      
+ dotnet_dev vsstudio  http://download.microsoft.com/download/e/7/7/e777851c-c1a4-4979-86b3-6886953b32e9/VS2008ProEdition90DayTrialCHSX1435983.iso         
+ pe_dev winmsgmon  "https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=58577"  -s "winmsgmon.7z"      
+ pe_dev winmsgmon  "https://www.autoitscript.com/forum/applications/core/interface/file/attachment.php?id=58577"  -d "winmsgmon.7z"      
+ dotnet_dev dotpeek  https://download.jetbrains.com/resharper/ReSharperUltimate.2018.3.4/JetBrains.dotPeek.2018.3.4.web.exe         
+ android_dev yeshen  https://res06.bignox.com/full/20190408/bc1c5462e1654b46b52def1abf8f43a9.exe?filename  nox_setup_v6.2.8.0_full.exe       
+ android_app shoujibaidu  http://gdown.baidu.com/data/wisegame/d387e80a5dd9ee9e/baidu_47715584.apk  -d "shoujibaidu.apk"      
+ android_dev yeshen  https://res06.bignox.com/full/20190408/bc1c5462e1654b46b52def1abf8f43a9.exe?filename  nox_setup_v6.2.8.0_full.exe -d "nox_setup_v6.2.8.0_full.exe"     
+ android_dev yeshen  "https://res06.bignox.com/full/20190408/bc1c5462e1654b46b52def1abf8f43a9.exe?filename=nox_setup_v6.2.8.0_full.exe"  -d "nox_setup_v6.2.8.0_full.exe"      
+ android_dev bluestacks  https://aliosscdn.bluestacks.cn/package/client2/BluestacksCnSetup_6191_legacy.exe         
+ android_dev androidsdk  https://dl.google.com/android/android-sdk_r24.4.1-windows.zip         
