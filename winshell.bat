@@ -293,6 +293,8 @@ rem @doskey go="%WIN_SHELL_APPS%\go\bin\go.exe" $*
 @doskey goland="%WIN_SHELL_APPS%\go_dev\GoLand\bin\goland64.exe" $*
 rem ======python_dev=================
 rem @doskey python="%WIN_SHELL_APPS%\python\python.exe" $*
+@doskey pide=run pycharm
+@doskey pide2="%WIN_SHELL_APPS%\python_dev\pycharm\bin\pycharm64.exe"
 rem @doskey pip="%WIN_SHELL_APPS%\python\Scripts\pip.exe" $*
 rem @doskey pip3="%WIN_SHELL_APPS%\python3\Scripts\pip.exe" $*
 rem @doskey python3="%WIN_SHELL_APPS%\python3\python.exe" $*

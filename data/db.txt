@@ -505,3 +505,10 @@
  android_dev yeshen  "https://res06.bignox.com/full/20190408/bc1c5462e1654b46b52def1abf8f43a9.exe?filename=nox_setup_v6.2.8.0_full.exe"  -d "nox_setup_v6.2.8.0_full.exe"      
  android_dev bluestacks  https://aliosscdn.bluestacks.cn/package/client2/BluestacksCnSetup_6191_legacy.exe         
  android_dev androidsdk  https://dl.google.com/android/android-sdk_r24.4.1-windows.zip         
+ dict http://cidian.youdao.com/download/YoudaoDict.exe  -e  "YoudaoDict.exe"       
+ ocr_dev vietocr  https://nchc.dl.sourceforge.net/project/vietocr/vietocr/5.4.3/VietOCR-5.4.3.zip         
+ bc http://js.xiazaicc.com/down2/BeyondCompareTrialWM_downcc.com.zip           
+ bc http://xiazai.beyondcompare.cc/wm/Beyond_Compare-Trial-WM.exe           
+ bc https://dl.softmgr.qq.com/original/Development/BCompare-zh-4.2.9.23626.exe           
+ bc https://dl.softmgr.qq.com/original/Development/BCompare-zh-4.2.9.23626.exe  -e  "BCompare.exe"       
+ feiq http://feiq18.com/down/feiq.zip           
