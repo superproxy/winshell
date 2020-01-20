@@ -512,3 +512,17 @@
  bc https://dl.softmgr.qq.com/original/Development/BCompare-zh-4.2.9.23626.exe           
  bc https://dl.softmgr.qq.com/original/Development/BCompare-zh-4.2.9.23626.exe  -e  "BCompare.exe"       
  feiq http://feiq18.com/down/feiq.zip           
+ design_dev vp2  https://usa6.dl.visual-paradigm.com/visual-paradigm/vp15.2/20190501/Visual_Paradigm_15_2_20190501_Win64.exe         
+ java_dev jdk8  http://xzd.197946.com/jdk8u202x64.zip         
+ tcmd https://totalcommander.ch/win/tcmd922x32_64.exe  -e  "totalcmd.exe"       
+ java_dev jd-gui  https://github.com/java-decompiler/jd-gui/releases/download/v1.6.2/jd-gui-windows-1.6.2.zip         
+ gradle https://downloads.gradle.org/distributions/gradle-5.5.1-bin.zip           
+ db_dev navicate  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip         
+ kms2 https://vip.d0.baidupan.com/file/?AWdWaA08AjMGD1BoAjcBbVFuDjYHNVA7Cm5TJ1NgVx1SHwcDAQMGJAViVzhXLQY3AW9VflA/V2ZReABjU3dUMAEnVmcNOQI6BjVQWQI/AWRRNg48B2BQZAo5U2dTNldhUnQHNgEvBm8FZ1cwVzIGNgFoVWZQKVclUSYAO1M9VGUBMFY4DX8CZgZkUCkCZgE0USQObgc6UGQKP1MxUzdXNFJkBzMBbAZiBWNXNldhBjUBYlVoUG5XNFEyAGVTO1RnAWBWNQ01AjIGZFA1AmYBMVFvDiUHPVAqCmhTc1N6VyVSNwciATUGNgVuVzZXNgY+AWhVaVA7V3NRIgBvU2JUMAFnVjwNYQJjBmZQMwJkATNROw47B2hQYwojU3tTKVcwUj4HJwFhBmMFZlc3VzYGNQFpVWhQNldiUWIAIFN6VCUBdlY8DWECYwZlUDICZQEwUTwOMwdtUGs           
+ shadowsocks https://github.com/shadowsocks/shadowsocks-windows/releases/download/4.1.1/Shadowsocks-4.1.1.zip           
+ pp https://bbuseruploads.s3.amazonaws.com/472a0ba3-a3dd-4b9b-8eea-08bd5fa94e55/downloads/29ad7b64-c379-4f61-8661-5aad00325d35/Snipaste-2.2.1-Beta2-x64.zip?Signature  lAPFcGHCe2v5iwMJAqW6j%2BMn08Y%3D         
+ pp "https://bbuseruploads.s3.amazonaws.com/472a0ba3-a3dd-4b9b-8eea-08bd5fa94e55/downloads/29ad7b64-c379-4f61-8661-5aad00325d35/Snipaste-2.2.1-Beta2-x64.zip?Signature=lAPFcGHCe2v5iwMJAqW6j%2BMn08Y%3D&Expires=1566540083&AWSAccessKeyId=AKIAIQWXW6WLXMB5QZAQ&versionId=P8gFheuo.LpkPKu7lxWKn0MkAsON2RIa&response-content-disposition=attachment%3B%20filename%3D%22Snipaste-2.2.1-Beta2-x64.zip%22"  -d  "snipaste-2.2.1.zip"       
+ fiddler https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe           
+ huyanbao http://static1.huyanbao.com/pc/huyanbao_last.exe           
+ zip navicat  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip         
+ zip navicat  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip  -e "navicat121_premium_cs_x64.exe"      
