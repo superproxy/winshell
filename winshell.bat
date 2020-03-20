@@ -69,6 +69,7 @@ rem =================back home cd ~=============
 @doskey 控制面板=control
 @doskey 服务=services.msc
 @doskey 磁盘管理=diskmgmt.msc
+@doskey 磁盘管理器=diskmgmt.msc
 @doskey 性能=perfmon.msc
 @doskey 虚拟化=virtmgmt.msc
 @doskey 虚拟机=virtmgmt.msc

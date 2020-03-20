@@ -525,4 +525,7 @@
  fiddler https://telerik-fiddler.s3.amazonaws.com/fiddler/FiddlerSetup.exe           
  huyanbao http://static1.huyanbao.com/pc/huyanbao_last.exe           
  zip navicat  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip         
- zip navicat  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip  -e "navicat121_premium_cs_x64.exe"      
+ zip navicat  http://cr1.197946.com/premiumsoftnavicatpremiumx64zcj.zip  -e "navicat121_premium_cs_x64.exe"       teamviewer https://dl.teamviewer.cn/download/version_15x/TeamViewer_Setup.exe           
+ vnc https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.20.113-Windows.exe           
+ natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
+ natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
