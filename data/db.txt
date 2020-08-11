@@ -529,3 +529,5 @@
  vnc https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.20.113-Windows.exe           
  natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
  natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
+ dingding https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v5.1.5.2.exe           
+ maven https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip           
