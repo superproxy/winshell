@@ -529,3 +529,31 @@
  vnc https://www.realvnc.com/download/file/viewer.files/VNC-Viewer-6.20.113-Windows.exe           
  natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
  natapp http://download.natapp.cn/assets/downloads/clients/2_3_9/natapp_windows_amd64_2_3_9.zip           
+ dingding https://dtapp-pub.dingtalk.com/dingtalk-desktop/win_installer/Release/DingTalk_v5.1.15.7.exe           
+ alilang https://dl.django.t.taobao.com/rest/1.0/file?token  NmCplHjp9yWOkLaMkA3STAABUYAAAAFzsf03LQAAADEAAQED         
+ input http://cdn.qq.ime.sogou.com/39f9855c0aaaea68cde15fce6f93dde1/5f276d97/QQPinyin_Setup_6.5.6109.400.exe           
+ switchhosts https://github.com/oldj/SwitchHosts/releases/download/v3.5.4/SwitchHosts._windows_installer_3.5.4.5517.exe           
+ switchhosts https://github.com/oldj/SwitchHosts/releases/download/v3.5.4/SwitchHosts._windows_installer_3.5.4.5517.exe           
+ switchhosts https://github.com/oldj/SwitchHosts/releases/download/v3.5.4/SwitchHosts._windows_installer_3.5.4.5517.exe           
+ idea https://download.jetbrains.com/idea/ideaIC-2020.2.exe           
+ java_dev maven  https://mirror.bit.edu.cn/apache/maven/maven-3/3.6.3/binaries/apache-maven-3.6.3-bin.zip         
+ consul https://releases.hashicorp.com/consul/1.8.0/consul_1.8.0_windows_amd64.zip           
+ foxmail http://www.foxmail.com/win/download           
+ foxmail https://dldir1.qq.com/foxmail/windows/FoxmailSetup_7.2.18.95.exe           
+ xiaoyu https://cdn.xylink.com/as/150130/new/XYLinkClient-2.29.20.22913.exe?r  1596512522641         
+ xiaoyu https://cdn.xylink.com/as/150130/new/XYLinkClient-2.29.20.22913.exe?           
+ xiaoyu https://cdn.xylink.com/as/150130/new/XYLinkClient-2.29.20.22913.exe           
+ wps https://pacakge.cache.wpscdn.cn/wps/download/W.P.S.982801.12012.2019.exe           
+ adb http://pan.baidu.com/s/1sj4ZfTb?utm_source  androiddevtools         
+ adb https://dl.google.com/android/repository/sdk-tools-windows-4333796.zip           
+ finalshell http://www.hostbuf.com/downloads/finalshell_install.exe           
+ eproject https://www.edrawsoft.cn/2download/edrawproject-cn.exe           
+ emind https://cc-download.edrawsoft.cn/mindmaster7_cn_full5587.exe           
+ draw https://github.com/jgraph/drawio-desktop/releases/download/v13.6.2/draw.io-13.6.2-windows-installer.exe           
+ draw https://github.com/jgraph/drawio-desktop/releases/download/v13.6.2/draw.io-13.6.2-windows-installer.exe           
+ charles https://www.charlesproxy.com/assets/release/4.5.6/charles-proxy-4.5.6-win64.msi           
+ fiddler https://dl.softmgr.qq.com/original/Development/FiddlerSetup_5.0.20202.18177.exe           
+ charles javascript:           
+ charles file:///C:/Users/Administrator.SC-202008010620/Downloads/Charles_V4.2.7_XiTongZhiJia.zip           
+ charles http://soft.u-jingling.com/201911/Charles_V4.2.7_XiTongZhiJia.zip           
+ mysqlclient https://dev.mysql.com/get/Downloads/MySQLGUITools/mysql-workbench-community-8.0.21-winx64.msi           
